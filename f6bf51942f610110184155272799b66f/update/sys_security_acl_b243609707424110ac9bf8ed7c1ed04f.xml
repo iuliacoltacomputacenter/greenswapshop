@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>ACL rule for rejected items visibility </description>
+        <name>x_762203_green_swa_catalog_data</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[/*
+	When the current status == rejected 
+	Only the person who uploaded the item can see that record in the rejected items module 
+	the 'uploaded by' field should match with the users who can see that   
+	table is : item catalog
+	
+*/
+
+//gs.info('SG gs get user ' + gs.getUserID() + ' current username ' + current.username.sys_id);
+gs.info('SG gs get userid' + gs.getUserName() + ' current created by ' + current.sys_created_by);
+
+/*
+answer = false;
+if ( gs.getUserID()  == current.username  ||   gs.getUser().isMemberOf('Team A')) {
+ //   gs.info('IC The current username is:' + current.username) ;
+	answer = true; 
+	
+}*/
+
+
+]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-10 11:35:36</sys_created_on>
+        <sys_id>b243609707424110ac9bf8ed7c1ed04f</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>x_762203_green_swa_catalog_data</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_security_acl_b243609707424110ac9bf8ed7c1ed04f</sys_update_name>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-03-16 16:25:46</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

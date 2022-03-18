@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="products" label="Item name" language="en" table="x_762203_green_swa_catalog_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>products</element>
+            <help/>
+            <hint/>
+            <label>Item name</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <plural>Item names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:18</sys_created_on>
+            <sys_id>c233db7b07650110ac9bf8ed7c1ed01a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Item name</sys_name>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_documentation_x_762203_green_swa_catalog_data_products_en</sys_update_name>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-03-08 14:37:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

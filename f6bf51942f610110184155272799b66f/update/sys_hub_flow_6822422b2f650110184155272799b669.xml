@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch5-12-15-2021_01-04-2022_2221.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Every time an user clicked the "reservation button" that product will be reserved for 5 minutes
+the status is changing in reserved </description>
+        <internal_name>reservation_item</internal_name>
+        <label_cache>[{"name":"e6777921-6d31-42e3-b415-78aac03016d0.scheduled_end_date_time","label":"2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e6777921-6d31-42e3-b415-78aac03016d0.total_duration","label":"2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.table_name","label":"1➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.record","label":"1➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b476029d-7028-41d2-9a78-9c80abaf54e9.state","label":"1➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"b476029d-7028-41d2-9a78-9c80abaf54e9.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b476029d-7028-41d2-9a78-9c80abaf54e9.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.status","label":"Trigger➛Item Catalog Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"status"},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.record","label":"4➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.table_name","label":"4➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master_snapshot>81ad8ae32fa50110184155272799b679</master_snapshot>
+        <name>Reservation Item</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>9173612c07758110ac9bf8ed7c1ed033</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 15:44:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6822422b2f650110184155272799b669</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Reservation Item</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_hub_flow_6822422b2f650110184155272799b669</sys_update_name>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6822422b2f650110184155272799b669"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6822422b2f650110184155272799b669"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_762203_green_swa_catalog_data">statusCHANGESTOreserved<item display_value="Reserved" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="reserved"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 16:04:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9173612c07758110ac9bf8ed7c1ed033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:27</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"1d73612c07758110ac9bf8ed7c1ed033","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>6822422b2f650110184155272799b669</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 16:04:27</sys_created_on>
+        <sys_id>1d73612c07758110ac9bf8ed7c1ed033</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:27</sys_updated_on>
+        <trigger display_value="">9173612c07758110ac9bf8ed7c1ed033</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>1d73612c07758110ac9bf8ed7c1ed033</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 16:04:27</sys_created_on>
+        <sys_id>d173612c07758110ac9bf8ed7c1ed034</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6822422b2f650110184155272799b669^sys_idNOT IN1d73612c07758110ac9bf8ed7c1ed033"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6822422b2f650110184155272799b669^sys_idNOT IN629d0ae32fa50110184155272799b6d5"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Update status to Reserved</comment>
+        <display_text/>
+        <flow display_value="Reservation Item">6822422b2f650110184155272799b669</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>629d0ae32fa50110184155272799b6d5</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=629d0ae32fa50110184155272799b6d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>629d0ae32fa50110184155272799b6d5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>e29d0ae32fa50110184155272799b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>629d0ae32fa50110184155272799b6d5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>ee9d0ae32fa50110184155272799b6d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <value>statusCHANGESTOreserved</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>629d0ae32fa50110184155272799b6d5</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-16 13:47:52</sys_created_on>
+        <sys_id>f29a7fc007354110ac9bf8ed7c1ed0ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-16 13:47:52</sys_updated_on>
+        <value>always</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=629d0ae32fa50110184155272799b6d5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6822422b2f650110184155272799b669^sys_idNOT INec22862b2f650110184155272799b647"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6822422b2f650110184155272799b669</id>
+        <name>Reservation Item</name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 15:44:33</sys_created_on>
+        <sys_id>ec22862b2f650110184155272799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 15:44:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=6822422b2f650110184155272799b669^sys_idNOT IN972b02632fa50110184155272799b6dd,9b2b8e232fa50110184155272799b605,db2b02632fa50110184155272799b6e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe473212c1c758110c9427b3c782e1d45,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Reservation Item">6822422b2f650110184155272799b669</model>
+        <model_id>6822422b2f650110184155272799b669</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6822422b2f650110184155272799b669</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 16:24:04</sys_created_on>
+        <sys_id>972b02632fa50110184155272799b6dd</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reservation Item">6822422b2f650110184155272799b669</model>
+        <model_id>6822422b2f650110184155272799b669</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6822422b2f650110184155272799b669</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 16:24:03</sys_created_on>
+        <sys_id>9b2b8e232fa50110184155272799b605</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reservation Item">6822422b2f650110184155272799b669</model>
+        <model_id>6822422b2f650110184155272799b669</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6822422b2f650110184155272799b669</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 16:24:04</sys_created_on>
+        <sys_id>db2b02632fa50110184155272799b6e3</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6822422b2f650110184155272799b669^sys_idNOT IN269d0ae32fa50110184155272799b6e3,db11a16807758110ac9bf8ed7c1ed051"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reservation Item">6822422b2f650110184155272799b669</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>269d0ae32fa50110184155272799b6e3</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-18 12:48:37</sys_updated_on>
+        <ui_id>08d3527b-e47b-46e0-b957-684c561767e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=269d0ae32fa50110184155272799b6e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>269d0ae32fa50110184155272799b6e3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>2e9d0ae32fa50110184155272799b6e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:12</sys_updated_on>
+        <value>reservation_time=1970-01-01 00:05:00</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>269d0ae32fa50110184155272799b6e3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>ee9d0ae32fa50110184155272799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=269d0ae32fa50110184155272799b6e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>269d0ae32fa50110184155272799b6e3</id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>e69d0ae32fa50110184155272799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>269d0ae32fa50110184155272799b6e3</id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>269d0ae32fa50110184155272799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>269d0ae32fa50110184155272799b6e3</id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>aa9d0ae32fa50110184155272799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reservation Item">6822422b2f650110184155272799b669</flow>
+        <order>4</order>
+        <parent_ui_id>61a271fb-83af-43c4-b8ef-eebaf45b05d8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>db11a16807758110ac9bf8ed7c1ed051</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-18 12:48:37</sys_updated_on>
+        <ui_id>c9a80574-c333-40ab-a4a8-6eeb0de40a16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db11a16807758110ac9bf8ed7c1ed051"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>db11a16807758110ac9bf8ed7c1ed051</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>2b11a16807758110ac9bf8ed7c1ed053</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:18</sys_updated_on>
+        <value>status=available^reservation_time=1970-01-01 00:00:00</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>db11a16807758110ac9bf8ed7c1ed051</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>eb11a16807758110ac9bf8ed7c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=db11a16807758110ac9bf8ed7c1ed051"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>db11a16807758110ac9bf8ed7c1ed051</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>e311a16807758110ac9bf8ed7c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>db11a16807758110ac9bf8ed7c1ed051</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>2311a16807758110ac9bf8ed7c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>db11a16807758110ac9bf8ed7c1ed051</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>a711a16807758110ac9bf8ed7c1ed053</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6822422b2f650110184155272799b669^sys_idNOT IN5b11a16807758110ac9bf8ed7c1ed030,a69d0ae32fa50110184155272799b6d8,a711a16807758110ac9bf8ed7c1ed054"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9f11a16807758110ac9bf8ed7c1ed02f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Item">6822422b2f650110184155272799b669</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>5b11a16807758110ac9bf8ed7c1ed030</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <ui_id>61a271fb-83af-43c4-b8ef-eebaf45b05d8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5b11a16807758110ac9bf8ed7c1ed030"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5b11a16807758110ac9bf8ed7c1ed030</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>1711a16807758110ac9bf8ed7c1ed034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <value>Check state is still Reserved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5b11a16807758110ac9bf8ed7c1ed030"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5b11a16807758110ac9bf8ed7c1ed030</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>9311a16807758110ac9bf8ed7c1ed034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.status}}=reserved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>5b11a16807758110ac9bf8ed7c1ed030</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>9b11a16807758110ac9bf8ed7c1ed033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:54:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7a9a7fc007354110ac9bf8ed7c1ed0b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Item">6822422b2f650110184155272799b669</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>a69d0ae32fa50110184155272799b6d8</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <ui_id>e6777921-6d31-42e3-b415-78aac03016d0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a69d0ae32fa50110184155272799b6d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a69d0ae32fa50110184155272799b6d8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>6e9d0ae32fa50110184155272799b6de</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-16 15:50:20</sys_updated_on>
+        <value>1970-01-01 00:00:30</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a69d0ae32fa50110184155272799b6d8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:39</sys_created_on>
+        <sys_id>aa9d0ae32fa50110184155272799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:39</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=a69d0ae32fa50110184155272799b6d8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ef11a16807758110ac9bf8ed7c1ed053</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Item">6822422b2f650110184155272799b669</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>61a271fb-83af-43c4-b8ef-eebaf45b05d8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:54:13</sys_created_on>
+        <sys_id>a711a16807758110ac9bf8ed7c1ed054</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:28</sys_updated_on>
+        <ui_id>b4db2379-8dcc-4c2f-893b-a9734b506ac6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a711a16807758110ac9bf8ed7c1ed054"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6822422b2f650110184155272799b669^sys_idNOT IN172b02632fa50110184155272799b6e2,172b02632fa50110184155272799b6e8,df2b02632fa50110184155272799b6db"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6822422b2f650110184155272799b669</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 16:24:04</sys_created_on>
+        <sys_id>172b02632fa50110184155272799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:24:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6822422b2f650110184155272799b669</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 16:24:04</sys_created_on>
+        <sys_id>172b02632fa50110184155272799b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:24:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6822422b2f650110184155272799b669</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 16:24:04</sys_created_on>
+        <sys_id>df2b02632fa50110184155272799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:24:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6822422b2f650110184155272799b669^sys_idNOT INf5adcae32fa50110184155272799b655"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f5adcae32fa50110184155272799b655","name":"plan","plan_signature":null}}</plan>
+        <plan_id>6822422b2f650110184155272799b669</plan_id>
+        <snapshot>563042b807f10110ac9bf8ed7c1ed097</snapshot>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5adcae32fa50110184155272799b655</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:27</sys_updated_on>
+        <trigger display_value="">9173612c07758110ac9bf8ed7c1ed033</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Every time an user clicked the "reservation button" that product will be reserved for 5 minutes
+the status is changing in reserved </description>
+        <internal_name>reservation_item</internal_name>
+        <label_cache>[{"name":"e6777921-6d31-42e3-b415-78aac03016d0.scheduled_end_date_time","label":"2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e6777921-6d31-42e3-b415-78aac03016d0.total_duration","label":"2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Updated_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.table_name","label":"1➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08d3527b-e47b-46e0-b957-684c561767e4.record","label":"1➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b476029d-7028-41d2-9a78-9c80abaf54e9.state","label":"1➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"b476029d-7028-41d2-9a78-9c80abaf54e9.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b476029d-7028-41d2-9a78-9c80abaf54e9.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5535abab-120f-41c5-a2d0-331d2d5a9a20.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Updated_1.current.status","label":"Trigger➛Item Catalog Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"status"},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.record","label":"4➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.table_name","label":"4➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c9a80574-c333-40ab-a4a8-6eeb0de40a16.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Reservation Item</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Reservation Item">6822422b2f650110184155272799b669</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81ad8ae32fa50110184155272799b679</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=81ad8ae32fa50110184155272799b679"/>
+    <sys_variable_value action="delete_multiple" query="document_key=81ad8ae32fa50110184155272799b679"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=81ad8ae32fa50110184155272799b679^sys_idNOT IN6dad8ae32fa50110184155272799b6ee"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Update status to Reserved</comment>
+        <display_text/>
+        <flow display_value="Reservation Item">81ad8ae32fa50110184155272799b679</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>6dad8ae32fa50110184155272799b6ee</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:27</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6dad8ae32fa50110184155272799b6ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6dad8ae32fa50110184155272799b6ee</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-16 13:48:05</sys_created_on>
+        <sys_id>0aaaffc007354110ac9bf8ed7c1ed0c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-16 13:48:05</sys_updated_on>
+        <value>always</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6dad8ae32fa50110184155272799b6ee</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>65ad8ae32fa50110184155272799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6dad8ae32fa50110184155272799b6ee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>a1ad8ae32fa50110184155272799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <value>statusCHANGESTOreserved</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=6dad8ae32fa50110184155272799b6ee"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=81ad8ae32fa50110184155272799b679^sys_idNOT IN05ad8ae32fa50110184155272799b67a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>81ad8ae32fa50110184155272799b679</id>
+        <name>Reservation Item</name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:49</sys_created_on>
+        <sys_id>05ad8ae32fa50110184155272799b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=81ad8ae32fa50110184155272799b679^sys_idNOT IN09ad8ae32fa50110184155272799b67d,45ad8ae32fa50110184155272799b696,d5ad8ae32fa50110184155272799b6c6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reservation Item">81ad8ae32fa50110184155272799b679</model>
+        <model_id>81ad8ae32fa50110184155272799b679</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:50</sys_created_on>
+        <sys_id>09ad8ae32fa50110184155272799b67d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe473212c1c758110c9427b3c782e1d45,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Reservation Item">81ad8ae32fa50110184155272799b679</model>
+        <model_id>81ad8ae32fa50110184155272799b679</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:50</sys_created_on>
+        <sys_id>45ad8ae32fa50110184155272799b696</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reservation Item">81ad8ae32fa50110184155272799b679</model>
+        <model_id>81ad8ae32fa50110184155272799b679</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:50</sys_created_on>
+        <sys_id>d5ad8ae32fa50110184155272799b6c6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=81ad8ae32fa50110184155272799b679^sys_idNOT IN3a61a96807758110ac9bf8ed7c1ed0c9,6dad8ae32fa50110184155272799b6ec"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reservation Item">81ad8ae32fa50110184155272799b679</flow>
+        <order>4</order>
+        <parent_ui_id>61a271fb-83af-43c4-b8ef-eebaf45b05d8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>3a61a96807758110ac9bf8ed7c1ed0c9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:25</sys_updated_on>
+        <ui_id>c9a80574-c333-40ab-a4a8-6eeb0de40a16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a61a96807758110ac9bf8ed7c1ed0c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a61a96807758110ac9bf8ed7c1ed0c9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>0761a96807758110ac9bf8ed7c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a61a96807758110ac9bf8ed7c1ed0c9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>4361a96807758110ac9bf8ed7c1ed0cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:23</sys_updated_on>
+        <value>status=available^reservation_time=1970-01-01 00:00:00</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3a61a96807758110ac9bf8ed7c1ed0c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3a61a96807758110ac9bf8ed7c1ed0c9</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>0f61a96807758110ac9bf8ed7c1ed0ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3a61a96807758110ac9bf8ed7c1ed0c9</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>4b61a96807758110ac9bf8ed7c1ed0ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3a61a96807758110ac9bf8ed7c1ed0c9</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>cf61a96807758110ac9bf8ed7c1ed0ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reservation Item">81ad8ae32fa50110184155272799b679</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>6dad8ae32fa50110184155272799b6ec</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:25</sys_updated_on>
+        <ui_id>08d3527b-e47b-46e0-b957-684c561767e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6dad8ae32fa50110184155272799b6ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6dad8ae32fa50110184155272799b6ec</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>69ad8ae32fa50110184155272799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6dad8ae32fa50110184155272799b6ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>a5ad8ae32fa50110184155272799b6ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <value>reservation_time=1970-01-01 00:05:00</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6dad8ae32fa50110184155272799b6ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6dad8ae32fa50110184155272799b6ec</id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>61ad8ae32fa50110184155272799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6dad8ae32fa50110184155272799b6ec</id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>adad8ae32fa50110184155272799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6dad8ae32fa50110184155272799b6ec</id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>25ad8ae32fa50110184155272799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=81ad8ae32fa50110184155272799b679^sys_idNOT IN4361a96807758110ac9bf8ed7c1ed0e5,5dad8ae32fa50110184155272799b6e0,cf61a96807758110ac9bf8ed7c1ed0e8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9f11a16807758110ac9bf8ed7c1ed02f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Item">81ad8ae32fa50110184155272799b679</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>4361a96807758110ac9bf8ed7c1ed0e5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:25</sys_updated_on>
+        <ui_id>61a271fb-83af-43c4-b8ef-eebaf45b05d8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4361a96807758110ac9bf8ed7c1ed0e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4361a96807758110ac9bf8ed7c1ed0e5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>c361a96807758110ac9bf8ed7c1ed0e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <value>Check state is still Reserved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4361a96807758110ac9bf8ed7c1ed0e5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>4361a96807758110ac9bf8ed7c1ed0e5</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>4361a96807758110ac9bf8ed7c1ed0e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.status}}=reserved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>4361a96807758110ac9bf8ed7c1ed0e5</id>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>8f61a96807758110ac9bf8ed7c1ed0e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 15:55:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7a9a7fc007354110ac9bf8ed7c1ed0b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Item">81ad8ae32fa50110184155272799b679</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>5dad8ae32fa50110184155272799b6e0</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:25</sys_updated_on>
+        <ui_id>e6777921-6d31-42e3-b415-78aac03016d0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5dad8ae32fa50110184155272799b6e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5dad8ae32fa50110184155272799b6e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>1dad8ae32fa50110184155272799b6e6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-16 16:02:57</sys_updated_on>
+        <value>1970-01-01 00:00:30</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5dad8ae32fa50110184155272799b6e0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:51</sys_created_on>
+        <sys_id>59ad8ae32fa50110184155272799b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:51</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=5dad8ae32fa50110184155272799b6e0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">ef11a16807758110ac9bf8ed7c1ed053</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reservation Item">81ad8ae32fa50110184155272799b679</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>61a271fb-83af-43c4-b8ef-eebaf45b05d8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-02-17 15:55:33</sys_created_on>
+        <sys_id>cf61a96807758110ac9bf8ed7c1ed0e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:04:25</sys_updated_on>
+        <ui_id>b4db2379-8dcc-4c2f-893b-a9734b506ac6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf61a96807758110ac9bf8ed7c1ed0e8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679^sys_idNOT IN05ad8ae32fa50110184155272799b692,51ad8ae32fa50110184155272799b69d,ddad8ae32fa50110184155272799b6cc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:50</sys_created_on>
+        <sys_id>05ad8ae32fa50110184155272799b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:50</sys_created_on>
+        <sys_id>51ad8ae32fa50110184155272799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_81ad8ae32fa50110184155272799b679</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-02-14 16:34:50</sys_created_on>
+        <sys_id>ddad8ae32fa50110184155272799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:34:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>6822422b2f650110184155272799b669</sys_id>
+        <latest_snapshot>81ad8ae32fa50110184155272799b679</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

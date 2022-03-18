@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.footerStyle {&#13;
+  width: 100%;&#13;
+  background-color: #bfe0af;&#13;
+  color: $cloud-CloudWhite;&#13;
+  text-align: center;&#13;
+  font-size: 110%;&#13;
+  /*margin-left: auto; &#13;
+  margin-right: auto;&#13;
+  padding-top: 25px;&#13;
+  padding: 10px 10px 0px 10px;*/&#13;
+  position: fixed;&#13;
+  padding: 10px 10px 0px 10px;&#13;
+  bottom: 0;&#13;
+  height: 80px;&#13;
+}&#13;
+&#13;
+.contactIT {&#13;
+  width: 275px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+&#13;
+.copyright {&#13;
+  width: 400px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.social {&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+  font-size: 150%;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>green_swap_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Green Swap Footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-16 16:23:41</sys_created_on>
+        <sys_id>5aca201d07164110ac9bf8ed7c1ed0a5</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Green Swap Footer</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_header_footer_5aca201d07164110ac9bf8ed7c1ed0a5</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-17 14:42:41</sys_updated_on>
+        <template><![CDATA[<div class="footerStyle">
+  
+  <div class="contactIT">
+    <p><strong>CONTACT IT</strong></p>
+    <p>Romania: +1 XXX 555 1234</p>
+  </div>
+  <div class="copyright">
+    <p>&copy 2022 ServiceNow Inc. All Rights Reserved</p>
+  </div>
+  
+  <div class="social" id="footer">
+    <a class="fa fa-linkedin" href="https://www.linkedin.com/company/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-twitter" href="https://www.twitter.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-youtube" href="https://www.youtube.com/servicenowinc" target="_blank"></a> &nbsp
+    <a class="fa fa-facebook" href="https://www.facebook.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-power-off" href="https://community.servicenow.com" target="_blank"></a>
+  </div>
+  
+</div>
+
+
+]]></template>
+    </sp_header_footer>
+</record_update>

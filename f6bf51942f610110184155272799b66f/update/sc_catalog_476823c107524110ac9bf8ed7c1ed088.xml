@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description>Green Catalog</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager display_value="Iulia Colta">b888a5462f510110184155272799b637</manager>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-16 11:38:31</sys_created_on>
+        <sys_id>476823c107524110ac9bf8ed7c1ed088</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Green catalog</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sc_catalog_476823c107524110ac9bf8ed7c1ed088</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-16 11:38:31</sys_updated_on>
+        <title>Green catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=476823c107524110ac9bf8ed7c1ed088"/>
+</record_update>

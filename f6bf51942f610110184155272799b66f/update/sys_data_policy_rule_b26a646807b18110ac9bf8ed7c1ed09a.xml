@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>total_points</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-17 11:55:31</sys_created_on>
+        <sys_data_policy display_value="Total points to read only">874aa82807b18110ac9bf8ed7c1ed08d</sys_data_policy>
+        <sys_id>b26a646807b18110ac9bf8ed7c1ed09a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>total_points</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_data_policy_rule_b26a646807b18110ac9bf8ed7c1ed09a</sys_update_name>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-18 11:23:55</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+    </sys_data_policy_rule>
+</record_update>

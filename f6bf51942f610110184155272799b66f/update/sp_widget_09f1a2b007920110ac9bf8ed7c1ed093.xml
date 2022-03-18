@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+	/* Step 3. Accept user input*/
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>upload_new_item</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Upload New Item</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* Step 1. Load initial data from the server */
+	
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	if(!input){
+		data.item =[];
+		var grGreen = new GlideRecordSecure('x_762203_green_swa_catalog_data');
+	  grGreen.addActiveQuery();
+		grGreen.query();
+		
+		while(grGreen.next()){
+			data.item.push({
+				'products':grGreen.getDisplayValue('products'),
+				'category':grGreen.getDisplayValue('category'),
+				'sys_id':grGreen.getUniqueValue()
+				
+			});
+		}
+	}
+	
+	/* Step 4. Process user input */
+	if(input){
+		
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-15 11:47:23</sys_created_on>
+        <sys_id>09f1a2b007920110ac9bf8ed7c1ed093</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Upload New Item</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_09f1a2b007920110ac9bf8ed7c1ed093</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-15 15:01:00</sys_updated_on>
+        <template><![CDATA[
+
+<!--Step 2 Display initial data from the server -->
+ <!-- <pre>{{c.data.item | json}}</pre> -->
+
+<form name="newitem" class="form-horizontal green-widgets">
+<fieldset>
+
+<!-- Form Name -->
+<legend style="text-align:center;font-size: 34px;">Upload New Item</legend>
+
+<!-- Item Name -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Item Name</label>  
+  <div class="col-md-4">
+  <input id="products" name="products" type="String"  class="form-control input-md"
+        ng-model="c.products">
+  </div>
+</div>
+
+  <!-- Select Category -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Select Category </label>
+  <div class="col-md-4">
+    <select id="category" name="category" class="form-control"
+            ng-model="c.category"
+            ng-options="category.name for category in c.data.item">
+      <option value="">All </option>
+    </select>
+  </div>
+</div>
+  
+  <!-- Description -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Description</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="description" name="description"></textarea>
+  </div>
+</div>
+  
+   <hr>
+       <div class="form-group mt-3">
+        <label class="mr-2">Upload images:</label>
+       <input id="images" name="images" type="image"  class="form-control input-md"
+        ng-model="c.images">
+          </div>
+        <hr>
+  
+  <!-- Button Submit-->
+<div class="form-group">
+ 
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-success">Submit</button>
+  </div>
+</div>
+  
+  
+</fieldset>
+</form>
+
+  
+  <!--Step 5 Display ,customized content based on user input -->
+]]></template>
+    </sp_widget>
+</record_update>

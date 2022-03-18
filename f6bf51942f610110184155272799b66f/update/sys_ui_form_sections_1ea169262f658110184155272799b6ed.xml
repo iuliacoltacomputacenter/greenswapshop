@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1ea169262f658110184155272799b6ed" sys_domain="global" table="x_762203_green_swa_catalog_data" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-11 10:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eea169262f658110184155272799b6f0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_762203_green_swa_catalog_data" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">1ea169262f658110184155272799b6ed</sys_ui_form>
+            <sys_ui_section caption="Item Catalog" display_value="Item Catalog" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">b829ad902fa10110184155272799b6bb</sys_ui_section>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 08:39:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-18 08:31:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e7549f407310110ac9bf8ed7c1ed061</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_762203_green_swa_catalog_data" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">1ea169262f658110184155272799b6ed</sys_ui_form>
+            <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 08:43:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-03-08 14:37:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4aa50fe6074e4110ac9bf8ed7c1ed0fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_762203_green_swa_catalog_data" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">1ea169262f658110184155272799b6ed</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">cea50fe6074e4110ac9bf8ed7c1ed063</sys_ui_section>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-03-08 14:37:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_762203_green_swa_catalog_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-11 10:48:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ea169262f658110184155272799b6ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_762203_green_swa_catalog_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1ea169262f658110184155272799b6ed</sys_update_name>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-11 10:48:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

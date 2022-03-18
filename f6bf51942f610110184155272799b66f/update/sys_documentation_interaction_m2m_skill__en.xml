@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Interaction Skill" language="en" table="interaction_m2m_skill">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Interaction Skill</label>
+            <language>en</language>
+            <name>interaction_m2m_skill</name>
+            <plural>Interaction Skills</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ali.mohammed</sys_created_by>
+            <sys_created_on>2022-02-07 16:40:06</sys_created_on>
+            <sys_id>35339b7b07650110ac9bf8ed7c1ed0ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Interaction Skill</sys_name>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_documentation_interaction_m2m_skill__en</sys_update_name>
+            <sys_updated_by>ali.mohammed</sys_updated_by>
+            <sys_updated_on>2022-02-07 16:40:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

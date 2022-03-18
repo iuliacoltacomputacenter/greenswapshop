@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="location" table="x_762203_green_swa_catalog_data" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_id>1633db7b07650110ac9bf8ed7c1ed062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>location</sys_name>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_choice_x_762203_green_swa_catalog_data_location</sys_update_name>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>germany</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Berlin</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ff5e5102fa10110184155272799b6e6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>berlin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>romania</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cluj Napoca</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3f5e5102fa10110184155272799b6e4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>cluj_napoca</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>uk</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>London</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63f5e5102fa10110184155272799b6e1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>london</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>uk</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Manchester</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 13:28:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5303e16b2fe10110184155272799b683</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>manchester</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>germany</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Frankfurt</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 13:28:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef03e16b2fe10110184155272799b684</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>frankfurt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>romania</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Bucharest</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 13:28:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6303e16b2fe10110184155272799b686</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>bucharest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>germany</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Munich</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 13:28:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e303e16b2fe10110184155272799b687</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>munich</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>uk</dependent_value>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Liverpool</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 13:28:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6703e16b2fe10110184155272799b688</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>liverpool</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>location</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choose the city</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 13:28:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e703e16b2fe10110184155272799b689</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-02-18 13:05:19</sys_updated_on>
+            <value>choose the city</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

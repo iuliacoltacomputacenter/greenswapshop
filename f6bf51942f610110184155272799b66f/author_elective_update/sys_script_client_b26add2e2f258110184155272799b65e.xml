@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>I want the email address auto populated in the field and not allow a user to do this.</description>
+        <field>balance</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto populate Email</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var currentUser = g_user.userID; //logged in user
+	if (g_form.isNewRecord()) //check if form is new record
+		{
+			g_form.setValue('email', email);
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-11 10:20:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b26add2e2f258110184155272799b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto populate Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_script_client_b26add2e2f258110184155272799b65e</sys_update_name>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-11 10:20:23</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f9302f06dba41780439ef70fbf96199c</instance_id>
+        <instance_name>dev51127</instance_name>
+        <name>sys_script_client_b26add2e2f258110184155272799b65e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;I want the email address auto populated in the field and not allow a user to do this.&lt;/description&gt;&lt;field&gt;balance&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Auto populate Email&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var currentUser = g_user.userID; //logged in user
+	if (g_form.isNewRecord()) //check if form is new record
+		{
+			g_form.setValue('email', email);
+		}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-11 10:20:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b26add2e2f258110184155272799b65e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto populate Email&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b26add2e2f258110184155272799b65e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-11 10:20:23&lt;/sys_updated_on&gt;&lt;table&gt;x_762203_green_swa_catalog_data&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1272299176</payload_hash>
+        <record_name>Auto populate Email</record_name>
+        <reverted_from/>
+        <source>babf51942f610110184155272799b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-11 10:20:23</sys_created_on>
+        <sys_id>fa2bd92e2f258110184155272799b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ee84c559b0000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-11 10:20:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>362bd92e812581107873b94b60bf3e5c</update_guid>
+        <update_guid_history>362bd92e812581107873b94b60bf3e5c:-1272299176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-11 11:22:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>05210ed0076f4e98976ee88d6c4f0c10</sys_id>
+        <sys_metadata>b26add2e2f258110184155272799b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto populate Email</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="">a2f5a5102fa10110184155272799b6d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_script_client_b26add2e2f258110184155272799b65e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b26add2e2f258110184155272799b65e">fa2bd92e2f258110184155272799b65c</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-11 11:22:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

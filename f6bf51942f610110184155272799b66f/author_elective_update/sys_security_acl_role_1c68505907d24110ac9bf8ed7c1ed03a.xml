@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-03-16 15:04:11</sys_created_on>
+        <sys_id>1c68505907d24110ac9bf8ed7c1ed03a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762203_green_swa_catalog_data.x_762203_green_swa.green_swap_shop_user</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_security_acl display_value="x_762203_green_swa_catalog_data">9efc9deb07ce4110ac9bf8ed7c1ed065</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1c68505907d24110ac9bf8ed7c1ed03a</sys_update_name>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-03-16 15:04:11</sys_updated_on>
+        <sys_user_role display_value="x_762203_green_swa.green_swap_shop_user" name="x_762203_green_swa.green_swap_shop_user">5230a1982f610110184155272799b609</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>fe9b6ec5db8fbb408aea21c4059619f9</instance_id>
+        <instance_name>dev90350</instance_name>
+        <name>sys_security_acl_role_1c68505907d24110ac9bf8ed7c1ed03a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>sukh.gill</sys_created_by><sys_created_on>2022-03-16 15:04:11</sys_created_on><sys_id>1c68505907d24110ac9bf8ed7c1ed03a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_762203_green_swa_catalog_data.x_762203_green_swa.green_swap_shop_user</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_security_acl display_value="x_762203_green_swa_catalog_data">9efc9deb07ce4110ac9bf8ed7c1ed065</sys_security_acl><sys_update_name>sys_security_acl_role_1c68505907d24110ac9bf8ed7c1ed03a</sys_update_name><sys_updated_by>sukh.gill</sys_updated_by><sys_updated_on>2022-03-16 15:04:11</sys_updated_on><sys_user_role display_value="x_762203_green_swa.green_swap_shop_user" name="x_762203_green_swa.green_swap_shop_user">5230a1982f610110184155272799b609</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1243022725</payload_hash>
+        <record_name>x_762203_green_swa_catalog_data.x_762203_green_swa.green_swap_shop_user</record_name>
+        <reverted_from/>
+        <source>84f3782007f18110ac9bf8ed7c1ed058</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-03-16 15:04:12</sys_created_on>
+        <sys_id>3998d45907d24110ac9bf8ed7c1ed025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f934205e10000001</sys_recorded_at>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-03-16 15:04:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7198d45903d2411096d88fea1221e725</update_guid>
+        <update_guid_history>7198d45903d2411096d88fea1221e725:1243022725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_762203_green_swa_catalog_data.x_762203_green_swa.green_swap_shop_user">0869949907d24110ac9bf8ed7c1ed01a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-03-16 15:07:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>47666f7459cb4f98b0ec4a0a12b97e40</sys_id>
+        <sys_metadata>1c68505907d24110ac9bf8ed7c1ed03a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762203_green_swa_catalog_data.x_762203_green_swa.green_swap_shop_user</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="x_762203_green_swa_catalog_data">9efc9deb07ce4110ac9bf8ed7c1ed065</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_1c68505907d24110ac9bf8ed7c1ed03a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_1c68505907d24110ac9bf8ed7c1ed03a">3998d45907d24110ac9bf8ed7c1ed025</sys_update_version>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-03-16 15:07:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

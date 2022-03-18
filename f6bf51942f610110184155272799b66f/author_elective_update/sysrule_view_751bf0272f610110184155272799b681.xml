@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition table="x_762203_green_swa_catalog_data">total_pointsSAMEASusername.sys_mod_count^EQ<item endquery="false" field="total_points" goto="false" newquery="false" operator="SAMEAS" or="false" value="username.sys_mod_count"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Total Points Rule</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 10:35:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>751bf0272f610110184155272799b681</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Total Points Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sysrule_view_751bf0272f610110184155272799b681</sys_update_name>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-14 14:51:17</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <view/>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f9302f06dba41780439ef70fbf96199c</instance_id>
+        <instance_name>dev51127</instance_name>
+        <name>sysrule_view_751bf0272f610110184155272799b681</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition table="x_762203_green_swa_catalog_data"&gt;total_pointsSAMEASusername.sys_mod_count^EQ&lt;item endquery="false" field="total_points" goto="false" newquery="false" operator="SAMEAS" or="false" value="username.sys_mod_count"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Total Points Rule&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-14 10:35:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;751bf0272f610110184155272799b681&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Total Points Rule&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_751bf0272f610110184155272799b681&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-14 14:51:17&lt;/sys_updated_on&gt;&lt;table&gt;x_762203_green_swa_catalog_data&lt;/table&gt;&lt;view/&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>627407874</payload_hash>
+        <record_name>Total Points Rule</record_name>
+        <reverted_from/>
+        <source>babf51942f610110184155272799b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-14 14:51:17</sys_created_on>
+        <sys_id>54f5b52f2f250110184155272799b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef8b76b750000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-14 14:51:17</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>9cf5b52f052501101dda2048e5db90d3</update_guid>
+        <update_guid_history>9cf5b52f052501101dda2048e5db90d3:627407874,1ee5712f3c2501107ffb5a18104f5082:-227163021,0f79e1ef44e10110b26aada8f3215534:-1272444747,8c2961ef72e101102a54900bb98001d3:-1512838823,c28a89a3a6a10110638789073146504f:-1525427463,0269c963bea10110d6b70f1aa324ed73:-514244643,b4488523efa1011064bce72dc3305d6b:929511384,576b3027246101103ed052e6253705f0:-1252261761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-15 13:31:46</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>2b756adc78084814b7f2198183d0e9c1</sys_id>
+        <sys_metadata>751bf0272f610110184155272799b681</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Points Rule</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="">a2f5a5102fa10110184155272799b6d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sysrule_view_751bf0272f610110184155272799b681</sys_update_name>
+        <sys_update_version display_value="sysrule_view_751bf0272f610110184155272799b681">54f5b52f2f250110184155272799b6d4</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-15 13:31:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

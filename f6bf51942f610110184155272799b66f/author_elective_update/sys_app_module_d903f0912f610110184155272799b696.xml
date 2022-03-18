@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Gathered Reward Points</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_762203_green_swa_catalog_data</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_762203_green_swa.green_swap_shop_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-07 10:13:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d903f0912f610110184155272799b696</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Gathered Reward Points</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_app_module_d903f0912f610110184155272799b696</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-02-07 10:56:46</sys_updated_on>
+        <timeline_page/>
+        <title>Gathered Reward Points</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f9302f06dba41780439ef70fbf96199c</instance_id>
+        <instance_name>dev51127</instance_name>
+        <name>sys_app_module_d903f0912f610110184155272799b696</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Gathered Reward Points</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_762203_green_swa_catalog_data</name><order>400</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_762203_green_swa.green_swap_shop_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>ali.mohammed</sys_created_by><sys_created_on>2022-02-07 10:13:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d903f0912f610110184155272799b696</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Gathered Reward Points</sys_name><sys_overrides/><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sys_app_module_d903f0912f610110184155272799b696</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-02-07 10:56:46</sys_updated_on><timeline_page/><title>Gathered Reward Points</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>408225686</payload_hash>
+        <record_name>Gathered Reward Points</record_name>
+        <reverted_from/>
+        <source>babf51942f610110184155272799b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-07 13:43:55</sys_created_on>
+        <sys_id>9d632d592fe10110184155272799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed46d3b1f0000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-07 13:43:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>342d34d91061011025930097aa97c463</update_guid>
+        <update_guid_history>342d34d91061011025930097aa97c463:-711296687,342d34d91061011025930097aa97c463:-711296687,4b9430d1056101107902e26e9b986c83:-464535858,5e233491176101103d37f332e3e87db3:979054716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1c59259d2fe10110184155272799b6cd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-07 14:09:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>208cd953e6c74238953691c5fc63e0e4</sys_id>
+        <sys_metadata>d903f0912f610110184155272799b696</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gathered Reward Points</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_app_module_d903f0912f610110184155272799b696</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d903f0912f610110184155272799b696">9d632d592fe10110184155272799b6bf</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-07 14:09:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

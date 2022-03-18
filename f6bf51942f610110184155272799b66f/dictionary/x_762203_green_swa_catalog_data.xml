@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true,live_feed=false" audit="true" label="Item Catalog" max_length="40" name="x_762203_green_swa_catalog_data" sizeclass="47" type="collection">
+        <element default="0" label="Reward points" max_length="40" name="balance" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Books" value="books"/>
+                <element inactive_on_update="false" label="Clothes &amp; accessories" value="clothes &amp; accessories"/>
+                <element inactive_on_update="false" label="Electricals" value="electricals"/>
+                <element inactive_on_update="false" label="Furniture" value="furniture"/>
+                <element inactive_on_update="false" label="Games" value="games"/>
+                <element inactive_on_update="false" label="Garden" value="garden"/>
+                <element inactive_on_update="false" label="Kitchen &amp; Home" value="kitchen_home"/>
+                <element inactive_on_update="false" label="Outdoors" value="outdoors"/>
+                <element inactive_on_update="false" label="Toys" value="toys"/>
+            </choice>
+        </element>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="1" choice_field="status" choice_table="x_762203_green_swa_catalog_data" default="choose the country" label="Country" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Belgium" sequence="0" value="Belgium"/>
+                <element inactive="true" inactive_on_update="true" label="China" sequence="0" value="China"/>
+                <element inactive="true" inactive_on_update="true" label="Choose the Country" sequence="0" value="choose the country"/>
+                <element inactive="true" inactive_on_update="true" label="UK" sequence="0" value="uk"/>
+                <element inactive_on_update="false" label="Canada" sequence="1" value="Canada"/>
+                <element inactive="true" inactive_on_update="true" label="Hungary" sequence="1" value="Hungary"/>
+                <element inactive_on_update="false" label="France" sequence="2" value="France"/>
+                <element inactive="true" inactive_on_update="true" label="India" sequence="2" value="India"/>
+                <element inactive_on_update="false" label="Germany" sequence="3" value="germany"/>
+                <element inactive="true" inactive_on_update="true" label="Malaysia" sequence="3" value="Malaysia"/>
+                <element inactive_on_update="false" label="Italy" sequence="4" value="Italy"/>
+                <element inactive="true" inactive_on_update="true" label="Netherlands" sequence="4" value="Netherlands"/>
+                <element inactive_on_update="false" label="Japan" sequence="5" value="Japan"/>
+                <element inactive="true" inactive_on_update="true" label="Romania" sequence="5" value="romania"/>
+                <element inactive_on_update="false" label="Mexico" sequence="6" value="Mexico"/>
+                <element inactive="true" inactive_on_update="true" label="South Africa" sequence="6" value="South Africa"/>
+                <element inactive="true" inactive_on_update="true" label="Spain" sequence="7" value="Spain"/>
+                <element inactive_on_update="false" label="United Kingdom" sequence="7" value="United Kingdom"/>
+                <element inactive="true" inactive_on_update="true" label="Switzerland" sequence="8" value="switzerland"/>
+                <element inactive_on_update="false" label="USA" sequence="8" value="USA"/>
+                <element inactive_on_update="false" label="Choose the Country" sequence="9" value="choose the country"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="1" label="Email" max_length="40" name="email" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Upload images" max_length="40" name="images" type="user_image"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="3" choice_field="status" choice_table="x_762203_green_swa_catalog_data" label="City" max_length="40" name="location" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="germany" inactive="true" inactive_on_update="true" label="Berlin" sequence="0" value="berlin"/>
+                <element dependent_value="romania" inactive="true" inactive_on_update="true" label="Cluj Napoca" sequence="1" value="cluj_napoca"/>
+                <element dependent_value="uk" inactive="true" inactive_on_update="true" label="London" sequence="2" value="london"/>
+                <element dependent_value="uk" inactive="true" inactive_on_update="true" label="Manchester" sequence="3" value="manchester"/>
+                <element dependent_value="germany" inactive="true" inactive_on_update="true" label="Frankfurt" sequence="4" value="frankfurt"/>
+                <element dependent_value="romania" inactive="true" inactive_on_update="true" label="Bucharest" sequence="5" value="bucharest"/>
+                <element dependent_value="germany" inactive="true" inactive_on_update="true" label="Munich" sequence="6" value="munich"/>
+                <element dependent_value="uk" inactive="true" inactive_on_update="true" label="Liverpool" sequence="7" value="liverpool"/>
+                <element inactive="true" inactive_on_update="true" label="Choose the city" sequence="8" value="choose the city"/>
+            </choice>
+        </element>
+        <element active="false" label="LocationTest" max_length="32" name="locationtest" reference="cmn_location" reference_qual="countryINUK,Germany^EQ" reference_qual_condition="countryINUK,Germany^EQ" type="reference"/>
+        <element default="javascript: x_762203_green_swa.getLocation(gs.getUserID());" label="User Location" max_length="32" name="new_country" reference="cmn_location" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Item name" mandatory="true" max_length="40" name="products" type="string"/>
+        <element attributes="encode_utf8=false" label="Rejected reason" max_length="500" name="rejected_reasosn" read_only="true" type="string" use_dependent_field="true"/>
+        <element attributes="max_unit=minutes" label="Reservation time " max_length="100" name="reservation_time" type="glide_duration"/>
+        <element attributes="no_audit=true" choice="3" default="waiting for approval" label="Current status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Rejected" sequence="0" value="rejected"/>
+                <element inactive="true" inactive_on_update="true" label="Taken" sequence="0" value="taken"/>
+                <element inactive_on_update="false" label="Waiting for approval" sequence="0" value="waiting for approval"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="reserved"/>
+                <element inactive_on_update="false" label="Traded" sequence="2" value="traded"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total Points" max_length="40" name="total_points" read_only="true" type="integer"/>
+        <element default="javascript: gs.getUserID()" label="Uploaded by" mandatory="true" max_length="32" name="username" reference="sys_user" type="reference"/>
+        <element default="true" label="Reserved" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="New Field Name" max_length="80" name="u_field_name_6" type="field_name"/>
+        <element active="false" attributes="max_unit=hours" label="Reservation Time" max_length="40" name="u_glide_duration_2" type="glide_duration"/>
+        <element label="New HTML" max_length="65536" name="u_html_1" type="html"/>
+        <element label="New Icon" max_length="100" name="u_icon_2" type="icon"/>
+        <element label="New NDS Icon" max_length="40" name="u_nds_icon_2" type="nds_icon"/>
+        <element label="New NDS Icon" max_length="40" name="u_nds_icon_3" type="nds_icon"/>
+        <element attributes="encode_utf8=false" dependent="balance" dependent_on_field="balance" label="Total Points" max_length="32" name="u_reference_1" read_only="true" reference="x_762203_green_swa_catalog_data" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" dependent="balance" dependent_on_field="balance" label="Total Points string" max_length="40" name="u_string_1" read_only="true" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" dependent="balance" dependent_on_field="balance" label="User Total Points" max_length="40" name="u_string_3" read_only="true" type="string" use_dependent_field="true"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_7" type="table_name"/>
+        <element label="Name of trader" mandatory="true" max_length="32" name="who_traded" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="locationtest"/>
+        </index>
+        <index name="index2">
+            <element name="new_country"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index4">
+            <element name="rejected_reasosn"/>
+        </index>
+        <index name="index5">
+            <element name="who_traded"/>
+        </index>
+        <index name="index6">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index7">
+            <element name="username"/>
+        </index>
+    </element>
+</database>

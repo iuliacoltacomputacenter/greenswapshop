@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>green_links.css</name>
+        <source>local</source>
+        <sp_css display_value="green_links.css">dc4205a007520110ac9bf8ed7c1ed093</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-14 10:17:24</sys_created_on>
+        <sys_id>edc345e007520110ac9bf8ed7c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>green_links.css</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_css_include_edc345e007520110ac9bf8ed7c1ed0d1</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-14 10:17:24</sys_updated_on>
+        <url/>
+    </sp_css_include>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">2e2b696007d20110ac9bf8ed7c1ed007</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-16 16:06:14</sys_created_on>
+        <sys_id>72c6a05907164110ac9bf8ed7c1ed0b7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_instance_72c6a05907164110ac9bf8ed7c1ed0b7</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-17 14:31:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><a title=\"Submit a new request\" href=\"?id=sc_cat_item&amp;sys_id=c425d73807160110ac9bf8ed7c1ed070\" data-mce-href=\"?id=sc_cat_item&amp;sys_id=c425d73807160110ac9bf8ed7c1ed070\"><img src=\"uploadarrow.png\" alt=\"\" width=\"100\" height=\"100\" data-mce-src=\"uploadarrow.png\"></a></p><h3 style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><strong>Upload new item</strong></h3><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Service catalog</p>",
+		"displayValue": "<p style=\"text-align: center;\"><a title=\"Submit a new request\" href=\"?id=sc_cat_item&amp;sys_id=c425d73807160110ac9bf8ed7c1ed070\"><img src=\"uploadarrow.png\" alt=\"\" width=\"100\" height=\"100\" /></a></p>\n<h3 style=\"text-align: center;\"><strong>Upload new item</strong></h3>\n<p style=\"text-align: center;\">Service catalog</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=72c6a05907164110ac9bf8ed7c1ed0b7"/>
+</record_update>

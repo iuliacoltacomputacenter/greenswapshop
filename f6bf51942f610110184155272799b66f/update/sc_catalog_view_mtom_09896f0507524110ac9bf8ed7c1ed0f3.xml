@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Green catalog">476823c107524110ac9bf8ed7c1ed088</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-16 11:38:32</sys_created_on>
+        <sys_id>09896f0507524110ac9bf8ed7c1ed0f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Green catalog.catalog_green_catalog</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_green_catalog">cd896f0507524110ac9bf8ed7c1ed0f1</sys_portal_page>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_09896f0507524110ac9bf8ed7c1ed0f3</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-16 11:38:32</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

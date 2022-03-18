@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_762203_green_swa_gss_user">x_762203_green_swa_gss_user</category>
+        <maximum_digits>6</maximum_digits>
+        <number>1000</number>
+        <prefix>USER</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-09 15:45:30</sys_created_on>
+        <sys_id>356254022f650110184155272799b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>USER</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_number_356254022f650110184155272799b68f</sys_update_name>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-09 15:45:30</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f9302f06dba41780439ef70fbf96199c</instance_id>
+        <instance_name>dev51127</instance_name>
+        <name>sys_number_356254022f650110184155272799b68f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_762203_green_swa_gss_user">x_762203_green_swa_gss_user</category><maximum_digits>6</maximum_digits><number>1000</number><prefix>USER</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>ali.mohammed</sys_created_by><sys_created_on>2022-02-09 15:45:30</sys_created_on><sys_id>356254022f650110184155272799b68f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>USER</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sys_number_356254022f650110184155272799b68f</sys_update_name><sys_updated_by>ali.mohammed</sys_updated_by><sys_updated_on>2022-02-09 15:45:30</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1838415401</payload_hash>
+        <record_name>USER</record_name>
+        <reverted_from/>
+        <source>babf51942f610110184155272799b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-09 15:45:32</sys_created_on>
+        <sys_id>82625cc22f650110184155272799b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17edf2949920000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-09 15:45:32</sys_updated_on>
+        <type>Number</type>
+        <update_guid>ca625cc27c650110a57275ce075926eb</update_guid>
+        <update_guid_history>ca625cc27c650110a57275ce075926eb:-1838415401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-10 14:52:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>9d9732ab478043b0a2651b5f8df35f51</sys_id>
+        <sys_metadata>356254022f650110184155272799b68f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>USER</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="">3a1d0cc22f250110184155272799b624</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_number_356254022f650110184155272799b68f</sys_update_name>
+        <sys_update_version display_value="sys_number_356254022f650110184155272799b68f">82625cc22f650110184155272799b6ec</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-10 14:52:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

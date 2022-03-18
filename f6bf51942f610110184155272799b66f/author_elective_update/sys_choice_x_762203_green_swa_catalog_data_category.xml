@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_762203_green_swa_catalog_data" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_id>9e33db7b07650110ac9bf8ed7c1ed041</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_choice_x_762203_green_swa_catalog_data_category</sys_update_name>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Books</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bf529102fa10110184155272799b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:22</sys_updated_on>
+            <value>books</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Clothes &amp; accessories</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bf529102fa10110184155272799b601</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ali.mohammed</sys_updated_by>
+            <sys_updated_on>2022-02-04 12:20:32</sys_updated_on>
+            <value>clothes &amp; accessories</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electricals</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37f529102fa10110184155272799b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:22</sys_updated_on>
+            <value>electricals</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Furniture</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbf529102fa10110184155272799b604</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:21</sys_updated_on>
+            <value>furniture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Games</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bff529102fa10110184155272799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:22</sys_updated_on>
+            <value>games</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Garden</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ali.mohammed</sys_created_by>
+            <sys_created_on>2022-02-04 12:02:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a53f25542fa10110184155272799b65c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali.mohammed</sys_updated_by>
+            <sys_updated_on>2022-02-04 12:02:18</sys_updated_on>
+            <value>garden</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kitchen &amp; Home</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3f529102fa10110184155272799b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:22</sys_updated_on>
+            <value>kitchen_home</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoors</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-02-04 11:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ff529102fa10110184155272799b611</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-02-04 11:21:22</sys_updated_on>
+            <value>outdoors</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Toys</label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>ali.mohammed</sys_created_by>
+            <sys_created_on>2022-02-04 12:11:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f461f9182fa10110184155272799b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali.mohammed</sys_updated_by>
+            <sys_updated_on>2022-02-04 12:11:14</sys_updated_on>
+            <value>toys</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

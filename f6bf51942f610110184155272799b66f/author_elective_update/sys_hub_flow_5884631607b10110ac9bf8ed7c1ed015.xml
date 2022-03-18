@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>After a month, I want to delete/reset the time a product has been in the application</description>
+        <internal_name>product_time</internal_name>
+        <label_cache>[{"name":"Updated_1.current.sys_created_on","label":"Trigger➛Item Catalog Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_on"},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.Records","label":"1➛Item Catalog Records","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.Table","label":"1➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"12b9844e-2def-4928-9a5f-c976eb2faa08.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"12b9844e-2def-4928-9a5f-c976eb2faa08.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"12b9844e-2def-4928-9a5f-c976eb2faa08.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_created_by","label":"Trigger➛Item Catalog Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_by"},{"name":"Updated_1.current.username","label":"Trigger➛Item Catalog Record➛Uploaded by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"username"},{"name":"267eaf16-847e-4dc8-bc8b-df3ebf9da968.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"267eaf16-847e-4dc8-bc8b-df3ebf9da968.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.table_name","label":"Trigger➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Product Time Workflow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 11:57:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5884631607b10110ac9bf8ed7c1ed015</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Product Time Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_hub_flow_5884631607b10110ac9bf8ed7c1ed015</sys_update_name>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:56</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=5884631607b10110ac9bf8ed7c1ed015"/>
+    <sys_variable_value action="DELETE" query="document_key=5884631607b10110ac9bf8ed7c1ed015"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN28262b5607b10110ac9bf8ed7c1ed00d"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>28262b5607b10110ac9bf8ed7c1ed00d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:55</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=28262b5607b10110ac9bf8ed7c1ed00d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>28262b5607b10110ac9bf8ed7c1ed00d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>20262b5607b10110ac9bf8ed7c1ed00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>28262b5607b10110ac9bf8ed7c1ed00d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>6c262b5607b10110ac9bf8ed7c1ed00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=28262b5607b10110ac9bf8ed7c1ed00d"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT INd884631607b10110ac9bf8ed7c1ed017"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>5884631607b10110ac9bf8ed7c1ed015</id>
+        <name>Product Time </name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 11:57:38</sys_created_on>
+        <sys_id>d884631607b10110ac9bf8ed7c1ed017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 11:57:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN28262b5607b10110ac9bf8ed7c1ed006,6426e75607b10110ac9bf8ed7c1ed0fb,ec262b5607b10110ac9bf8ed7c1ed000"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</model>
+        <model_id>5884631607b10110ac9bf8ed7c1ed015</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>28262b5607b10110ac9bf8ed7c1ed006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</model>
+        <model_id>5884631607b10110ac9bf8ed7c1ed015</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>6426e75607b10110ac9bf8ed7c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD2e90abe4790201107e3c0fe0477db32f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</model>
+        <model_id>5884631607b10110ac9bf8ed7c1ed015</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>ec262b5607b10110ac9bf8ed7c1ed000</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN2c262b5607b10110ac9bf8ed7c1ed04c,bd54383a07b10110ac9bf8ed7c1ed05e,e8262b5607b10110ac9bf8ed7c1ed015"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</flow>
+        <order>4</order>
+        <parent_ui_id>ed3f9825-776d-41fa-9e87-0c57172fd1fd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>2c262b5607b10110ac9bf8ed7c1ed04c</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:56</sys_updated_on>
+        <ui_id>12b9844e-2def-4928-9a5f-c976eb2faa08</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=2c262b5607b10110ac9bf8ed7c1ed04c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c262b5607b10110ac9bf8ed7c1ed04c</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>38262b5607b10110ac9bf8ed7c1ed04f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 12:26:06</sys_updated_on>
+        <value>&lt;p&gt;Dear ${username},&lt;/p&gt;
+&lt;p&gt;We notice your ${products} has been in the catalogue for a month and unfortunately no one has taken it.&lt;/p&gt;
+&lt;p&gt;What our next suggestion would be is to donate it to a local charity.&lt;/p&gt;
+&lt;p&gt;Kind regards,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Green Swap Shop&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c262b5607b10110ac9bf8ed7c1ed04c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 13:44:42</sys_created_on>
+        <sys_id>ea9681f607f10110ac9bf8ed7c1ed0be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 13:44:42</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c262b5607b10110ac9bf8ed7c1ed04c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>f8262b5607b10110ac9bf8ed7c1ed04f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:46</sys_updated_on>
+        <value>Product Time</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=2c262b5607b10110ac9bf8ed7c1ed04c"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_body</field>
+        <id>2c262b5607b10110ac9bf8ed7c1ed04c</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>30262b5607b10110ac9bf8ed7c1ed04f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_subject</field>
+        <id>2c262b5607b10110ac9bf8ed7c1ed04c</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>b4262b5607b10110ac9bf8ed7c1ed04f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_to</field>
+        <id>2c262b5607b10110ac9bf8ed7c1ed04c</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>7c262b5607b10110ac9bf8ed7c1ed04e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.username}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>2c262b5607b10110ac9bf8ed7c1ed04c</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>f0262b5607b10110ac9bf8ed7c1ed04f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 13:44:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Updated_1.current.username}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>2c262b5607b10110ac9bf8ed7c1ed04c</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 13:44:42</sys_created_on>
+        <sys_id>669681f607f10110ac9bf8ed7c1ed0be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 13:44:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</flow>
+        <order>3</order>
+        <parent_ui_id>ed3f9825-776d-41fa-9e87-0c57172fd1fd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 12:24:55</sys_created_on>
+        <sys_id>bd54383a07b10110ac9bf8ed7c1ed05e</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:56</sys_updated_on>
+        <ui_id>267eaf16-847e-4dc8-bc8b-df3ebf9da968</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=bd54383a07b10110ac9bf8ed7c1ed05e"/>
+    <sys_element_mapping action="DELETE" query="id=bd54383a07b10110ac9bf8ed7c1ed05e"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>bd54383a07b10110ac9bf8ed7c1ed05e</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 12:24:55</sys_created_on>
+        <sys_id>b554383a07b10110ac9bf8ed7c1ed060</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 12:36:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>e8262b5607b10110ac9bf8ed7c1ed015</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:56</sys_updated_on>
+        <ui_id>648e5c42-2807-42c7-b262-b794bd1e584a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=e8262b5607b10110ac9bf8ed7c1ed015"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e8262b5607b10110ac9bf8ed7c1ed015</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>64262b5607b10110ac9bf8ed7c1ed017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=e8262b5607b10110ac9bf8ed7c1ed015"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>e8262b5607b10110ac9bf8ed7c1ed015</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>20262b5607b10110ac9bf8ed7c1ed017</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:43:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>sys_created_onON{{Updated_1.current.sys_created_on}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>e8262b5607b10110ac9bf8ed7c1ed015</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>e0262b5607b10110ac9bf8ed7c1ed017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="DELETE" query="flow=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT INec262b5607b10110ac9bf8ed7c1ed017,f4262b5607b10110ac9bf8ed7c1ed050"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">68262b5607b10110ac9bf8ed7c1ed017</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>ec262b5607b10110ac9bf8ed7c1ed017</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:56</sys_updated_on>
+        <ui_id>ed3f9825-776d-41fa-9e87-0c57172fd1fd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=ec262b5607b10110ac9bf8ed7c1ed017"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ec262b5607b10110ac9bf8ed7c1ed017</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>28262b5607b10110ac9bf8ed7c1ed01b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:43:39</sys_updated_on>
+        <value>1 month old</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=ec262b5607b10110ac9bf8ed7c1ed017"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>ec262b5607b10110ac9bf8ed7c1ed017</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>a4262b5607b10110ac9bf8ed7c1ed01b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:43:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{648e5c42-2807-42c7-b262-b794bd1e584a.Records}}={{fd_transform:940c174e-9788-4d11-812c-5f9ad7ffce8a}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>condition_name</field>
+        <id>ec262b5607b10110ac9bf8ed7c1ed017</id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>e0262b5607b10110ac9bf8ed7c1ed01b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">70262b5607b10110ac9bf8ed7c1ed050</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Product Time Workflow">5884631607b10110ac9bf8ed7c1ed015</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ed3f9825-776d-41fa-9e87-0c57172fd1fd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:46</sys_created_on>
+        <sys_id>f4262b5607b10110ac9bf8ed7c1ed050</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:56</sys_updated_on>
+        <ui_id>b813712a-2b0d-4dae-a19a-9dff5713e74f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=f4262b5607b10110ac9bf8ed7c1ed050"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN0214d9f207350110ac9bf8ed7c1ed08f,4e14d9f207350110ac9bf8ed7c1ed08e,7b65b47a07b10110ac9bf8ed7c1ed009,8654383a07b10110ac9bf8ed7c1ed06d,b765b47a07b10110ac9bf8ed7c1ed009,c214d9f207350110ac9bf8ed7c1ed08f"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>5884631607b10110ac9bf8ed7c1ed015</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.run_start_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 14:43:39</sys_created_on>
+        <sys_id>0214d9f207350110ac9bf8ed7c1ed08f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:43:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>940c174e-9788-4d11-812c-5f9ad7ffce8a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>5884631607b10110ac9bf8ed7c1ed015</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>7d6b8d30-31ce-4f13-b3d2-ce50b453361d</source_ui_id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 14:43:39</sys_created_on>
+        <sys_id>4e14d9f207350110ac9bf8ed7c1ed08e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:43:39</sys_updated_on>
+        <transform_compositions>[{"id":"43c11eb173733300b61e66476bf6a77f","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"duration","label":"Duration","order":0,"attributes":{},"value":"1970-01-01 00:01:00","type":"glide_duration","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add_time">b551d6b173733300b61e66476bf6a717</transform_definition_id>
+        <ui_id>b3af1c72-c789-477e-870b-c2f660af0938</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>5884631607b10110ac9bf8ed7c1ed015</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>7976c276-60ad-428b-9265-32c51335b063</source_ui_id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 12:29:41</sys_created_on>
+        <sys_id>7b65b47a07b10110ac9bf8ed7c1ed009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 12:29:41</sys_updated_on>
+        <transform_compositions>[{"id":"43c11eb173733300b61e66476bf6a77f","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"duration","label":"Duration","order":0,"attributes":{},"value":"1970-01-01 00:01:00","type":"glide_duration","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add_time">b551d6b173733300b61e66476bf6a717</transform_definition_id>
+        <ui_id>363821aa-84ac-4ade-9c24-9b46af74f4f5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>5884631607b10110ac9bf8ed7c1ed015</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.run_start_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 12:24:56</sys_created_on>
+        <sys_id>8654383a07b10110ac9bf8ed7c1ed06d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 12:24:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7d6b8d30-31ce-4f13-b3d2-ce50b453361d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>5884631607b10110ac9bf8ed7c1ed015</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 12:29:41</sys_created_on>
+        <sys_id>b765b47a07b10110ac9bf8ed7c1ed009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 12:29:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7976c276-60ad-428b-9265-32c51335b063</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>5884631607b10110ac9bf8ed7c1ed015</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>940c174e-9788-4d11-812c-5f9ad7ffce8a</source_ui_id>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-24 14:43:39</sys_created_on>
+        <sys_id>c214d9f207350110ac9bf8ed7c1ed08f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-24 14:43:39</sys_updated_on>
+        <transform_compositions>[{"id":"43c11eb173733300b61e66476bf6a77f","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"duration","label":"Duration","order":0,"attributes":{},"value":"1970-01-31 00:00:00","type":"glide_duration","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add_time">b551d6b173733300b61e66476bf6a717</transform_definition_id>
+        <ui_id>ee9a2b81-cecd-4db8-ae79-3ec1c3f2aa21</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN6826e75607b10110ac9bf8ed7c1ed0ff,a0262b5607b10110ac9bf8ed7c1ed005,a4262b5607b10110ac9bf8ed7c1ed00a"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>6826e75607b10110ac9bf8ed7c1ed0ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>a0262b5607b10110ac9bf8ed7c1ed005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-23 12:04:45</sys_created_on>
+        <sys_id>a4262b5607b10110ac9bf8ed7c1ed00a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-23 12:04:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>fe9b6ec5db8fbb408aea21c4059619f9</instance_id>
+        <instance_name>dev90350</instance_name>
+        <name>sys_hub_flow_5884631607b10110ac9bf8ed7c1ed015</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;After a month, I want to delete/reset the time a product has been in the application&lt;/description&gt;&lt;internal_name&gt;product_time&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Updated_1.current.sys_created_on","label":"Trigger➛Item Catalog Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_on"},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.Records","label":"1➛Item Catalog Records","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.Table","label":"1➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"648e5c42-2807-42c7-b262-b794bd1e584a.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2841d05d-2e10-4793-9eba-2f20e2aa1a44.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"12b9844e-2def-4928-9a5f-c976eb2faa08.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"12b9844e-2def-4928-9a5f-c976eb2faa08.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"12b9844e-2def-4928-9a5f-c976eb2faa08.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_created_by","label":"Trigger➛Item Catalog Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_by"},{"name":"Updated_1.current.username","label":"Trigger➛Item Catalog Record➛Uploaded by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"username"},{"name":"267eaf16-847e-4dc8-bc8b-df3ebf9da968.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"267eaf16-847e-4dc8-bc8b-df3ebf9da968.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.table_name","label":"Trigger➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Product Time Workflow&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 11:57:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Product Time Workflow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_5884631607b10110ac9bf8ed7c1ed015&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:56&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5884631607b10110ac9bf8ed7c1ed015"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5884631607b10110ac9bf8ed7c1ed015"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN28262b5607b10110ac9bf8ed7c1ed00d"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;28262b5607b10110ac9bf8ed7c1ed00d&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:55&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=28262b5607b10110ac9bf8ed7c1ed00d"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;28262b5607b10110ac9bf8ed7c1ed00d&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;20262b5607b10110ac9bf8ed7c1ed00f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;value&gt;x_762203_green_swa_catalog_data&lt;/value&gt;&lt;variable display_value="Table"&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;28262b5607b10110ac9bf8ed7c1ed00d&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;6c262b5607b10110ac9bf8ed7c1ed00e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=28262b5607b10110ac9bf8ed7c1ed00d"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT INd884631607b10110ac9bf8ed7c1ed017"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/id&gt;&lt;name&gt;Product Time &lt;/name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 11:57:38&lt;/sys_created_on&gt;&lt;sys_id&gt;d884631607b10110ac9bf8ed7c1ed017&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 11:57:38&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN28262b5607b10110ac9bf8ed7c1ed006,6426e75607b10110ac9bf8ed7c1ed0fb,ec262b5607b10110ac9bf8ed7c1ed000"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/model&gt;&lt;model_id&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;28262b5607b10110ac9bf8ed7c1ed006&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/model&gt;&lt;model_id&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;6426e75607b10110ac9bf8ed7c1ed0fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD2e90abe4790201107e3c0fe0477db32f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/model&gt;&lt;model_id&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;ec262b5607b10110ac9bf8ed7c1ed000&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:55&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN2c262b5607b10110ac9bf8ed7c1ed04c,bd54383a07b10110ac9bf8ed7c1ed05e,e8262b5607b10110ac9bf8ed7c1ed015"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Send Email"&gt;c1806bf4a70323008299b39f087901cb&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id&gt;ed3f9825-776d-41fa-9e87-0c57172fd1fd&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:56&lt;/sys_updated_on&gt;&lt;ui_id&gt;12b9844e-2def-4928-9a5f-c976eb2faa08&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2c262b5607b10110ac9bf8ed7c1ed04c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/document_key&gt;&lt;order&gt;7&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;38262b5607b10110ac9bf8ed7c1ed04f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 12:26:06&lt;/sys_updated_on&gt;&lt;value&gt;&amp;lt;p&amp;gt;Dear ${username},&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;We notice your ${products} has been in the catalogue for a month and unfortunately no one has taken it.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;What our next suggestion would be is to donate it to a local charity.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Kind regards,&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Green Swap Shop&amp;lt;/p&amp;gt;&lt;/value&gt;&lt;variable display_value="Body"&gt;ad806bf4a70323008299b39f087901f2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 13:44:42&lt;/sys_created_on&gt;&lt;sys_id&gt;ea9681f607f10110ac9bf8ed7c1ed0be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 13:44:42&lt;/sys_updated_on&gt;&lt;value&gt;sys_user&lt;/value&gt;&lt;variable display_value="Table"&gt;19806bf4a70323008299b39f087901d4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/document_key&gt;&lt;order&gt;6&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;f8262b5607b10110ac9bf8ed7c1ed04f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:46&lt;/sys_updated_on&gt;&lt;value&gt;Product Time&lt;/value&gt;&lt;variable display_value="Subject"&gt;5d806bf4a70323008299b39f087901ec&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=2c262b5607b10110ac9bf8ed7c1ed04c"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_body&lt;/field&gt;&lt;id&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;30262b5607b10110ac9bf8ed7c1ed04f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_subject&lt;/field&gt;&lt;id&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;b4262b5607b10110ac9bf8ed7c1ed04f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_to&lt;/field&gt;&lt;id&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;7c262b5607b10110ac9bf8ed7c1ed04e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value&gt;{{Updated_1.current.username}} &lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;f0262b5607b10110ac9bf8ed7c1ed04f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 13:44:42&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value&gt;{{Updated_1.current.username}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;2c262b5607b10110ac9bf8ed7c1ed04c&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 13:44:42&lt;/sys_created_on&gt;&lt;sys_id&gt;669681f607f10110ac9bf8ed7c1ed0be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 13:44:42&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Delete Record"&gt;c3e09916c31332002841b63b12d3aedf&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;ed3f9825-776d-41fa-9e87-0c57172fd1fd&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 12:24:55&lt;/sys_created_on&gt;&lt;sys_id&gt;bd54383a07b10110ac9bf8ed7c1ed05e&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:56&lt;/sys_updated_on&gt;&lt;ui_id&gt;267eaf16-847e-4dc8-bc8b-df3ebf9da968&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=bd54383a07b10110ac9bf8ed7c1ed05e"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=bd54383a07b10110ac9bf8ed7c1ed05e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;bd54383a07b10110ac9bf8ed7c1ed05e&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 12:24:55&lt;/sys_created_on&gt;&lt;sys_id&gt;b554383a07b10110ac9bf8ed7c1ed060&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 12:36:42&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf&lt;/table&gt;&lt;value&gt;{{Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;e8262b5607b10110ac9bf8ed7c1ed015&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:56&lt;/sys_updated_on&gt;&lt;ui_id&gt;648e5c42-2807-42c7-b262-b794bd1e584a&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=e8262b5607b10110ac9bf8ed7c1ed015"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;e8262b5607b10110ac9bf8ed7c1ed015&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;64262b5607b10110ac9bf8ed7c1ed017&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;value&gt;x_762203_green_swa_catalog_data&lt;/value&gt;&lt;variable display_value="Table"&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=e8262b5607b10110ac9bf8ed7c1ed015"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;e8262b5607b10110ac9bf8ed7c1ed015&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;20262b5607b10110ac9bf8ed7c1ed017&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 14:43:38&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;sys_created_onON{{Updated_1.current.sys_created_on}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;e8262b5607b10110ac9bf8ed7c1ed015&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;e0262b5607b10110ac9bf8ed7c1ed017&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT INec262b5607b10110ac9bf8ed7c1ed017,f4262b5607b10110ac9bf8ed7c1ed050"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;68262b5607b10110ac9bf8ed7c1ed017&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;ec262b5607b10110ac9bf8ed7c1ed017&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:56&lt;/sys_updated_on&gt;&lt;ui_id&gt;ed3f9825-776d-41fa-9e87-0c57172fd1fd&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ec262b5607b10110ac9bf8ed7c1ed017"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;ec262b5607b10110ac9bf8ed7c1ed017&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;28262b5607b10110ac9bf8ed7c1ed01b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 14:43:39&lt;/sys_updated_on&gt;&lt;value&gt;1 month old&lt;/value&gt;&lt;variable display_value="Condition Label"&gt;f0af19c1c32632002841b63b12d3aea3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=ec262b5607b10110ac9bf8ed7c1ed017"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;ec262b5607b10110ac9bf8ed7c1ed017&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;a4262b5607b10110ac9bf8ed7c1ed01b&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 14:43:39&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{648e5c42-2807-42c7-b262-b794bd1e584a.Records}}={{fd_transform:940c174e-9788-4d11-812c-5f9ad7ffce8a}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition_name&lt;/field&gt;&lt;id&gt;ec262b5607b10110ac9bf8ed7c1ed017&lt;/id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;e0262b5607b10110ac9bf8ed7c1ed01b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;block display_value=""&gt;70262b5607b10110ac9bf8ed7c1ed050&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Product Time Workflow"&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="End"&gt;d176605ea76103004f27b0d2187901c7&lt;/logic_definition&gt;&lt;order&gt;5&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;ed3f9825-776d-41fa-9e87-0c57172fd1fd&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:46&lt;/sys_created_on&gt;&lt;sys_id&gt;f4262b5607b10110ac9bf8ed7c1ed050&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 11:26:56&lt;/sys_updated_on&gt;&lt;ui_id&gt;b813712a-2b0d-4dae-a19a-9dff5713e74f&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f4262b5607b10110ac9bf8ed7c1ed050"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN0214d9f207350110ac9bf8ed7c1ed08f,4e14d9f207350110ac9bf8ed7c1ed08e,7b65b47a07b10110ac9bf8ed7c1ed009,8654383a07b10110ac9bf8ed7c1ed06d,b765b47a07b10110ac9bf8ed7c1ed009,c214d9f207350110ac9bf8ed7c1ed08f"/&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.run_start_time}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 14:43:39&lt;/sys_created_on&gt;&lt;sys_id&gt;0214d9f207350110ac9bf8ed7c1ed08f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 14:43:39&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;940c174e-9788-4d11-812c-5f9ad7ffce8a&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;1&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;7d6b8d30-31ce-4f13-b3d2-ce50b453361d&lt;/source_ui_id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 14:43:39&lt;/sys_created_on&gt;&lt;sys_id&gt;4e14d9f207350110ac9bf8ed7c1ed08e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 14:43:39&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"43c11eb173733300b61e66476bf6a77f","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"duration","label":"Duration","order":0,"attributes":{},"value":"1970-01-01 00:01:00","type":"glide_duration","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="add_time"&gt;b551d6b173733300b61e66476bf6a717&lt;/transform_definition_id&gt;&lt;ui_id&gt;b3af1c72-c789-477e-870b-c2f660af0938&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;1&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;7976c276-60ad-428b-9265-32c51335b063&lt;/source_ui_id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 12:29:41&lt;/sys_created_on&gt;&lt;sys_id&gt;7b65b47a07b10110ac9bf8ed7c1ed009&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 12:29:41&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"43c11eb173733300b61e66476bf6a77f","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"duration","label":"Duration","order":0,"attributes":{},"value":"1970-01-01 00:01:00","type":"glide_duration","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="add_time"&gt;b551d6b173733300b61e66476bf6a717&lt;/transform_definition_id&gt;&lt;ui_id&gt;363821aa-84ac-4ade-9c24-9b46af74f4f5&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.run_start_time}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 12:24:56&lt;/sys_created_on&gt;&lt;sys_id&gt;8654383a07b10110ac9bf8ed7c1ed06d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 12:24:56&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;7d6b8d30-31ce-4f13-b3d2-ce50b453361d&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;0&lt;/order&gt;&lt;prescription&gt;{{Updated_1.current}}&lt;/prescription&gt;&lt;source_ui_id/&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 12:29:41&lt;/sys_created_on&gt;&lt;sys_id&gt;b765b47a07b10110ac9bf8ed7c1ed009&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 12:29:41&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;&lt;transform_definition_id/&gt;&lt;ui_id&gt;7976c276-60ad-428b-9265-32c51335b063&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;&lt;attached_to&gt;5884631607b10110ac9bf8ed7c1ed015&lt;/attached_to&gt;&lt;extra_info/&gt;&lt;order&gt;1&lt;/order&gt;&lt;prescription/&gt;&lt;source_ui_id&gt;940c174e-9788-4d11-812c-5f9ad7ffce8a&lt;/source_ui_id&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-24 14:43:39&lt;/sys_created_on&gt;&lt;sys_id&gt;c214d9f207350110ac9bf8ed7c1ed08f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-24 14:43:39&lt;/sys_updated_on&gt;&lt;transform_compositions&gt;[{"id":"43c11eb173733300b61e66476bf6a77f","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"duration","label":"Duration","order":0,"attributes":{},"value":"1970-01-31 00:00:00","type":"glide_duration","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]&lt;/transform_compositions&gt;&lt;transform_definition_id display_value="add_time"&gt;b551d6b173733300b61e66476bf6a717&lt;/transform_definition_id&gt;&lt;ui_id&gt;ee9a2b81-cecd-4db8-ae79-3ec1c3f2aa21&lt;/ui_id&gt;&lt;/sys_hub_pill_compound&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015^sys_idNOT IN6826e75607b10110ac9bf8ed7c1ed0ff,a0262b5607b10110ac9bf8ed7c1ed005,a4262b5607b10110ac9bf8ed7c1ed00a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;6826e75607b10110ac9bf8ed7c1ed0ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;a0262b5607b10110ac9bf8ed7c1ed005&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_5884631607b10110ac9bf8ed7c1ed015&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 12:04:45&lt;/sys_created_on&gt;&lt;sys_id&gt;a4262b5607b10110ac9bf8ed7c1ed00a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-23 12:04:45&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1848756627</payload_hash>
+        <record_name>Product Time Workflow</record_name>
+        <reverted_from/>
+        <source>ba7fe60807314110ac9bf8ed7c1ed007</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-03-02 11:26:57</sys_created_on>
+        <sys_id>8790abe407020110ac9bf8ed7c1ed083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f4a621a400000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 11:26:57</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>cf90abe4b2020110870b3d6bca042782</update_guid>
+        <update_guid_history>cf90abe4b2020110870b3d6bca042782:1848756627,5e14d9f29b3501100237e1102e0dead5:925464440,0bcf05fe8ff10110c4c702903d0838bc:1835886627,a39b89fa53f10110914dd3f38741b863:723209793,e7e7093ad2f101106d1cf5767683900b:999718260,e5270df6c0f101105d9888b82cedf31e:210157426,329681f69bf10110b48546da3c59dae9:-355438242,3a07f0fa56b101103e3ef988e73e7060:1342483153,f765b47a34b1011039f096df3092674d:-76892559,a3943c3a29b1011003cbca32f6754a30:-2059472762,5a54383ae6b1011010de98703544718d:1961959239,cef90cf6173101102c86f11a1399646a:-1321994822,b8262b56b9b10110dcb053e0b1aa0574:1545966610,e084631602b10110e3a2c39a12a3761c:1471929317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-03-02 21:08:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>19139c26e831446684caa947d8cce1d1</sys_id>
+        <sys_metadata>5884631607b10110ac9bf8ed7c1ed015</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Product Time Workflow</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_5884631607b10110ac9bf8ed7c1ed015</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_5884631607b10110ac9bf8ed7c1ed015">8790abe407020110ac9bf8ed7c1ed083</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-03-02 21:08:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

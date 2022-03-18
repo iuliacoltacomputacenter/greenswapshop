@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="reservation_time" label="Reservation time " language="en" table="x_762203_green_swa_catalog_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reservation_time</element>
+            <help/>
+            <hint/>
+            <label>Reservation time </label>
+            <language>en</language>
+            <name>x_762203_green_swa_catalog_data</name>
+            <plural>Reservation time s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>iulia.colta</sys_created_by>
+            <sys_created_on>2022-02-14 15:36:06</sys_created_on>
+            <sys_id>c633db7b07650110ac9bf8ed7c1ed01b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Reservation time </sys_name>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_documentation_x_762203_green_swa_catalog_data_reservation_time_en</sys_update_name>
+            <sys_updated_by>iulia.colta</sys_updated_by>
+            <sys_updated_on>2022-03-08 12:27:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

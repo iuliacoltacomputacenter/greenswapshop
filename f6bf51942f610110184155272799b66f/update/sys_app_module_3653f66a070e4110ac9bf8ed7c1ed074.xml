@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Green Swap Shop">d4e6e5102fa10110184155272799b694</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_762203_green_swa_catalog_data">status=rejected^EQ<item display_value="Rejected" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="rejected"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Rejected Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_762203_green_swa_catalog_data</name>
+        <order>8</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_762203_green_swa.green_swap_shop_user,x_762203_green_swa.gss_user_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-08 13:19:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3653f66a070e4110ac9bf8ed7c1ed074</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rejected Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_app_module_3653f66a070e4110ac9bf8ed7c1ed074</sys_update_name>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-03-16 16:07:56</sys_updated_on>
+        <timeline_page/>
+        <title>Rejected Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

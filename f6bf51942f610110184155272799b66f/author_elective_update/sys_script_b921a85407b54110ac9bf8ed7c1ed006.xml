@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_762203_green_swa_catalog_data</collection>
+        <condition>State | is |Taken</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_762203_green_swa_catalog_data">status=taken^EQ<item display_value="Taken" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="taken"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>GSS points rule</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+ // var inc = current.related_incident //sys_id
+// var grINC = newglideRecord ('incident');
+// grINC.addQuery('sys_id', INC);
+// grINC.query();
+// if(grINC.next());
+//if found 
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-16 16:41:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b921a85407b54110ac9bf8ed7c1ed006</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>GSS points rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_script_b921a85407b54110ac9bf8ed7c1ed006</sys_update_name>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-17 10:04:17</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=b921a85407b54110ac9bf8ed7c1ed006"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>fe9b6ec5db8fbb408aea21c4059619f9</instance_id>
+        <instance_name>dev90350</instance_name>
+        <name>sys_script_b921a85407b54110ac9bf8ed7c1ed006</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_762203_green_swa_catalog_data&lt;/collection&gt;&lt;condition&gt;State | is |Taken&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_762203_green_swa_catalog_data"&gt;status=taken^EQ&lt;item display_value="Taken" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="taken"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;GSS points rule&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+ // var inc = current.related_incident //sys_id
+// var grINC = newglideRecord ('incident');
+// grINC.addQuery('sys_id', INC);
+// grINC.query();
+// if(grINC.next());
+//if found 
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ali.mohammed&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-16 16:41:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b921a85407b54110ac9bf8ed7c1ed006&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;GSS points rule&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_b921a85407b54110ac9bf8ed7c1ed006&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ali.mohammed&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-17 10:04:17&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b921a85407b54110ac9bf8ed7c1ed006"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2122727645</payload_hash>
+        <record_name>GSS points rule</record_name>
+        <reverted_from/>
+        <source>ba7fe60807314110ac9bf8ed7c1ed007</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-17 10:04:17</sys_created_on>
+        <sys_id>ed01d8e007718110ac9bf8ed7c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f0723c0540000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-17 10:04:17</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>6501d8e031718110ed33c33a16f22f2f</update_guid>
+        <update_guid_history>6501d8e031718110ed33c33a16f22f2f:-2122727645,9f20dca007718110bc99b82248933cde:210101411,479d40604e7181100294d03d69bdec22:-12590135,381c0cec16318110f0c6856dc7b5bc11:-1508577220,6c5b40ecc631811037c38a6f76fc4ecf:-773015443,d92b4cac56318110080d31d5d1a1ecbd:-591244314,5a464ca8e4318110bc1184b674acf6db:304319795,50f500e8e5318110258799fdcc8e691b:-1406471975,f6a4cc6849318110ebb9a1f3efd4fcf0:1537273757,b694cc68f6318110be526439b8017e2b:-714147044,33b86c5872b541102b1231ab8bdf1e5b:1232396713,3a86a05862b5411045c1d09fe425048f:1055214103,54a268943db5411010890b10746e542a:-1812947868,9042e4946eb54110d1ae23b1acf067fe:1762703474</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-17 10:08:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>3bc85e3ddab7476cbf77a9ad92cb9610</sys_id>
+        <sys_metadata>b921a85407b54110ac9bf8ed7c1ed006</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GSS points rule</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="Item Catalog">ce33db7b07650110ac9bf8ed7c1ed005</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_script_b921a85407b54110ac9bf8ed7c1ed006</sys_update_name>
+        <sys_update_version display_value="sys_script_b921a85407b54110ac9bf8ed7c1ed006">ed01d8e007718110ac9bf8ed7c1ed02f</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-17 10:08:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

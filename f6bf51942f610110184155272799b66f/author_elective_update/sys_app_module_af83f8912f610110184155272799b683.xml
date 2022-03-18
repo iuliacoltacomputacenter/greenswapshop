@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Favourites</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_762203_green_swa_catalog_data</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_762203_green_swa.green_swap_shop_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-07 10:15:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af83f8912f610110184155272799b683</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Favourites</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_app_module_af83f8912f610110184155272799b683</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-02-07 10:56:36</sys_updated_on>
+        <timeline_page/>
+        <title>Favourites</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f9302f06dba41780439ef70fbf96199c</instance_id>
+        <instance_name>dev51127</instance_name>
+        <name>sys_app_module_af83f8912f610110184155272799b683</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Favourites</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_762203_green_swa_catalog_data</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_762203_green_swa.green_swap_shop_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>ali.mohammed</sys_created_by><sys_created_on>2022-02-07 10:15:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>af83f8912f610110184155272799b683</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Favourites</sys_name><sys_overrides/><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sys_app_module_af83f8912f610110184155272799b683</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-02-07 10:56:36</sys_updated_on><timeline_page/><title>Favourites</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-381751207</payload_hash>
+        <record_name>Favourites</record_name>
+        <reverted_from/>
+        <source>babf51942f610110184155272799b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-07 13:43:55</sys_created_on>
+        <sys_id>dd632d592fe10110184155272799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed46d3ac60000001</sys_recorded_at>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-07 13:43:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>921db0d959610110b12933118b13afc2</update_guid>
+        <update_guid_history>921db0d959610110b12933118b13afc2:1177822100,921db0d959610110b12933118b13afc2:1177822100,80c4b015e26101105576a7e77358fd12:1987483282,35b334d10a610110cbbca5e2fa927c8f:-246785216</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a009219d2fe10110184155272799b67b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ali.mohammed</sys_created_by>
+        <sys_created_on>2022-02-07 14:08:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>40b87777aa094b0cb018f6ec498bdb09</sys_id>
+        <sys_metadata>af83f8912f610110184155272799b683</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Favourites</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_app_module_af83f8912f610110184155272799b683</sys_update_name>
+        <sys_update_version display_value="sys_app_module_af83f8912f610110184155272799b683">dd632d592fe10110184155272799b64c</sys_update_version>
+        <sys_updated_by>ali.mohammed</sys_updated_by>
+        <sys_updated_on>2022-02-07 14:08:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
