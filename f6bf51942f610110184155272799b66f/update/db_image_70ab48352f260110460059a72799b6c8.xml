@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>200</height>
+        <image>57cbc8352f260110460059a72799b6f1</image>
+        <name>1552127-200.png</name>
+        <size_bytes>2514</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 13:40:50</sys_created_on>
+        <sys_id>70ab48352f260110460059a72799b6c8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>1552127-200.png</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>db_image_70ab48352f260110460059a72799b6c8</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 13:41:28</sys_updated_on>
+        <thumbnail/>
+        <width>200</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>9e8e446bf9ce34d55d82894ee3d44515771098d6512803be79344e79b00b2610</hash>
+        <image_height>200</image_height>
+        <image_width>200</image_width>
+        <size_bytes>2514</size_bytes>
+        <size_compressed>2445</size_compressed>
+        <state>available</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 13:40:58</sys_created_on>
+        <sys_id>57cbc8352f260110460059a72799b6f1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 13:40:59</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>70ab48352f260110460059a72799b6c8</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="57cbc8352f260110460059a72799b6f1">57cbc8352f260110460059a72799b6f1</sys_attachment>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 13:40:58</sys_created_on>
+        <sys_id>97cbc8352f260110460059a72799b6f1</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3248</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="57cbc8352f260110460059a72799b6f1">57cbc8352f260110460059a72799b6f1</sys_attachment>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 13:40:58</sys_created_on>
+        <sys_id>1bcbc8352f260110460059a72799b6f1</sys_id>
+    </sys_attachment_doc>
+</record_update>

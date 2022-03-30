@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_762203_green_swa.Use</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Use</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 13:58:28</sys_created_on>
+        <sys_id>def58b512fa60110460059a72799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762203_green_swa.Use</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_user_role_def58b512fa60110460059a72799b6c4</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:58:28</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f8c430eddb29005c387021c4059619a0</instance_id>
+        <instance_name>dev95743</instance_name>
+        <name>sys_user_role_def58b512fa60110460059a72799b6c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_762203_green_swa.Use</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>Use</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>florian.franke</sys_created_by><sys_created_on>2022-03-29 13:58:28</sys_created_on><sys_id>def58b512fa60110460059a72799b6c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_762203_green_swa.Use</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sys_user_role_def58b512fa60110460059a72799b6c4</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-03-29 13:58:28</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-814842058</payload_hash>
+        <record_name>x_762203_green_swa.Use</record_name>
+        <reverted_from/>
+        <source>29a239992f220110460059a72799b640</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 13:58:28</sys_created_on>
+        <sys_id>463603912fa60110460059a72799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd5f886820000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:58:28</sys_updated_on>
+        <type>Role</type>
+        <update_guid>8e36039143a6011042ce01ed4b7fbb95</update_guid>
+        <update_guid_history>8e36039143a6011042ce01ed4b7fbb95:-814842058</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_762203_green_swa.Use">8f8b4f952fa60110460059a72799b639</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 14:21:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>085269ead2d944c18dde27a4f6b970f9</sys_id>
+        <sys_metadata>def58b512fa60110460059a72799b6c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762203_green_swa.Use</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_user_role_def58b512fa60110460059a72799b6c4</sys_update_name>
+        <sys_update_version display_value="sys_user_role_def58b512fa60110460059a72799b6c4">463603912fa60110460059a72799b696</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 14:21:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

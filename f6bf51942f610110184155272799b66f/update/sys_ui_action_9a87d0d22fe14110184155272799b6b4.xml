@@ -31,8 +31,9 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[current.status = 'reserved';  
-current.update(); // update the opened incident to save the changed state
-action.setRedirectUrl(current); //redirect back to open incident.]]></script>
+current.reserved_by = gs.getUserID();
+current.update(); // update the opened item catalog record to save the changed state
+action.setRedirectUrl(current); //redirect back to open item catalog record.]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -43,7 +44,7 @@ action.setRedirectUrl(current); //redirect back to open incident.]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a87d0d22fe14110184155272799b6b4</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Reserve Item </sys_name>
         <sys_overrides/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -51,7 +52,7 @@ action.setRedirectUrl(current); //redirect back to open incident.]]></script>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sys_ui_action_9a87d0d22fe14110184155272799b6b4</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-02-21 11:23:26</sys_updated_on>
+        <sys_updated_on>2022-03-29 14:09:30</sys_updated_on>
         <table>x_762203_green_swa_catalog_data</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

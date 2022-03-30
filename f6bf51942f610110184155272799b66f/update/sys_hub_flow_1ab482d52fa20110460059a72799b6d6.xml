@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch5-12-15-2021_01-04-2022_2221.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Approval for every request of upload ne w item</description>
+        <internal_name>approval_gss</internal_name>
+        <label_cache>[{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.e154bdd92f220110460059a72799b68b}}","label":"Team A","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.record","label":"2➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.table_name","label":"2➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master_snapshot>a0454ed52fa20110460059a72799b604</master_snapshot>
+        <name>Approval GSS</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>527ec6ea078a4110ac9bf8ed7c1ed0e2</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:12:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ab482d52fa20110460059a72799b6d6</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Approval GSS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_hub_flow_1ab482d52fa20110460059a72799b6d6</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ab482d52fa20110460059a72799b6d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1ab482d52fa20110460059a72799b6d6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_762203_green_swa_catalog_data">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-08 10:35:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>527ec6ea078a4110ac9bf8ed7c1ed0e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"1daff2d92f660110460059a72799b6d3","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>1ab482d52fa20110460059a72799b6d6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 13:29:45</sys_created_on>
+        <sys_id>1daff2d92f660110460059a72799b6d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:45</sys_updated_on>
+        <trigger display_value="">527ec6ea078a4110ac9bf8ed7c1ed0e2</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>1daff2d92f660110460059a72799b6d3</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 13:29:45</sys_created_on>
+        <sys_id>91aff2d92f660110460059a72799b6d5</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN1daff2d92f660110460059a72799b6d3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN24254ad52fa20110460059a72799b6fe"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>24254ad52fa20110460059a72799b6fe</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:46</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=24254ad52fa20110460059a72799b6fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>24254ad52fa20110460059a72799b6fe</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>20258ad52fa20110460059a72799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>24254ad52fa20110460059a72799b6fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>a4254ad52fa20110460059a72799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN5eb482d52fa20110460059a72799b6d8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1ab482d52fa20110460059a72799b6d6</id>
+        <name>Approval GSS</name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:12:19</sys_created_on>
+        <sys_id>5eb482d52fa20110460059a72799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:12:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN10254ad52fa20110460059a72799b6e4,a0254ad52fa20110460059a72799b6eb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</model>
+        <model_id>1ab482d52fa20110460059a72799b6d6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1ab482d52fa20110460059a72799b6d6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:06</sys_created_on>
+        <sys_id>10254ad52fa20110460059a72799b6e4</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</model>
+        <model_id>1ab482d52fa20110460059a72799b6d6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1ab482d52fa20110460059a72799b6d6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>a0254ad52fa20110460059a72799b6eb</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN965782992fa20110460059a72799b6d8,ac258ad52fa20110460059a72799b605,b8cbcedd2fa20110460059a72799b6b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <order>3</order>
+        <parent_ui_id>2886b8db-cb6b-437c-bb61-7934a35fac18</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:23:47</sys_created_on>
+        <sys_id>965782992fa20110460059a72799b6d8</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:30:22</sys_updated_on>
+        <ui_id>37e94af0-1291-4e9f-b2af-00cf0adf9c4a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=965782992fa20110460059a72799b6d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>965782992fa20110460059a72799b6d8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:23:47</sys_created_on>
+        <sys_id>565782992fa20110460059a72799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:23:47</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>965782992fa20110460059a72799b6d8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:23:47</sys_created_on>
+        <sys_id>9e5782992fa20110460059a72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:23:47</sys_updated_on>
+        <value>status=available</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=965782992fa20110460059a72799b6d8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>965782992fa20110460059a72799b6d8</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:23:47</sys_created_on>
+        <sys_id>5a5782992fa20110460059a72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:23:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>965782992fa20110460059a72799b6d8</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:23:47</sys_created_on>
+        <sys_id>925782992fa20110460059a72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:23:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>965782992fa20110460059a72799b6d8</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:23:47</sys_created_on>
+        <sys_id>1e5782992fa20110460059a72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:23:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>ac258ad52fa20110460059a72799b605</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:30:22</sys_updated_on>
+        <ui_id>94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ac258ad52fa20110460059a72799b605"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac258ad52fa20110460059a72799b605</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>b8258ad52fa20110460059a72799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ac258ad52fa20110460059a72799b605</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>f4258ad52fa20110460059a72799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ac258ad52fa20110460059a72799b605"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>ac258ad52fa20110460059a72799b605</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>b0258ad52fa20110460059a72799b609</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.e154bdd92f220110460059a72799b68b}}]OrRejectsAnyG[{{static.e154bdd92f220110460059a72799b68b}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>ac258ad52fa20110460059a72799b605</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>fc258ad52fa20110460059a72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ac258ad52fa20110460059a72799b605</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>b4258ad52fa20110460059a72799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ac258ad52fa20110460059a72799b605</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>74258ad52fa20110460059a72799b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <order>6</order>
+        <parent_ui_id>fe84a934-739d-4015-8030-ea026bdbf92b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>b8cbcedd2fa20110460059a72799b6b5</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:30:22</sys_updated_on>
+        <ui_id>15720a44-b176-4feb-814d-6d85ac08b17e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8cbcedd2fa20110460059a72799b6b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8cbcedd2fa20110460059a72799b6b5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>b4cbcedd2fa20110460059a72799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:04</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8cbcedd2fa20110460059a72799b6b5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>fccbcedd2fa20110460059a72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:04</sys_updated_on>
+        <value>status=rejected</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b8cbcedd2fa20110460059a72799b6b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b8cbcedd2fa20110460059a72799b6b5</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>b8cbcedd2fa20110460059a72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b8cbcedd2fa20110460059a72799b6b5</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>f0cbcedd2fa20110460059a72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b8cbcedd2fa20110460059a72799b6b5</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>7ccbcedd2fa20110460059a72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN00d60a592fa20110460059a72799b63b,0ceb86112fe20110460059a72799b6d3,38cbcedd2fa20110460059a72799b6af,48d60a592fa20110460059a72799b647"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c0d60a592fa20110460059a72799b63a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:27</sys_created_on>
+        <sys_id>00d60a592fa20110460059a72799b63b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:46</sys_updated_on>
+        <ui_id>2886b8db-cb6b-437c-bb61-7934a35fac18</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=00d60a592fa20110460059a72799b63b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>00d60a592fa20110460059a72799b63b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:27</sys_created_on>
+        <sys_id>0cd60a592fa20110460059a72799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:21:27</sys_updated_on>
+        <value>Request Item Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=00d60a592fa20110460059a72799b63b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>00d60a592fa20110460059a72799b63b</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:27</sys_created_on>
+        <sys_id>88d60a592fa20110460059a72799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:21:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>00d60a592fa20110460059a72799b63b</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:27</sys_created_on>
+        <sys_id>c0d60a592fa20110460059a72799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:21:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">84eb86112fe20110460059a72799b6d3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fe84a934-739d-4015-8030-ea026bdbf92b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:34</sys_created_on>
+        <sys_id>0ceb86112fe20110460059a72799b6d3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:47</sys_updated_on>
+        <ui_id>e66e2a71-c837-44eb-b95a-fd72a2cf98cd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0ceb86112fe20110460059a72799b6d3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bccbcedd2fa20110460059a72799b6ae</block>
+        <comment/>
+        <connected_to>2886b8db-cb6b-437c-bb61-7934a35fac18</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:04</sys_created_on>
+        <sys_id>38cbcedd2fa20110460059a72799b6af</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:47</sys_updated_on>
+        <ui_id>fe84a934-739d-4015-8030-ea026bdbf92b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=38cbcedd2fa20110460059a72799b6af"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c0d60a592fa20110460059a72799b647</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2886b8db-cb6b-437c-bb61-7934a35fac18</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:27</sys_created_on>
+        <sys_id>48d60a592fa20110460059a72799b647</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:46</sys_updated_on>
+        <ui_id>61117852-83c9-4742-9033-ae760fd6ed42</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=48d60a592fa20110460059a72799b647"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1ab482d52fa20110460059a72799b6d6^sys_idNOT IN68254ad52fa20110460059a72799b6fb,e4254ad52fa20110460059a72799b6e9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1ab482d52fa20110460059a72799b6d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>68254ad52fa20110460059a72799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1ab482d52fa20110460059a72799b6d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:07</sys_created_on>
+        <sys_id>e4254ad52fa20110460059a72799b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1ab482d52fa20110460059a72799b6d6^sys_idNOT IN81454ed52fa20110460059a72799b656"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"81454ed52fa20110460059a72799b656","name":"plan","plan_signature":null}}</plan>
+        <plan_id>1ab482d52fa20110460059a72799b6d6</plan_id>
+        <snapshot>c2cff6d92f660110460059a72799b69b</snapshot>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81454ed52fa20110460059a72799b656</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:45</sys_updated_on>
+        <trigger display_value="">527ec6ea078a4110ac9bf8ed7c1ed0e2</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Approval for every request of upload ne w item</description>
+        <internal_name>approval_gss</internal_name>
+        <label_cache>[{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"15720a44-b176-4feb-814d-6d85ac08b17e.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ca699f53-435f-4f8f-8b6b-6cc9ce0dfd53.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f979546f-3d57-47e1-888a-bbd3ea273ab3.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37e94af0-1291-4e9f-b2af-00cf0adf9c4a.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"b1955ebb-94ed-4e55-a2ae-19e42c55e382.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.e154bdd92f220110460059a72799b68b}}","label":"Team A","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.record","label":"2➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.table_name","label":"2➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"8b16c8e7-9627-4fa8-88f4-9841ea474f2e.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Approval GSS</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Approval GSS">1ab482d52fa20110460059a72799b6d6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0454ed52fa20110460059a72799b604</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0454ed52fa20110460059a72799b604"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a0454ed52fa20110460059a72799b604"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a0454ed52fa20110460059a72799b604^sys_idNOT INf4454ed52fa20110460059a72799b642"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>f4454ed52fa20110460059a72799b642</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:45</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4454ed52fa20110460059a72799b642"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f4454ed52fa20110460059a72799b642</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>bc454ed52fa20110460059a72799b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f4454ed52fa20110460059a72799b642</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>f8454ed52fa20110460059a72799b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a0454ed52fa20110460059a72799b604^sys_idNOT IN68454ed52fa20110460059a72799b604"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a0454ed52fa20110460059a72799b604</id>
+        <name>Approval GSS</name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:39</sys_created_on>
+        <sys_id>68454ed52fa20110460059a72799b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=a0454ed52fa20110460059a72799b604^sys_idNOT IN68454ed52fa20110460059a72799b605,a0454ed52fa20110460059a72799b62d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval GSS">a0454ed52fa20110460059a72799b604</model>
+        <model_id>a0454ed52fa20110460059a72799b604</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a0454ed52fa20110460059a72799b604</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:40</sys_created_on>
+        <sys_id>68454ed52fa20110460059a72799b605</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Approval GSS">a0454ed52fa20110460059a72799b604</model>
+        <model_id>a0454ed52fa20110460059a72799b604</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a0454ed52fa20110460059a72799b604</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:40</sys_created_on>
+        <sys_id>a0454ed52fa20110460059a72799b62d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a0454ed52fa20110460059a72799b604^sys_idNOT INa2cb82112fe20110460059a72799b653,bc454ed52fa20110460059a72799b63f,d26746992fa20110460059a72799b625"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <order>6</order>
+        <parent_ui_id>fe84a934-739d-4015-8030-ea026bdbf92b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:12</sys_created_on>
+        <sys_id>a2cb82112fe20110460059a72799b653</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <ui_id>15720a44-b176-4feb-814d-6d85ac08b17e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2cb82112fe20110460059a72799b653"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2cb82112fe20110460059a72799b653</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:12</sys_created_on>
+        <sys_id>becb82112fe20110460059a72799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:12</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2cb82112fe20110460059a72799b653</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:12</sys_created_on>
+        <sys_id>facb82112fe20110460059a72799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:12</sys_updated_on>
+        <value>status=rejected</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a2cb82112fe20110460059a72799b653"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a2cb82112fe20110460059a72799b653</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:12</sys_created_on>
+        <sys_id>b6cb82112fe20110460059a72799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a2cb82112fe20110460059a72799b653</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:12</sys_created_on>
+        <sys_id>f2cb82112fe20110460059a72799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a2cb82112fe20110460059a72799b653</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:12</sys_created_on>
+        <sys_id>7acb82112fe20110460059a72799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:43:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>bc454ed52fa20110460059a72799b63f</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <ui_id>94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc454ed52fa20110460059a72799b63f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bc454ed52fa20110460059a72799b63f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>30454ed52fa20110460059a72799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bc454ed52fa20110460059a72799b63f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>f0454ed52fa20110460059a72799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bc454ed52fa20110460059a72799b63f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>bc454ed52fa20110460059a72799b63f</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>f8454ed52fa20110460059a72799b641</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.e154bdd92f220110460059a72799b68b}}]OrRejectsAnyG[{{static.e154bdd92f220110460059a72799b68b}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>bc454ed52fa20110460059a72799b63f</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>38454ed52fa20110460059a72799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bc454ed52fa20110460059a72799b63f</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>74454ed52fa20110460059a72799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>bc454ed52fa20110460059a72799b63f</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:41</sys_created_on>
+        <sys_id>bc454ed52fa20110460059a72799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <order>3</order>
+        <parent_ui_id>2886b8db-cb6b-437c-bb61-7934a35fac18</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:24:04</sys_created_on>
+        <sys_id>d26746992fa20110460059a72799b625</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <ui_id>37e94af0-1291-4e9f-b2af-00cf0adf9c4a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d26746992fa20110460059a72799b625"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d26746992fa20110460059a72799b625</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:24:04</sys_created_on>
+        <sys_id>1e6746992fa20110460059a72799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:24:04</sys_updated_on>
+        <value>status=available</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d26746992fa20110460059a72799b625</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:24:04</sys_created_on>
+        <sys_id>de6746992fa20110460059a72799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:24:04</sys_updated_on>
+        <value>x_762203_green_swa_catalog_data</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d26746992fa20110460059a72799b625"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d26746992fa20110460059a72799b625</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:24:04</sys_created_on>
+        <sys_id>d66746992fa20110460059a72799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:24:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d26746992fa20110460059a72799b625</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:24:04</sys_created_on>
+        <sys_id>166746992fa20110460059a72799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:24:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d26746992fa20110460059a72799b625</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:24:04</sys_created_on>
+        <sys_id>9a6746992fa20110460059a72799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:24:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a0454ed52fa20110460059a72799b604^sys_idNOT INafd68a592fa20110460059a72799b60d,bacb82112fe20110460059a72799b679,bfebca112fe20110460059a72799b6d7,e3d68a592fa20110460059a72799b612"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c0d60a592fa20110460059a72799b63a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:41</sys_created_on>
+        <sys_id>afd68a592fa20110460059a72799b60d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <ui_id>2886b8db-cb6b-437c-bb61-7934a35fac18</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=afd68a592fa20110460059a72799b60d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>afd68a592fa20110460059a72799b60d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:41</sys_created_on>
+        <sys_id>2bd68a592fa20110460059a72799b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:21:41</sys_updated_on>
+        <value>Request Item Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=afd68a592fa20110460059a72799b60d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>afd68a592fa20110460059a72799b60d</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:41</sys_created_on>
+        <sys_id>a7d68a592fa20110460059a72799b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:21:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{94ebe8c6-0b90-479c-8a5e-1c64eb6d4f32.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>afd68a592fa20110460059a72799b60d</id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:41</sys_created_on>
+        <sys_id>e3d68a592fa20110460059a72799b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:21:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">bccbcedd2fa20110460059a72799b6ae</block>
+        <comment/>
+        <connected_to>2886b8db-cb6b-437c-bb61-7934a35fac18</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:13</sys_created_on>
+        <sys_id>bacb82112fe20110460059a72799b679</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <ui_id>fe84a934-739d-4015-8030-ea026bdbf92b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bacb82112fe20110460059a72799b679"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">84eb86112fe20110460059a72799b6d3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fe84a934-739d-4015-8030-ea026bdbf92b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:43:49</sys_created_on>
+        <sys_id>bfebca112fe20110460059a72799b6d7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:43</sys_updated_on>
+        <ui_id>e66e2a71-c837-44eb-b95a-fd72a2cf98cd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bfebca112fe20110460059a72799b6d7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c0d60a592fa20110460059a72799b647</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval GSS">a0454ed52fa20110460059a72799b604</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2886b8db-cb6b-437c-bb61-7934a35fac18</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:21:41</sys_created_on>
+        <sys_id>e3d68a592fa20110460059a72799b612</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 13:29:42</sys_updated_on>
+        <ui_id>61117852-83c9-4742-9033-ae760fd6ed42</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e3d68a592fa20110460059a72799b612"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a0454ed52fa20110460059a72799b604^sys_idNOT IN30454ed52fa20110460059a72799b633,a0454ed52fa20110460059a72799b629"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a0454ed52fa20110460059a72799b604</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:40</sys_created_on>
+        <sys_id>30454ed52fa20110460059a72799b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a0454ed52fa20110460059a72799b604</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 09:14:40</sys_created_on>
+        <sys_id>a0454ed52fa20110460059a72799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:14:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>1ab482d52fa20110460059a72799b6d6</sys_id>
+        <latest_snapshot>a0454ed52fa20110460059a72799b604</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

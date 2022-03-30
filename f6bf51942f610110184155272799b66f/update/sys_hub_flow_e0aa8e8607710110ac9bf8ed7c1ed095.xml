@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Approval instance for a new item uploaded</description>
         <internal_name>approval_upload_new_item</internal_name>
-        <label_cache>[{"name":"73eed737-0a30-488a-b493-9930c44f685c.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.fb3ead0e2f510110184155272799b697}}","label":"TeamA","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.5fe82d0a2f510110184155272799b668}}","label":"Team A ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_by","label":"Trigger➛Item Catalog Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_by"},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_by","label":"Trigger➛Item Catalog Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_by"},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.5fe82d0a2f510110184155272799b668}}","label":"Team A ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.fb3ead0e2f510110184155272799b697}}","label":"TeamA","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>3d7ec6ea078a4110ac9bf8ed7c1ed059</master_snapshot>
         <name>Approval upload new item</name>
         <natlang/>
@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-02-22 10:46:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e0aa8e8607710110ac9bf8ed7c1ed095</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Approval upload new item</sys_name>
         <sys_overrides/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sys_hub_flow_e0aa8e8607710110ac9bf8ed7c1ed095</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 11:30:43</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:37:13</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e0aa8e8607710110ac9bf8ed7c1ed095"/>
@@ -69,30 +69,30 @@
         <table>x_762203_green_swa_catalog_data</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"ea7ec6ea078a4110ac9bf8ed7c1ed0e2","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <active>false</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"f82a8e5d2fa20110460059a72799b67e","name":"trigger_runner","type":"java.util.HashMap"}</data>
         <identifier>e0aa8e8607710110ac9bf8ed7c1ed095</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-08 10:35:57</sys_created_on>
-        <sys_id>ea7ec6ea078a4110ac9bf8ed7c1ed0e2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_created_on>2022-03-29 09:35:59</sys_created_on>
+        <sys_id>f82a8e5d2fa20110460059a72799b67e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:37:34</sys_updated_on>
         <trigger display_value="">527ec6ea078a4110ac9bf8ed7c1ed0e2</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
-        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>ea7ec6ea078a4110ac9bf8ed7c1ed0e2</document_id>
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
+        <document_id>f82a8e5d2fa20110460059a72799b67e</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
-        <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-08 10:35:57</sys_created_on>
-        <sys_id>6a7ec6ea078a4110ac9bf8ed7c1ed0e3</sys_id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-29 13:29:45</sys_created_on>
+        <sys_id>9daff2d92f660110460059a72799b6d4</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e0aa8e8607710110ac9bf8ed7c1ed095^sys_idNOT INea7ec6ea078a4110ac9bf8ed7c1ed0e2"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e0aa8e8607710110ac9bf8ed7c1ed095^sys_idNOT INf82a8e5d2fa20110460059a72799b67e"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=e0aa8e8607710110ac9bf8ed7c1ed095^sys_idNOT IN1f0e4a4a07710110ac9bf8ed7c1ed0bf"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -103,10 +103,10 @@
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-02-22 11:01:26</sys_created_on>
         <sys_id>1f0e4a4a07710110ac9bf8ed7c1ed0bf</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:59</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -216,14 +216,14 @@
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-02-22 11:01:25</sys_created_on>
         <sys_id>430e4a4a07710110ac9bf8ed7c1ed0b2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -297,14 +297,14 @@
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-02-22 11:01:26</sys_created_on>
         <sys_id>df0e4a4a07710110ac9bf8ed7c1ed0b8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -332,10 +332,10 @@
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-02-22 14:19:52</sys_created_on>
         <sys_id>067b7ace07f10110ac9bf8ed7c1ed017</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:36:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:36:32</sys_updated_on>
         <ui_id>3e02158d-54ba-4e73-b045-880c69ce79fd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=067b7ace07f10110ac9bf8ed7c1ed017"/>
@@ -443,10 +443,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:00:32</sys_created_on>
         <sys_id>7b560626078a4110ac9bf8ed7c1ed0ba</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:36:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:36:33</sys_updated_on>
         <ui_id>73eed737-0a30-488a-b493-9930c44f685c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b560626078a4110ac9bf8ed7c1ed0ba"/>
@@ -530,10 +530,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:26:25</sys_created_on>
         <sys_id>be4c826a078a4110ac9bf8ed7c1ed0b9</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:36:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-03-29 09:36:33</sys_updated_on>
         <ui_id>b3c748d2-b86d-4a47-bcc8-05f135736a87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be4c826a078a4110ac9bf8ed7c1ed0b9"/>
@@ -604,7 +604,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=e0aa8e8607710110ac9bf8ed7c1ed095^sys_idNOT IN9f0e4a4a07710110ac9bf8ed7c1ed0cc,bb560626078a4110ac9bf8ed7c1ed0c0,c90e8eaa078a4110ac9bf8ed7c1ed07b,f3560626078a4110ac9bf8ed7c1ed0be"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">530e4a4a07710110ac9bf8ed7c1ed0cc</block>
+        <block display_value="">f51a0e5d2fa20110460059a72799b66d</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -625,10 +625,10 @@
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-02-22 11:01:26</sys_created_on>
         <sys_id>9f0e4a4a07710110ac9bf8ed7c1ed0cc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:36:00</sys_updated_on>
         <ui_id>6096e085-1f31-4af0-865a-120fd1f8ae0a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -674,7 +674,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">f7560626078a4110ac9bf8ed7c1ed0c0</block>
+        <block display_value="">461a0e5d2fa20110460059a72799b679</block>
         <comment/>
         <connected_to>6096e085-1f31-4af0-865a-120fd1f8ae0a</connected_to>
         <decision_table/>
@@ -695,10 +695,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:00:32</sys_created_on>
         <sys_id>bb560626078a4110ac9bf8ed7c1ed0c0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:36:01</sys_updated_on>
         <ui_id>145514fb-e99e-445a-ab01-c5628eedc0f9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -744,7 +744,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">010e8eaa078a4110ac9bf8ed7c1ed07b</block>
+        <block display_value="">061a0e5d2fa20110460059a72799b67f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -764,17 +764,17 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:33:56</sys_created_on>
         <sys_id>c90e8eaa078a4110ac9bf8ed7c1ed07b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:58</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:36:02</sys_updated_on>
         <ui_id>63045922-b49f-495b-a801-baca0c74fadc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=c90e8eaa078a4110ac9bf8ed7c1ed07b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">3f560626078a4110ac9bf8ed7c1ed0bd</block>
+        <block display_value="">711a0e5d2fa20110460059a72799b674</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -794,10 +794,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:00:32</sys_created_on>
         <sys_id>f3560626078a4110ac9bf8ed7c1ed0be</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:36:00</sys_updated_on>
         <ui_id>b0c0b300-473c-42ca-9da0-21bdef78dc03</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -855,17 +855,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e67ec6ea078a4110ac9bf8ed7c1ed0e4","name":"plan","plan_signature":null}}</plan>
         <plan_id>e0aa8e8607710110ac9bf8ed7c1ed095</plan_id>
-        <snapshot>0a9ecaea078a4110ac9bf8ed7c1ed09b</snapshot>
+        <snapshot>dc4a829d2fa20110460059a72799b6a8</snapshot>
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e67ec6ea078a4110ac9bf8ed7c1ed0e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:59</sys_updated_on>
         <trigger display_value="">527ec6ea078a4110ac9bf8ed7c1ed0e2</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -879,15 +879,15 @@
         <copied_from_name/>
         <description>Approval instance for a new item uploaded</description>
         <internal_name>approval_upload_new_item</internal_name>
-        <label_cache>[{"name":"73eed737-0a30-488a-b493-9930c44f685c.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.fb3ead0e2f510110184155272799b697}}","label":"TeamA","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.5fe82d0a2f510110184155272799b668}}","label":"Team A ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_by","label":"Trigger➛Item Catalog Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_by"},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__dont_treat_as_error__","label":"6➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.__action_status__","label":"6➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.table_name","label":"6➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3c748d2-b86d-4a47-bcc8-05f135736a87.record","label":"6➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_by","label":"Trigger➛Item Catalog Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_762203_green_swa_catalog_data","column_name":"sys_created_by"},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e02158d-54ba-4e73-b045-880c69ce79fd.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"defb1ebb-2fe1-4cc4-a3ba-15d57df33754.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.5fe82d0a2f510110184155272799b668}}","label":"Team A ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.fb3ead0e2f510110184155272799b697}}","label":"TeamA","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"dc498972-c391-400b-a0ee-0c5e056c1736.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"604ae058-34b1-46fa-938d-26e6e2cb090d.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"711600f9-53c6-44af-9853-28c3d48add19.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.record","label":"3➛Item Catalog Record","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.table_name","label":"3➛Item Catalog Table","reference":"x_762203_green_swa_catalog_data","reference_display":"Item Catalog","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73eed737-0a30-488a-b493-9930c44f685c.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Approval upload new item</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Approval upload new item">e0aa8e8607710110ac9bf8ed7c1ed095</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
-        <run_with_roles>5a6498600b3122008e650851c5673aff,36e3325dcb623200a30bb895634c9c4f</run_with_roles>
+        <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -896,7 +896,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d7ec6ea078a4110ac9bf8ed7c1ed059</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -904,7 +904,7 @@
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:54</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:56</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3d7ec6ea078a4110ac9bf8ed7c1ed059"/>
@@ -919,10 +919,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:56</sys_created_on>
         <sys_id>1e7ec6ea078a4110ac9bf8ed7c1ed0b9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:57</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:59</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -974,7 +974,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1032,14 +1032,14 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:54</sys_created_on>
         <sys_id>317ec6ea078a4110ac9bf8ed7c1ed05c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:54</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1055,7 +1055,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1113,14 +1113,14 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:55</sys_created_on>
         <sys_id>4e7ec6ea078a4110ac9bf8ed7c1ed086</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:55</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1148,10 +1148,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:56</sys_created_on>
         <sys_id>1e7ec6ea078a4110ac9bf8ed7c1ed0b7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:56</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:56</sys_updated_on>
         <ui_id>b3c748d2-b86d-4a47-bcc8-05f135736a87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e7ec6ea078a4110ac9bf8ed7c1ed0b7"/>
@@ -1235,10 +1235,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:56</sys_created_on>
         <sys_id>867ec6ea078a4110ac9bf8ed7c1ed0b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:56</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:55</sys_updated_on>
         <ui_id>73eed737-0a30-488a-b493-9930c44f685c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=867ec6ea078a4110ac9bf8ed7c1ed0b1"/>
@@ -1322,10 +1322,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:55</sys_created_on>
         <sys_id>8a7ec6ea078a4110ac9bf8ed7c1ed0a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:55</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:55</sys_updated_on>
         <ui_id>3e02158d-54ba-4e73-b045-880c69ce79fd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a7ec6ea078a4110ac9bf8ed7c1ed0a8"/>
@@ -1408,7 +1408,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=3d7ec6ea078a4110ac9bf8ed7c1ed059^sys_idNOT IN427ec6ea078a4110ac9bf8ed7c1ed09b,867ec6ea078a4110ac9bf8ed7c1ed09f,c27ec6ea078a4110ac9bf8ed7c1ed098,ce7ec6ea078a4110ac9bf8ed7c1ed092"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">f7560626078a4110ac9bf8ed7c1ed0c0</block>
+        <block display_value="">461a0e5d2fa20110460059a72799b679</block>
         <comment/>
         <connected_to>6096e085-1f31-4af0-865a-120fd1f8ae0a</connected_to>
         <decision_table/>
@@ -1429,10 +1429,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:55</sys_created_on>
         <sys_id>427ec6ea078a4110ac9bf8ed7c1ed09b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:55</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:55</sys_updated_on>
         <ui_id>145514fb-e99e-445a-ab01-c5628eedc0f9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1478,7 +1478,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">010e8eaa078a4110ac9bf8ed7c1ed07b</block>
+        <block display_value="">061a0e5d2fa20110460059a72799b67f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1498,17 +1498,17 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:55</sys_created_on>
         <sys_id>867ec6ea078a4110ac9bf8ed7c1ed09f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:55</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:56</sys_updated_on>
         <ui_id>63045922-b49f-495b-a801-baca0c74fadc</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=867ec6ea078a4110ac9bf8ed7c1ed09f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">3f560626078a4110ac9bf8ed7c1ed0bd</block>
+        <block display_value="">711a0e5d2fa20110460059a72799b674</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1528,17 +1528,17 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:55</sys_created_on>
         <sys_id>c27ec6ea078a4110ac9bf8ed7c1ed098</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:55</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:55</sys_updated_on>
         <ui_id>b0c0b300-473c-42ca-9da0-21bdef78dc03</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=c27ec6ea078a4110ac9bf8ed7c1ed098"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">530e4a4a07710110ac9bf8ed7c1ed0cc</block>
+        <block display_value="">f51a0e5d2fa20110460059a72799b66d</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1559,10 +1559,10 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-08 10:35:55</sys_created_on>
         <sys_id>ce7ec6ea078a4110ac9bf8ed7c1ed092</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-08 10:35:55</sys_updated_on>
+        <sys_updated_on>2022-03-29 09:35:55</sys_updated_on>
         <ui_id>6096e085-1f31-4af0-865a-120fd1f8ae0a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
