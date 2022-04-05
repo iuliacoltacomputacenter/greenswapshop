@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">db23d0f92f260110460059a72799b6b1</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 14:25:53</sys_created_on>
+        <sys_id>9d16187d2f260110460059a72799b69b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_instance_9d16187d2f260110460059a72799b69b</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 15:56:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">&nbsp;</p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><a title=\"Submit a new request\" href=\"?id=my_treded_items\" data-mce-href=\"?id=my_treded_items\"><img src=\"1036606-200.png\" alt=\"\" width=\"100\" height=\"100\" data-mce-src=\"1036606-200.png\"></a></p><h3 style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><strong>My traded items</strong></h3><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">&nbsp;</p>",
+		"displayValue": "<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\"><a title=\"Submit a new request\" href=\"?id=my_treded_items\"><img src=\"1036606-200.png\" alt=\"\" width=\"100\" height=\"100\" /></a></p>\n<h3 style=\"text-align: center;\"><strong>My traded items</strong></h3>\n<p style=\"text-align: center;\">&nbsp;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=9d16187d2f260110460059a72799b69b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f8c430eddb29005c387021c4059619a0</instance_id>
+        <instance_name>dev95743</instance_name>
+        <name>sp_instance_9d16187d2f260110460059a72799b69b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;db23d0f92f260110460059a72799b6b1&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;florian.franke&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-30 14:25:53&lt;/sys_created_on&gt;&lt;sys_id&gt;9d16187d2f260110460059a72799b69b&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_9d16187d2f260110460059a72799b69b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;florian.franke&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-30 15:56:46&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;&lt;a title=\"Submit a new request\" href=\"?id=my_treded_items\" data-mce-href=\"?id=my_treded_items\"&gt;&lt;img src=\"1036606-200.png\" alt=\"\" width=\"100\" height=\"100\" data-mce-src=\"1036606-200.png\"&gt;&lt;/a&gt;&lt;/p&gt;&lt;h3 style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;&lt;strong&gt;My traded items&lt;/strong&gt;&lt;/h3&gt;&lt;p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;",
+		"displayValue": "&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;a title=\"Submit a new request\" href=\"?id=my_treded_items\"&gt;&lt;img src=\"1036606-200.png\" alt=\"\" width=\"100\" height=\"100\" /&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;h3 style=\"text-align: center;\"&gt;&lt;strong&gt;My traded items&lt;/strong&gt;&lt;/h3&gt;\n&lt;p style=\"text-align: center;\"&gt;&amp;nbsp;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9d16187d2f260110460059a72799b69b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1847839997</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>11bf04392f260110460059a72799b6f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 15:56:46</sys_created_on>
+        <sys_id>2cea24bd2f660110460059a72799b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fdb8b30eb0000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 15:56:46</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>24ea24bd0e660110be23728705b995ea</update_guid>
+        <update_guid_history>24ea24bd0e660110be23728705b995ea:1847839997,28ea24bdd06601108acb980688bd7fe1:692345304,fbda24bd3b660110462f6c2099397bc4:1847839997,b7da24bd6b660110b5cb380fd92871c0:692345304,db7798bd6c260110a7a81dd5e8638af6:1847839997,f9661c7d05260110734165081377b94b:650747601,1d16187d91260110bbc04677f704569d:-534837850</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">29eaec7d2f660110460059a72799b6da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 15:56:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4118e9d091a744b1a43e32c2321cce59</sys_id>
+        <sys_metadata>9d16187d2f260110460059a72799b69b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_instance_9d16187d2f260110460059a72799b69b</sys_update_name>
+        <sys_update_version display_value="sp_instance_9d16187d2f260110460059a72799b69b">2cea24bd2f660110460059a72799b6ea</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 15:56:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

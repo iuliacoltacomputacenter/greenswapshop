@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>//Sys id for the Green swap shop admins</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_762203_green_swa.greenswapshop.admin.group</name>
+        <read_roles/>
+        <suffix>greenswapshop.admin.group</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>sukh.gill</sys_created_by>
+        <sys_created_on>2022-04-05 15:32:18</sys_created_on>
+        <sys_id>8a6e1beb2f260110460059a72799b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762203_green_swa.greenswapshop.admin.group</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_properties_8a6e1beb2f260110460059a72799b671</sys_update_name>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-04-05 15:32:18</sys_updated_on>
+        <type>string</type>
+        <value>e154bdd92f220110460059a72799b68b</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a6e1beb2f260110460059a72799b671"/>
+</record_update>

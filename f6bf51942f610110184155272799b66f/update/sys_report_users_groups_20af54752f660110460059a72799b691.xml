@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Total Reward Points">28af54752f660110460059a72799b690</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 15:07:37</sys_created_on>
+        <sys_id>20af54752f660110460059a72799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>28af54752f660110460059a72799b690</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_report_users_groups_20af54752f660110460059a72799b691</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 15:07:37</sys_updated_on>
+        <user_id display_value="Florian Franke">8573f9992f220110460059a72799b6b3</user_id>
+    </sys_report_users_groups>
+</record_update>

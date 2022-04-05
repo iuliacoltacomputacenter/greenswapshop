@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_carousel_slide">
+    <sp_carousel_slide action="DELETE">
+        <background>7df9ad172f2e4110460059a72799b6a3</background>
+        <carousel display_value="Green Carousel">ff82ec1507164110ac9bf8ed7c1ed002</carousel>
+        <name/>
+        <order>100</order>
+        <sys_class_name>sp_carousel_slide</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-04 12:22:48</sys_created_on>
+        <sys_id>bdd961972f2e4110460059a72799b6bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_carousel_slide_bdd961972f2e4110460059a72799b6bb</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-04 12:23:22</sys_updated_on>
+        <url/>
+    </sp_carousel_slide>
+    <sys_translated_text action="DELETE" query="documentkey=bdd961972f2e4110460059a72799b6bb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f8c430eddb29005c387021c4059619a0</instance_id>
+        <instance_name>dev95743</instance_name>
+        <name>sp_carousel_slide_bdd961972f2e4110460059a72799b6bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_carousel_slide"><sp_carousel_slide action="INSERT_OR_UPDATE"><background>7df9ad172f2e4110460059a72799b6a3</background><carousel display_value="Green Carousel">ff82ec1507164110ac9bf8ed7c1ed002</carousel><name/><order>100</order><sys_class_name>sp_carousel_slide</sys_class_name><sys_created_by>iulia.colta</sys_created_by><sys_created_on>2022-04-04 12:22:48</sys_created_on><sys_id>bdd961972f2e4110460059a72799b6bb</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_carousel_slide_bdd961972f2e4110460059a72799b6bb</sys_update_name><sys_updated_by>iulia.colta</sys_updated_by><sys_updated_on>2022-04-04 12:23:22</sys_updated_on><url/></sp_carousel_slide><sys_translated_text action="delete_multiple" query="documentkey=bdd961972f2e4110460059a72799b6bb"/></record_update>]]></payload>
+        <payload_hash>1477446403</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>78f914312f660110460059a72799b69a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-04 12:23:47</sys_created_on>
+        <sys_id>a51a25972f2e4110460059a72799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ff487feec0000001</sys_recorded_at>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-04 12:23:47</sys_updated_on>
+        <type>Carousel Slide</type>
+        <update_guid>5d1a25970d2e4110c15944e8d033d6c4</update_guid>
+        <update_guid_history>5d1a25970d2e4110c15944e8d033d6c4:1477446403,bbf9e197a52e41106bb432acf4789e6a:652016256,76f9e197ce2e4110671198e67ecd9c65:2027377484,44f9a197f52e411064ed291cd91ad7b0:-214734823,3ee9a197cf2e4110f158f0e6b6ad7faa:-515920394,03d96557fe2e41106129b9a46ac72bb9:1564950406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3dcae5972f2e4110460059a72799b6ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-04 12:26:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_carousel_slide">sp_carousel_slide</sys_db_object>
+        <sys_id>a593ade68db8441c9f574cbc6e78f284</sys_id>
+        <sys_metadata>bdd961972f2e4110460059a72799b6bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_carousel_slide_bdd961972f2e4110460059a72799b6bb</sys_update_name>
+        <sys_update_version display_value="sp_carousel_slide_bdd961972f2e4110460059a72799b6bb">a51a25972f2e4110460059a72799b6c5</sys_update_version>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-04 12:26:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

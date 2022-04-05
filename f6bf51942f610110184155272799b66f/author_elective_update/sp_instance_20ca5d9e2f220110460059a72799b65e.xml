@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7960ed422f264110460059a72799b6f8</sp_column>
+        <sp_widget display_value="Timer 2">95d99d1e2f220110460059a72799b61f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-01 08:42:54</sys_created_on>
+        <sys_id>20ca5d9e2f220110460059a72799b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_instance_20ca5d9e2f220110460059a72799b65e</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-01 08:42:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=20ca5d9e2f220110460059a72799b65e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f8c430eddb29005c387021c4059619a0</instance_id>
+        <instance_name>dev95743</instance_name>
+        <name>sp_instance_20ca5d9e2f220110460059a72799b65e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">7960ed422f264110460059a72799b6f8</sp_column><sp_widget display_value="Timer 2">95d99d1e2f220110460059a72799b61f</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>florian.franke</sys_created_by><sys_created_on>2022-04-01 08:42:54</sys_created_on><sys_id>20ca5d9e2f220110460059a72799b65e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_instance_20ca5d9e2f220110460059a72799b65e</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-04-01 08:42:54</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=20ca5d9e2f220110460059a72799b65e"/></record_update>]]></payload>
+        <payload_hash>1176101514</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>11bf04392f260110460059a72799b6f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-01 08:42:54</sys_created_on>
+        <sys_id>e8ca5d9e2f220110460059a72799b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fe44aaf5a0000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-01 08:42:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>24ca5d9eb822011073295f3e58c27b60</update_guid>
+        <update_guid_history>24ca5d9eb822011073295f3e58c27b60:1176101514</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">38dd15522f620110460059a72799b61b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-01 08:56:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>32763d864e2744e08a770c01eb6c0a10</sys_id>
+        <sys_metadata>20ca5d9e2f220110460059a72799b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_instance_20ca5d9e2f220110460059a72799b65e</sys_update_name>
+        <sys_update_version display_value="sp_instance_20ca5d9e2f220110460059a72799b65e">e8ca5d9e2f220110460059a72799b660</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-01 08:56:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

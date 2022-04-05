@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[
+function ($timeout, $window, $interval) {
+  /* widget controller */
+	
+		
+  var c = this;
+
+  // Set redirect seconds
+  c.redirect_seconds = c.data.redirect_seconds;
+
+  // Convert redirect seconds to milliseconds
+  c.redirect_ms = c.redirect_seconds * 1000;
+
+  // Initializes client-side session interval timer and decrements countdown value
+  c.sessionIntervalTimer = $interval(function () {
+    // Decrement session countdown value
+    c.redirect_seconds--;
+		 // Execute session countdown timer in 1000ms (1 second) intervals
+}, 1000);
+	
+	
+	/*	$interval(function() {
+		for(var i = 0; i <= 210; i++){
+		c.redirect_seconds--;
+	}
+
+}, 1000);
+
+*/
+
+  // Redirect
+	$timeout(function () {
+		$window.location.href = "?id=home_page_green";
+	}, c.redirect_ms, false);
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>timer_3</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Timer 3</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[//Server Script
+
+
+(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	
+	var myObj = new GlideRecord('x_762203_green_swa_catalog_data');
+	myObj.addQuery('status', '=', 'reserved');
+	myObj.setLimit(1)
+	myObj.query()
+	if(myObj.next()){
+
+	var resdate = myObj.getValue('reservation_date');
+
+
+	var gdtReservationDate = new GlideDateTime( myObj.reservation_date);
+
+	gdtReservationDate.addSeconds(210);
+
+	var resDateMS = gdtReservationDate.getNumericValue();
+
+
+
+	var gdtNow = new GlideDateTime();
+
+	var nowMS = gdtNow.getNumericValue();
+
+	
+	//var d = new Date();
+	
+	var a = resDateMS - nowMS
+	var b = parseInt(a);
+	data.redirect_seconds = b/1000;
+
+	}
+	})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-01 08:58:47</sys_created_on>
+        <sys_id>996e9d9e2f220110460059a72799b60c</sys_id>
+        <sys_mod_count>94</sys_mod_count>
+        <sys_name>Timer 3</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_996e9d9e2f220110460059a72799b60c</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-05 10:18:00</sys_updated_on>
+        <template><![CDATA[<div>
+  <p>Test {{c.redirect_seconds}} seconds. You will be redirected to the homepage then.</p>
+</div>]]></template>
+    </sp_widget>
+</record_update>

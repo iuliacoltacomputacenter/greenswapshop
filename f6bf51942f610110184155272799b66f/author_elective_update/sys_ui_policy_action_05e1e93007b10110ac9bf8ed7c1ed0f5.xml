@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>who_traded</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-02-18 10:36:34</sys_created_on>
+        <sys_id>05e1e93007b10110ac9bf8ed7c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who_traded</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_05e1e93007b10110ac9bf8ed7c1ed0f5</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-02-18 10:36:34</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <ui_policy display_value="When status changes to traded, the field 'Name of trader' appears ">102c15f807710110ac9bf8ed7c1ed0fc</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f8c430eddb29005c387021c4059619a0</instance_id>
+        <instance_name>dev95743</instance_name>
+        <name>sys_ui_policy_action_05e1e93007b10110ac9bf8ed7c1ed0f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>who_traded</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-02-18 10:36:34</sys_created_on>
+        <sys_id>05e1e93007b10110ac9bf8ed7c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who_traded</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_05e1e93007b10110ac9bf8ed7c1ed0f5</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-02-18 10:36:34</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <ui_policy display_value="When status changes to traded, the field 'Name of trader' appears ">102c15f807710110ac9bf8ed7c1ed0fc</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>527855761</payload_hash>
+        <record_name>who_traded</record_name>
+        <reverted_from/>
+        <source>bef13d192f220110460059a72799b684</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 07:51:39</sys_created_on>
+        <sys_id>78423d592f220110460059a72799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fd4a8b2b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 07:51:39</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>38423d590822011024bc0f5c3422fd15</update_guid>
+        <update_guid_history>38423d590822011024bc0f5c3422fd15:527855761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-31 10:35:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>14be2521a0534ce79e1540e7f5271681</sys_id>
+        <sys_metadata>05e1e93007b10110ac9bf8ed7c1ed0f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>who_traded</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="When status changes to traded, the field 'Name of trader' appears ">102c15f807710110ac9bf8ed7c1ed0fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_05e1e93007b10110ac9bf8ed7c1ed0f5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_05e1e93007b10110ac9bf8ed7c1ed0f5">78423d592f220110460059a72799b615</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-31 10:35:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

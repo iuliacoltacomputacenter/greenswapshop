@@ -1,15 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <client_script><![CDATA[function(){
+
+	var c = this;
+	c.server.update()
+
+	/*	c.server.get({
+
+   action: "getUsers"
+
+   }).then(function(response) {
+
+   console.log(response);
+
+   });*/
+}]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>div{
+	background-color:#d9e3d3;
+  border-style: ridge;
+ 
+}
+
+h1{
+  color:#4c6e55;
+  text-align: center;
+  font-family: monospace;
+    font-weight: bold;
+ 
+}
+h2{
+	color: #4c6e55;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+}
+p{
+   font-size: 15px; 
+   text-align: center;
+   
+}
+img-container{
+    text-align: center;
+    display: block;
+    width: 150px;  
+    height: auto;  
+    animation-duration: 4s;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img {
+  width="100px";
+}
+.rotate {
+  animation: rotation 4s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
         <docs/>
         <field_list/>
-        <has_preview>false</has_preview>
+        <has_preview>true</has_preview>
         <id>total_points_widget</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
@@ -17,20 +83,61 @@
         <option_schema/>
         <public>false</public>
         <roles/>
-        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <script><![CDATA[(function() {
+	//if (input && input.action == 'getUsers'){
+
+
+
+	var gr = new GlideRecord('sys_user');  
+	gr.get(gs.getUserID());   
+	data.totalPoints = gr.getValue('u_total_green_points');
+	//data.totalPoints = 80
+	data.user = gs.getUserID(); 
+	
+
+})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-30 13:07:43</sys_created_on>
         <sys_id>9c344c3d2fe20110460059a72799b684</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>142</sys_mod_count>
         <sys_name>Total Points Widget</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_9c344c3d2fe20110460059a72799b684</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-30 13:07:43</sys_updated_on>
-        <template><![CDATA[<div><!-- your widget template --></div>]]></template>
+        <sys_updated_on>2022-04-04 15:47:20</sys_updated_on>
+        <template><![CDATA[<div style="width:500px ;height:500px; padding-top:50px; ">
+  <!-- your widget template -->
+
+
+  <h1> Your Green Points</h1>
+
+  <h2>
+    {{::c.data.totalPoints }}
+  </h2>  
+
+
+  <br>
+  <p ng-if="data.totalPoints <=100">
+  			
+  </p>
+  <br>
+  <img ng-if="data.totalPoints > 0 && data.totalPoints <=100" src="bronze.png" width="100px"  height="auto" class="rotate center">
+  
+  
+  <img ng-if="data.totalPoints >100 && data.totalPoints <=200 " src="silver.png" width="150px"  height="auto"  class="rotate center">
+  <img ng-if="data.totalPoints >= 200" src="gold.png" width="150px"  height="auto"  class="rotate center">
+  <br>
+  <br>
+</div>
+
+<!-- <a ng-model="c.data.totalPoints"></a> -->
+
+<!--<div class="img-container"> </div> -->
+
+]]></template>
     </sp_widget>
 </record_update>

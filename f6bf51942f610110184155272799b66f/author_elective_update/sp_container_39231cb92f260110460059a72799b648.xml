@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#cae2c9</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Home Page Green - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="home_page_green">94eae16007d20110ac9bf8ed7c1ed08f</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 14:13:05</sys_created_on>
+        <sys_id>39231cb92f260110460059a72799b648</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home Page Green - Container 3</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_container_39231cb92f260110460059a72799b648</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:13:32</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>f8c430eddb29005c387021c4059619a0</instance_id>
+        <instance_name>dev95743</instance_name>
+        <name>sp_container_39231cb92f260110460059a72799b648</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#cae2c9</background_color><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Home Page Green - Container 3</name><order>3</order><sp_page display_value="home_page_green">94eae16007d20110ac9bf8ed7c1ed08f</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>florian.franke</sys_created_by><sys_created_on>2022-03-30 14:13:05</sys_created_on><sys_id>39231cb92f260110460059a72799b648</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Home Page Green - Container 3</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_container_39231cb92f260110460059a72799b648</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-03-30 14:13:32</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-287975624</payload_hash>
+        <record_name>Home Page Green - Container 3</record_name>
+        <reverted_from/>
+        <source>11bf04392f260110460059a72799b6f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 14:13:32</sys_created_on>
+        <sys_id>98439cb92f260110460059a72799b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fdb2cabb90000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 14:13:32</sys_updated_on>
+        <type>Container</type>
+        <update_guid>90439cb9502601106dec5c86660bd31a</update_guid>
+        <update_guid_history>90439cb9502601106dec5c86660bd31a:-287975624,7123d0f930260110220850065847da56:1036898330</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home Page Green - Container 3">743b68bd2f660110460059a72799b639</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-03-30 15:58:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0a0e357059504d2192fb9b7fd6000f31</sys_id>
+        <sys_metadata>39231cb92f260110460059a72799b648</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Page Green - Container 3</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_container_39231cb92f260110460059a72799b648</sys_update_name>
+        <sys_update_version display_value="sp_container_39231cb92f260110460059a72799b648">98439cb92f260110460059a72799b61a</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-03-30 15:58:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
