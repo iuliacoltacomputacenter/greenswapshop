@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function(){
+
+	var c = this;
+	c.server.update()
+
+  }]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h1{
+
+  color:#4c6e55;
+  text-align: center;
+  
+  font-weight: bold;
+
+}
+h4{
+ text-align: center;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": &#13;
+	{&#13;
+		"html": "&lt;i&gt;Hi&lt;/i&gt;",&#13;
+		"title": "HTML"&#13;
+	}&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>true</has_preview>
+        <id>reject_html_message</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Reject HTML message</name>
+        <option_schema>[{"name":"html","default_value":" &lt;b&gt;hello&lt;/b&gt;","section":"Data","label":"HTML","type":"translated_html"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  data.show = true;
+	var gr = new GlideRecord('x_762203_green_swa_catalog_data');  
+	  gr.addQuery("username", gs.getUserID()) ;
+	  gr.addQuery("status", "rejected");
+	  
+	gr.query();
+	if(gr.next()){//there is a rejected item, so hide msg
+		 data.show = false;
+		 }
+	/*data.count = gr.array;
+	if(gr.array ===0)
+		data.show = true ;
+	else
+		data.show = false ;
+		
+		//not sure what gr.array does
+		
+	*/
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-06 11:01:01</sys_created_on>
+        <sys_id>2c5a2f3f2f620110460059a72799b6c3</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Reject HTML message</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_2c5a2f3f2f620110460059a72799b6c3</sys_update_name>
+        <sys_updated_by>sukh.gill</sys_updated_by>
+        <sys_updated_on>2022-04-07 15:37:31</sys_updated_on>
+        <template><![CDATA[<!-- <div>
+  <div ng-if="!c.options.html" class="panel panel-default">
+    <div class="panel-body">
+      <b>${HTML Widget}</b><br>
+      ${Ctrl + Click > Options to set HTML content}
+    </div>
+  </div>
+  <div ng-if="c.options.html" ng-bind-html="c.html"></div>
+</div>
+-->
+
+<div>
+  {{c.data.count}}
+</div>
+
+<div  ng-if="data.show == true">
+  <h1>
+    Your rejected items list is empty
+  </h1>
+  <h4>
+    You don't have any rejected items right now.
+  </h4>
+ <p style="text-align:center;">
+   
+   <img src="ilustration.png" width="350px"  height="auto" />
+  
+  </p>
+</div>]]></template>
+    </sp_widget>
+</record_update>
