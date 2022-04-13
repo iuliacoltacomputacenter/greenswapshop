@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function(){
+
+
+
+var c = this;
+c.server.update()
+
+
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": &#13;
+	{&#13;
+		"html": "&lt;i&gt;Hi&lt;/i&gt;",&#13;
+		"title": "HTML"&#13;
+	}&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>true</has_preview>
+        <id>approval_icon_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Approval Icon Widget</name>
+        <option_schema>[{"name":"html","default_value":" &lt;b&gt;hello&lt;/b&gt;","section":"Data","label":"HTML","type":"translated_html"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+/* populate the 'data' object */
+/* e.g., data.table = $sp.getValue('table'); */
+			
+	/*var gr = new GlideRecord('sys_user');
+			gr.get(gs.getUserID());
+			//gr.addQuery("username", gs.getUserID()) ;
+			gr.data.user = gs.getUserID();
+	
+	if (data.userID().isMemberOf('Green Swap Shop Admins'))
+*/
+	var currentUser = gs.getUser(); 
+	//gs.info(currentUser.isMemberOf('Green Swap Shop Admins'));
+	
+	data.answer = currentUser.hasRole('x_762203_green_swa.admin');
+	
+	//else
+		
+	//answer = false;
+		
+})();
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-07 09:45:17</sys_created_on>
+        <sys_id>4192e4942f324110460059a72799b6f6</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Approval Icon Widget</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_4192e4942f324110460059a72799b6f6</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-07 14:55:59</sys_updated_on>
+        <template><![CDATA[<div ng-show="data.answer">
+	<p style="text-align: center;">&nbsp;</p>
+		<p style="text-align: center;"><a title="Submit a new request" href="?id=approvals"><img src="4336956.png" alt="" width="100" height="100" /></a></p>
+			<h3 style="text-align: center;"><strong>My&nbsp;approvals (admins only)</strong></h3>
+		<p style="text-align: center;">&nbsp;</p>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function(){
+
+	var c = this;
+	c.server.update()
+
+  }]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h1{&#13;
+  &#13;
+  color:#4c6e55;&#13;
+  text-align: center;&#13;
+  &#13;
+  font-weight: bold;&#13;
+  &#13;
+}&#13;
+h4{&#13;
+  text-align: center;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": &#13;
+	{&#13;
+		"html": "&lt;i&gt;Hi&lt;/i&gt;",&#13;
+		"title": "HTML"&#13;
+	}&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>true</has_preview>
+        <id>traded_items</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Traded Items</name>
+        <option_schema>[{"name":"html","default_value":" &lt;b&gt;hello&lt;/b&gt;","section":"Data","label":"HTML","type":"translated_html"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  data.show = true;
+	var gr = new GlideRecord('x_762203_green_swa_catalog_data');  
+	  gr.addQuery("username", gs.getUserID()) ;
+	  gr.addQuery("status", "traded");
+	  
+	gr.query();
+	if(gr.next()){//there is a traded item, so hide msg
+		 data.show = false;
+		 }
+	/*data.count = gr.array;
+	if(gr.array ===0)
+		data.show = true ;
+	else
+		data.show = false ;
+		
+		//not sure what gr.array does
+		
+	*/
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-11 10:06:44</sys_created_on>
+        <sys_id>deddcd612fb20110460059a72799b630</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Traded Items</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_deddcd612fb20110460059a72799b630</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-11 10:29:57</sys_updated_on>
+        <template><![CDATA[<!-- <div>
+  <div ng-if="!c.options.html" class="panel panel-default">
+    <div class="panel-body">
+      <b>${HTML Widget}</b><br>
+      ${Ctrl + Click > Options to set HTML content}
+    </div>
+  </div>
+  <div ng-if="c.options.html" ng-bind-html="c.html"></div>
+</div>
+-->
+
+<div>
+  {{c.data.count}}
+</div>
+
+<div  ng-if="data.show == true">
+  <h1>
+    Your traded items list is empty
+  </h1>
+  <h4>
+    You don't have any traded items right now.
+  </h4>
+ <p style="text-align:center;">
+   
+   <img src="ilustration.png" width="350px"  height="auto" />
+  
+  </p>
+</div>]]></template>
+    </sp_widget>
+</record_update>

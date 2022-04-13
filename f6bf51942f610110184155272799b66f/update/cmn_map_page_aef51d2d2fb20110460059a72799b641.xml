@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Valetta, Malta</center_address>
+        <center_latitude>35.8989085</center_latitude>
+        <center_longitude>14.5145528</center_longitude>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>3</initial_zoom>
+        <name>x_762203_green_swa_spec_loc</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[//setup new GlideRecord query on the incident table
+var gr = new GlideRecord("x_762203_green_swa_catalog_data");
+//add condition for priority 1
+gr.addQuery('status', 'available');
+//add condition for active incidents
+//gr.addActiveQuery();
+//execute the query
+gr.query();
+//get record currently opened by user
+gr.get(sys_id_of_record_here);
+ 
+//loop through the list of incidents returned by the query
+while (gr.next()) {
+ 
+ //create a new map item to display - linked to the current incident record
+ var item = map.addItem(gr);
+ //add the latitude value from the incident's location
+ item.latitude = gr.new_country.latitude;
+ //add the longitude value from the incident's location
+ item.longitude = gr.new_country.longitude;
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+ //set the icon size
+ item.icon_width = "16";
+ item.icon_height = "16";
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>spec_loc</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-11 10:42:50</sys_created_on>
+        <sys_id>aef51d2d2fb20110460059a72799b641</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_762203_green_swa_spec_loc</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>cmn_map_page_aef51d2d2fb20110460059a72799b641</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-11 11:05:22</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>239</height>
+        <image>9770cc802ff20110460059a72799b6d6</image>
+        <name>Download (1).png</name>
+        <size_bytes>2052</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-06 12:37:48</sys_created_on>
+        <sys_id>4970cc802ff20110460059a72799b64b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Download (1).png</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>db_image_4970cc802ff20110460059a72799b64b</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-06 12:37:53</sys_updated_on>
+        <thumbnail/>
+        <width>211</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#6699cc</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>8a5f5d3c681164a6524f49d4e6f6541dbfae0cc977cdb7e846214fbfdff5b432</hash>
+        <image_height>239</image_height>
+        <image_width>211</image_width>
+        <size_bytes>2052</size_bytes>
+        <size_compressed>2075</size_compressed>
+        <state>available</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-06 12:37:52</sys_created_on>
+        <sys_id>9770cc802ff20110460059a72799b6d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-06 12:37:53</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>4970cc802ff20110460059a72799b64b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="9770cc802ff20110460059a72799b6d6">9770cc802ff20110460059a72799b6d6</sys_attachment>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-06 12:37:52</sys_created_on>
+        <sys_id>d770cc802ff20110460059a72799b6d6</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2756</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="9770cc802ff20110460059a72799b6d6">9770cc802ff20110460059a72799b6d6</sys_attachment>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-06 12:37:52</sys_created_on>
+        <sys_id>5b70cc802ff20110460059a72799b6d6</sys_id>
+    </sys_attachment_doc>
+</record_update>
