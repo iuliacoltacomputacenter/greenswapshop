@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-22 09:23:32</sys_created_on>
+        <sys_id>f47d6d451b430110dd75c991604bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: string utilities</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_scope_privilege_f47d6d451b430110dd75c991604bcbab</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:23:32</sys_updated_on>
+        <target_name>Glide API: string utilities</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

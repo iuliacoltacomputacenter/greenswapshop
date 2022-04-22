@@ -48,7 +48,7 @@ h4{
 	gr.query();
 	if(gr.next()){//there is a rejected item, so hide msg
 		 data.show = false;
-		gs.addErrorMessage('Test');
+		//gs.addErrorMessage('Test');
 		 }
 	
 })();]]></script>
@@ -57,14 +57,14 @@ h4{
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-04-07 16:10:08</sys_created_on>
         <sys_id>5eaaf5182f364110460059a72799b642</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Reserved_HTML</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_5eaaf5182f364110460059a72799b642</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-04-08 08:50:33</sys_updated_on>
+        <sys_updated_on>2022-04-20 16:03:01</sys_updated_on>
         <template><![CDATA[
 
 <div  ng-if="data.show == true">

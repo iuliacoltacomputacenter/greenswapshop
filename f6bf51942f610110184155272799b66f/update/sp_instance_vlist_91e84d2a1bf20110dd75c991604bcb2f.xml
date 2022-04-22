@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter table="x_762203_green_swa_catalog_data">status=available<item display_value="Available" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="available"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1ce8c5221b360110dd75c991604bcbd9</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-14 12:19:02</sys_created_on>
+        <sys_id>91e84d2a1bf20110dd75c991604bcb2f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_instance_vlist_91e84d2a1bf20110dd75c991604bcb2f</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-14 13:45:35</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "",
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=91e84d2a1bf20110dd75c991604bcb2f"/>
+</record_update>
