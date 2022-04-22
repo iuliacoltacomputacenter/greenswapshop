@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>My approvals - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="my_approvals_gss">83a0b5091b430110dd75c991604bcb3a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-22 09:40:27</sys_created_on>
+        <sys_id>5851b9091b430110dd75c991604bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My approvals - Container 2</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_container_5851b9091b430110dd75c991604bcb8a</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:40:27</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>228752691b4c3c1032182f8dee4bcbcb</instance_id>
+        <instance_name>dev114967</instance_name>
+        <name>sp_container_5851b9091b430110dd75c991604bcb8a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>My approvals - Container 2</name><order>2</order><sp_page display_value="my_approvals_gss">83a0b5091b430110dd75c991604bcb3a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>florian.franke</sys_created_by><sys_created_on>2022-04-22 09:40:27</sys_created_on><sys_id>5851b9091b430110dd75c991604bcb8a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My approvals - Container 2</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_container_5851b9091b430110dd75c991604bcb8a</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-04-22 09:40:27</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-741572510</payload_hash>
+        <record_name>My approvals - Container 2</record_name>
+        <reverted_from/>
+        <source>d7865ca61b720110dd75c991604bcb6e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-22 09:40:27</sys_created_on>
+        <sys_id>9051b9091b430110dd75c991604bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18050a4ebd20000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:40:27</sys_updated_on>
+        <type>Container</type>
+        <update_guid>d851b909114301102f87c687bea8768b</update_guid>
+        <update_guid_history>d851b909114301102f87c687bea8768b:-741572510</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My approvals - Container 2">021002851b830110dd75c991604bcbd0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-22 10:45:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0ae46c39f2014073b492bbcaa0ef2d59</sys_id>
+        <sys_metadata>5851b9091b430110dd75c991604bcb8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My approvals - Container 2</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_container_5851b9091b430110dd75c991604bcb8a</sys_update_name>
+        <sys_update_version display_value="sp_container_5851b9091b430110dd75c991604bcb8a">9051b9091b430110dd75c991604bcb8c</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-22 10:45:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

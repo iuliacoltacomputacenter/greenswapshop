@@ -6,27 +6,27 @@
         <css/>
         <glyph/>
         <id/>
-        <order>4</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">38517d091b430110dd75c991604bcbf8</sp_column>
-        <sp_widget display_value="Approval Info">33442352cb30020000f8d856634c9c3f</sp_widget>
+        <sp_column display_value="1">e82042851b830110dd75c991604bcb95</sp_column>
+        <sp_widget/>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>florian.franke</sys_created_by>
-        <sys_created_on>2022-04-22 10:07:07</sys_created_on>
-        <sys_id>8f67fd491b430110dd75c991604bcb30</sys_id>
+        <sys_created_on>2022-04-22 10:45:22</sys_created_on>
+        <sys_id>532042851b830110dd75c991604bcb9b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_update_name>sp_instance_8f67fd491b430110dd75c991604bcb30</sys_update_name>
+        <sys_update_name>sp_instance_532042851b830110dd75c991604bcb9b</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-04-22 10:07:07</sys_updated_on>
+        <sys_updated_on>2022-04-22 10:45:22</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=8f67fd491b430110dd75c991604bcb30"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=532042851b830110dd75c991604bcb9b"/>
 </record_update>
