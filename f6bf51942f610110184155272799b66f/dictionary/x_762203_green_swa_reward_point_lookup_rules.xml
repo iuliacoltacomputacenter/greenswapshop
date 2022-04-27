@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Reward Point Lookup Rules" max_length="40" name="x_762203_green_swa_reward_point_lookup_rules" sizeclass="9" type="collection">
+        <element label="Category" max_length="50" name="category" type="string"/>
+        <element label="Reward Points" max_length="40" name="reward_points" type="integer"/>
+    </element>
+</database>

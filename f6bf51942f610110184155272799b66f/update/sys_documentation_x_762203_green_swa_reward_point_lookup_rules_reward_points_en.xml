@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="reward_points" label="Reward Points" language="en" table="x_762203_green_swa_reward_point_lookup_rules">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reward_points</element>
+            <help/>
+            <hint/>
+            <label>Reward Points</label>
+            <language>en</language>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
+            <plural>Reward Points</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-04-25 12:31:06</sys_created_on>
+            <sys_id>d525f9461bc30110dd75c991604bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reward Points</sys_name>
+            <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+            <sys_update_name>sys_documentation_x_762203_green_swa_reward_point_lookup_rules_reward_points_en</sys_update_name>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-04-25 12:31:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
