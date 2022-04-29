@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name>padding-bottom:50px</container_class_name>
+        <name>Home Page Green - Container 6</name>
+        <order>6</order>
+        <sp_page display_value="home_page_green">94eae16007d20110ac9bf8ed7c1ed08f</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-01 11:11:46</sys_created_on>
+        <sys_id>d9dcbd9a2fa20110460059a72799b601</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Home Page Green - Container 6</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_container_d9dcbd9a2fa20110460059a72799b601</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 15:09:28</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>228752691b4c3c1032182f8dee4bcbcb</instance_id>
+        <instance_name>dev114967</instance_name>
+        <name>sp_container_d9dcbd9a2fa20110460059a72799b601</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name>padding-bottom:50px</container_class_name><name>Home Page Green - Container 6</name><order>6</order><sp_page display_value="home_page_green">94eae16007d20110ac9bf8ed7c1ed08f</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>iulia.colta</sys_created_by><sys_created_on>2022-04-01 11:11:46</sys_created_on><sys_id>d9dcbd9a2fa20110460059a72799b601</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Home Page Green - Container 6</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_container_d9dcbd9a2fa20110460059a72799b601</sys_update_name><sys_updated_by>iulia.colta</sys_updated_by><sys_updated_on>2022-04-28 15:09:28</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1165833849</payload_hash>
+        <record_name>Home Page Green - Container 6</record_name>
+        <reverted_from/>
+        <source>e9b36cec1b070110dd75c991604bcbff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-28 15:09:28</sys_created_on>
+        <sys_id>2a263d471bc3c110dd75c991604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18070b84fc50000001</sys_recorded_at>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 15:09:28</sys_updated_on>
+        <type>Container</type>
+        <update_guid>62263d470bc3c11015fa162f0231962c</update_guid>
+        <update_guid_history>62263d470bc3c11015fa162f0231962c:1165833849,c8917cd2087601107aff6dceeda63fea:-658807788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home Page Green - Container 6">abf6f5871bc3c110dd75c991604bcb66</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-28 15:13:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0c4f9f618a4b402893a41248d0184840</sys_id>
+        <sys_metadata>d9dcbd9a2fa20110460059a72799b601</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Page Green - Container 6</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_container_d9dcbd9a2fa20110460059a72799b601</sys_update_name>
+        <sys_update_version display_value="sp_container_d9dcbd9a2fa20110460059a72799b601">2a263d471bc3c110dd75c991604bcb2c</sys_update_version>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 15:13:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

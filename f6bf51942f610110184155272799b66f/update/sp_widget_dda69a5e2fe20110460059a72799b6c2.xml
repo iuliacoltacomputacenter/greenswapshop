@@ -28,8 +28,27 @@
         <controller_as>c</controller_as>
         <css>div{
 	background-color:#d0dbd3;
-  border-style: ridge;
+  //border-style: ridge;
+   border-radius: 15px;
  
+}
+
+.roundDiv{
+	background-color:#d9e3d3;
+  border-style: ridge;
+  border-radius: 15px 50px;
+  
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners2 {
+  border-radius: 15px 50px 30px;
+ 
+  padding: 20px;
+  width: 200px;
+  height: 150px;
 }
 
 h1{
@@ -170,47 +189,39 @@ img-container{
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-04-01 13:04:33</sys_created_on>
         <sys_id>dda69a5e2fe20110460059a72799b6c2</sys_id>
-        <sys_mod_count>120</sys_mod_count>
+        <sys_mod_count>149</sys_mod_count>
         <sys_name>Reward Widget</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_dda69a5e2fe20110460059a72799b6c2</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-04-04 15:48:45</sys_updated_on>
-        <template><![CDATA[<div style="width:500px ;height:500px; padding-top:50px; ">
-<!--First condition - user has 0 points -->
-<div id="pre-tiered" ng-if="data.total_points == 0">
+        <sys_updated_on>2022-04-29 14:38:35</sys_updated_on>
+        <template><![CDATA[<div style="width:400px;height:480px;border-style: ridge; ">
 
+  
+  <!--First condition - user has 0 points -->
+  <div id="pre-tiered" ng-if="data.total_points == 0">
   <h2> You have no Green points yet! </h2>
-  <h3>
-    It is time to start your journey
-  </h3>  
-
+  <h3>It is time to start your journey</h3>  
   <img class="marginauto" src="begin.png" width="300" height="auto" align="center"/>
-
 </div>
 
 <!--Here user has points and he is in one category -->
 
 <div id="tiered" ng-if="c.data.total_points > 0 && c.data.total_points < 200">
-
-
-  <h2>
+	<h3>
     Congratulations!
     <br>
     You are in the {{c.data.cat}} category
-  </h2>
+  </h3>
   <img class="marginauto" src="image23.png" width="300" height="auto" align="middle"/>
-
-
-
+  
   <!--Start Animated Progress Bar-->
   <div class="animated-progress progress-green">
     <span data-progress="{{c.data.percentage}}"></span>
-
-
   </div>
+
   <!--End Animated Progress Bar-->
   <h4>
     You only need {{c.data.remaining_points}} more points to get to {{c.data.tier}}!
@@ -219,7 +230,6 @@ img-container{
 <br>
 <br>
 </div>
-
 
 <!-- Gold category  -->
 <div id="post-tiered"ng-if="c.data.total_points >= 200">

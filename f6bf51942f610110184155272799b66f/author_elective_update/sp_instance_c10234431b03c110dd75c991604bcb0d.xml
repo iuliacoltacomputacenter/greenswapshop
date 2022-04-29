@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d765774d07524110ac9bf8ed7c1ed050</sp_column>
+        <sp_widget display_value="Card Green">2dd7a44b1bcf8110dd75c991604bcb60</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-28 10:11:43</sys_created_on>
+        <sys_id>c10234431b03c110dd75c991604bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_instance_c10234431b03c110dd75c991604bcb0d</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 10:11:43</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c10234431b03c110dd75c991604bcb0d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>228752691b4c3c1032182f8dee4bcbcb</instance_id>
+        <instance_name>dev114967</instance_name>
+        <name>sp_instance_c10234431b03c110dd75c991604bcb0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">d765774d07524110ac9bf8ed7c1ed050</sp_column><sp_widget display_value="Card Green">2dd7a44b1bcf8110dd75c991604bcb60</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>iulia.colta</sys_created_by><sys_created_on>2022-04-28 10:11:43</sys_created_on><sys_id>c10234431b03c110dd75c991604bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_instance_c10234431b03c110dd75c991604bcb0d</sys_update_name><sys_updated_by>iulia.colta</sys_updated_by><sys_updated_on>2022-04-28 10:11:43</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=c10234431b03c110dd75c991604bcb0d"/></record_update>]]></payload>
+        <payload_hash>317550276</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e9b36cec1b070110dd75c991604bcbff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-28 10:11:43</sys_created_on>
+        <sys_id>050234431b03c110dd75c991604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1806fa7b6370000001</sys_recorded_at>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 10:11:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>4d023443ff03c110ba32a86db677c70f</update_guid>
+        <update_guid_history>4d023443ff03c110ba32a86db677c70f:317550276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">711230431b03c110dd75c991604bcb9a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-28 10:12:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1882f44d1e66460d866851f3d9933b89</sys_id>
+        <sys_metadata>c10234431b03c110dd75c991604bcb0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_instance_c10234431b03c110dd75c991604bcb0d</sys_update_name>
+        <sys_update_version display_value="sp_instance_c10234431b03c110dd75c991604bcb0d">050234431b03c110dd75c991604bcb10</sys_update_version>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 10:12:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

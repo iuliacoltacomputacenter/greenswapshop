@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, $sce) {
+	var c = this;
+	c.html = $sce.trustAsHtml(c.options.html);
+	$scope.$watch('c.options.html',function(){
+		c.html = $sce.trustAsHtml(c.options.html);
+	})
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.box {
+  height: 250px;
+  padding-bottom: 15px;
+  width: 50%;
+  
+  
+}
+
+.h4{
+    font-weight: bold;
+}
+
+.content {
+  background-color: #a0d9c1;    
+  text-align: center;
+  border-radius: 15px;
+  height: 100%;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+}
+
+.content:hover {
+  height: 100%;
+  width: 200%;
+  
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": &#13;
+	{&#13;
+		"html": "&lt;i&gt;Hi&lt;/i&gt;",&#13;
+		"title": "HTML"&#13;
+	}&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>true</has_preview>
+        <id>test1</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Test1</name>
+        <option_schema>[{"name":"html","default_value":" &lt;b&gt;hello&lt;/b&gt;","section":"Data","label":"HTML","type":"translated_html"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-29 12:16:20</sys_created_on>
+        <sys_id>8428d6db1b030510dd75c991604bcb37</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>Test1</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_8428d6db1b030510dd75c991604bcb37</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-29 13:09:28</sys_updated_on>
+        <template><![CDATA[<div class="box">
+  <div class="content">
+    <p style="text-align: center;">&nbsp;</p>
+    <p style="text-align: center;"><a title="Submit a new request" href="?id=sc_cat_item&amp;sys_id=c425d73807160110ac9bf8ed7c1ed070"><img src="available.png" alt="" width="90" height="90" /></a></p>
+    <p style="text-align: center;">&nbsp;</p>
+    <h4 style="font-weight: bold;   font-family: sans-serif;">Upload new item</h4> 
+ </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

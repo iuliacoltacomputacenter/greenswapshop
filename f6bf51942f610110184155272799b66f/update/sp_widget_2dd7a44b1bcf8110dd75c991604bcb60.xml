@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>card_green</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Card Green</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+
+
+data.items = [];
+	data.table = 'x_762203_green_swa_catalog_data';
+
+	var items = new GlideRecord(data.table);
+	items.query();
+	while (items.next()) {
+		var item = {
+			"sys_id": items.sys_id+'',
+			"title": items.products+'',
+			"description": items.description+'',
+			"image_url": getItemPicture(items.sys_id),
+			"status": items.status+''
+		}; 
+		console.log('test'+item);
+		data.items.push(item);
+	}
+	console.log(data.items);
+	
+	function getItemPicture(itemID) {
+		var picture = new GlideRecord('sys_attachment');
+	//	picture.addEncodedQuery('table_sys_id='+itemID+'^file_name=images');
+		picture.addQuery('table_sys_id', itemID);
+		picture.addQuery('file_name', 'images');
+		//picture.addQuery('status', 'available');
+		picture.query();
+		if (picture.next()) {
+			return picture.sys_id +'.iix';
+		} else return 'false';
+			
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-04-28 09:27:15</sys_created_on>
+        <sys_id>2dd7a44b1bcf8110dd75c991604bcb60</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Card Green</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_widget_2dd7a44b1bcf8110dd75c991604bcb60</sys_update_name>
+        <sys_updated_by>iulia.colta</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:22:31</sys_updated_on>
+        <template><![CDATA[<div class="row">
+  <div class="col-sm-6 col-md-4" 
+       ng-repeat="item in c.data.items" 
+       ng-if="item.status == 'available'">
+    
+    <div class="thumbnail">
+      <img ng-if="item.image_url != 'false'" src="/{{::item.image_url}}" style="height:100px" alt="...">
+      <img ng-if="item.image_url == 'false'" src="https://cdn-icons-png.flaticon.com/512/2748/2748558.png" style="height:100px" alt="...">
+   <center>   <div class="caption">
+        <h3 style="height:60px">{{::item.title}}</h3>
+        <p style="height:60px">{{::item.description}}</p>
+        <p><a href="/greenportal?sys_id={{::item.sys_id}}&view=advanced&id=form&table=x_762203_green_swa_catalog_data" class="btn btn-success" role="deafault">See Details</a> </p>
+         </div></center>
+    </div>
+  </div>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

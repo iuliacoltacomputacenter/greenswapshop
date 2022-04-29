@@ -19,10 +19,23 @@
         <controller_as>c</controller_as>
         <css>div{
 	background-color:#d9e3d3;
-  border-style: ridge;
- 
+ // border-style: ridge;
+ //border-radius: 15px 50px;
+  
+ // padding: 20px;
+  //width: 200px;
+  //height: 150px;
+
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+
 }
 
+#rcorners3 {
+
+}
 h1{
   color:#4c6e55;
   text-align: center;
@@ -101,15 +114,15 @@ img-container{
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-30 13:07:43</sys_created_on>
         <sys_id>9c344c3d2fe20110460059a72799b684</sys_id>
-        <sys_mod_count>142</sys_mod_count>
+        <sys_mod_count>152</sys_mod_count>
         <sys_name>Total Points Widget</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_9c344c3d2fe20110460059a72799b684</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-04-04 15:47:20</sys_updated_on>
-        <template><![CDATA[<div style="width:500px ;height:500px; padding-top:50px; ">
+        <sys_updated_on>2022-04-29 14:40:28</sys_updated_on>
+        <template><![CDATA[<div style="width:400px ;height:480px; padding-top:50px; ">
   <!-- your widget template -->
 
 
