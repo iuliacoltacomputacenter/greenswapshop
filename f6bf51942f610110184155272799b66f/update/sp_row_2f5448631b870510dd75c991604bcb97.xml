@@ -3,18 +3,18 @@
         <class_name/>
         <order>1</order>
         <sp_column/>
-        <sp_container display_value="My Treded Items - Container 1">7eeb109d07d24110ac9bf8ed7c1ed047</sp_container>
+        <sp_container display_value="Traded Items List - Container 1">e95448a31b870510dd75c991604bcbf8</sp_container>
         <sys_class_name>sp_row</sys_class_name>
-        <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-16 15:18:50</sys_created_on>
-        <sys_id>60fbdc5d07d24110ac9bf8ed7c1ed08e</sys_id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 20:09:15</sys_created_on>
+        <sys_id>2f5448631b870510dd75c991604bcb97</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>1</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_update_name>sp_row_60fbdc5d07d24110ac9bf8ed7c1ed08e</sys_update_name>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-16 15:18:50</sys_updated_on>
+        <sys_update_name>sp_row_2f5448631b870510dd75c991604bcb97</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 20:09:15</sys_updated_on>
     </sp_row>
 </record_update>

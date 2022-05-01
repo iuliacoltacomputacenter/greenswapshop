@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>products,category,description</field_list>
+        <filter table="x_762203_green_swa_catalog_data">status=='traded'<item display_value="='traded'" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="='traded'"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>2</order>
+        <order_by>category</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">303159692fb20110460059a72799b687</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 20:03:26</sys_created_on>
+        <sys_id>1a0348631b870510dd75c991604bcb20</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My traded items</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_instance_table_1a0348631b870510dd75c991604bcb20</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 20:04:55</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <title>My traded items</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=1a0348631b870510dd75c991604bcb20"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>228752691b4c3c1032182f8dee4bcbcb</instance_id>
+        <instance_name>dev114967</instance_name>
+        <name>sp_instance_table_1a0348631b870510dd75c991604bcb20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>products,category,description</field_list><filter table="x_762203_green_swa_catalog_data">status=='traded'<item display_value="='traded'" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="='traded'"/></filter><glyph/><id/><maximum_entries>10</maximum_entries><order>2</order><order_by>category</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">303159692fb20110460059a72799b687</sp_column><sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>florian.franke</sys_created_by><sys_created_on>2022-04-29 20:03:26</sys_created_on><sys_id>1a0348631b870510dd75c991604bcb20</sys_id><sys_mod_count>1</sys_mod_count><sys_name>My traded items</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_instance_table_1a0348631b870510dd75c991604bcb20</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-04-29 20:04:55</sys_updated_on><table>x_762203_green_swa_catalog_data</table><title>My traded items</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=1a0348631b870510dd75c991604bcb20"/></record_update>]]></payload>
+        <payload_hash>-581691645</payload_hash>
+        <record_name>My traded items</record_name>
+        <reverted_from/>
+        <source>4e5358cf1bcb8110dd75c991604bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 20:04:55</sys_created_on>
+        <sys_id>806348631b870510dd75c991604bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18076ed27690000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 20:04:55</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>886348639f8705107ec516968081ef8a</update_guid>
+        <update_guid_history>886348639f8705107ec516968081ef8a:-581691645,9a0348631a870510bd22c913196d4b22:1341178575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My traded items">96b300a31b870510dd75c991604bcbaf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 20:06:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>14efa714f275497e8494bb3a452102e4</sys_id>
+        <sys_metadata>1a0348631b870510dd75c991604bcb20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My traded items</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_instance_table_1a0348631b870510dd75c991604bcb20</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_1a0348631b870510dd75c991604bcb20">806348631b870510dd75c991604bcb8b</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 20:06:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

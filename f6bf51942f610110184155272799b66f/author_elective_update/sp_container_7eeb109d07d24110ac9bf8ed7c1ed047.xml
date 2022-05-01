@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>My Treded Items - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="my_treded_items">b6eb109d07d24110ac9bf8ed7c1ed044</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-03-16 15:18:44</sys_created_on>
+        <sys_id>7eeb109d07d24110ac9bf8ed7c1ed047</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Treded Items - Container 3</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sp_container_7eeb109d07d24110ac9bf8ed7c1ed047</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 14:40:29</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>228752691b4c3c1032182f8dee4bcbcb</instance_id>
+        <instance_name>dev114967</instance_name>
+        <name>sp_container_7eeb109d07d24110ac9bf8ed7c1ed047</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>My Treded Items - Container 3</name><order>3</order><sp_page display_value="my_treded_items">b6eb109d07d24110ac9bf8ed7c1ed044</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>iulia.colta</sys_created_by><sys_created_on>2022-03-16 15:18:44</sys_created_on><sys_id>7eeb109d07d24110ac9bf8ed7c1ed047</sys_id><sys_mod_count>2</sys_mod_count><sys_name>My Treded Items - Container 3</sys_name><sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package><sys_policy/><sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope><sys_update_name>sp_container_7eeb109d07d24110ac9bf8ed7c1ed047</sys_update_name><sys_updated_by>florian.franke</sys_updated_by><sys_updated_on>2022-04-29 14:40:29</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1501230755</payload_hash>
+        <record_name>My Treded Items - Container 3</record_name>
+        <reverted_from/>
+        <source>4e5358cf1bcb8110dd75c991604bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 14:40:29</sys_created_on>
+        <sys_id>6f19f21b1b830510dd75c991604bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18075c420800000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 14:40:29</sys_updated_on>
+        <type>Container</type>
+        <update_guid>a719f21b9583051026255dc2c4741a7d</update_guid>
+        <update_guid_history>a719f21b9583051026255dc2c4741a7d:-1501230755,8c917cd250760110ab6336c62d445fd8:843981718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Treded Items - Container 3">8a88b75b1b470510dd75c991604bcb53</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 19:17:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>872385563ffd401080dd9708a2d57851</sys_id>
+        <sys_metadata>7eeb109d07d24110ac9bf8ed7c1ed047</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Treded Items - Container 3</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sp_container_7eeb109d07d24110ac9bf8ed7c1ed047</sys_update_name>
+        <sys_update_version display_value="sp_container_7eeb109d07d24110ac9bf8ed7c1ed047">6f19f21b1b830510dd75c991604bcb7d</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 19:17:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

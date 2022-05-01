@@ -13,30 +13,30 @@
         </filter>
         <glyph/>
         <id/>
-        <maximum_entries>5</maximum_entries>
+        <maximum_entries>10</maximum_entries>
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">a4fbdc5d07d24110ac9bf8ed7c1ed090</sp_column>
+        <sp_column display_value="1">4829f21b1b830510dd75c991604bcb73</sp_column>
         <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
-        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sp_widget display_value="GSS Simple List">fd9876d71b830510dd75c991604bcb6b</sp_widget>
         <sys_class_name>sp_instance_vlist</sys_class_name>
-        <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-16 15:18:58</sys_created_on>
-        <sys_id>96fb109d07d24110ac9bf8ed7c1ed03f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Traded Items</sys_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-04-29 14:40:38</sys_created_on>
+        <sys_id>3d29361b1b830510dd75c991604bcb4c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_update_name>sp_instance_vlist_96fb109d07d24110ac9bf8ed7c1ed03f</sys_update_name>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-16 15:26:57</sys_updated_on>
+        <sys_update_name>sp_instance_vlist_3d29361b1b830510dd75c991604bcb4c</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-04-29 20:18:37</sys_updated_on>
         <table>x_762203_green_swa_catalog_data</table>
-        <title>Traded Items</title>
+        <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"always_show": {
@@ -52,16 +52,16 @@
 		"displayValue": "images"
 	},
 	"secondary_fields": {
-		"value": "description,category",
-		"displayValue": "description,category"
+		"value": "category,description",
+		"displayValue": "category,description"
 	},
 	"rounded_images": {
 		"value": "",
 		"displayValue": ""
 	},
 	"list_page": {
-		"value": "ed5f8ec347730200ba13a5554ee49046",
-		"displayValue": "form"
+		"value": "dee380a31b870510dd75c991604bcb45",
+		"displayValue": "traded_items_list"
 	},
 	"hide_footer": {
 		"value": "",
@@ -81,5 +81,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_vlist>
-    <sys_translated_text action="delete_multiple" query="documentkey=96fb109d07d24110ac9bf8ed7c1ed03f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d29361b1b830510dd75c991604bcb4c"/>
 </record_update>

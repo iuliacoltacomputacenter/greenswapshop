@@ -6,6 +6,8 @@
 	var c = this;
 	c.server.update()
 
+
+	
   }]]></client_script>
         <controller_as>c</controller_as>
         <css>h1{
@@ -42,14 +44,16 @@ h4{
   /* e.g., data.table = $sp.getValue('table'); */
   data.show = true;
 	var gr = new GlideRecord('x_762203_green_swa_catalog_data');  
-	  gr.addQuery("username", gs.getUserID()) ;
+	  gr.addQuery("reserved_by", gs.getUserID()) ;
 	  gr.addQuery("status", "reserved");
 	  
 	gr.query();
-	if(gr.next()){//there is a rejected item, so hide msg
+	if(gr.next()){//there is a reserved item, so hide msg
 		 data.show = false;
-		//gs.addErrorMessage('Test');
-		 }
+	}
+	/*else{
+		gs.addErrorMessage('You do not have reserved items!');
+		 }*/
 	
 })();]]></script>
         <servicenow>false</servicenow>
@@ -57,15 +61,17 @@ h4{
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-04-07 16:10:08</sys_created_on>
         <sys_id>5eaaf5182f364110460059a72799b642</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Reserved_HTML</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_5eaaf5182f364110460059a72799b642</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-04-20 16:03:01</sys_updated_on>
-        <template><![CDATA[
+        <sys_updated_on>2022-04-29 14:33:58</sys_updated_on>
+        <template><![CDATA[<div>
+  {{c.data.count}}
+</div>
 
 <div  ng-if="data.show == true">
   <h1>
