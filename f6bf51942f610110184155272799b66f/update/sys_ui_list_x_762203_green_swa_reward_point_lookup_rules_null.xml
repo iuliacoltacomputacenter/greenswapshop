@@ -3,62 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8b45fd461bc30110dd75c991604bcbd2</list_id>
+            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">731c21181b9f8510dd75c991604bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-25 12:31:46</sys_created_on>
-            <sys_id>4f4571861bc30110dd75c991604bcb3c</sys_id>
+            <sys_created_on>2022-05-02 11:38:00</sys_created_on>
+            <sys_id>331c21181b9f8510dd75c991604bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-25 12:31:46</sys_updated_on>
+            <sys_updated_on>2022-05-02 11:38:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>order</element>
-            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8b45fd461bc30110dd75c991604bcbd2</list_id>
+            <element>category</element>
+            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">731c21181b9f8510dd75c991604bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-25 12:31:46</sys_created_on>
-            <sys_id>c34571861bc30110dd75c991604bcb3d</sys_id>
+            <sys_created_on>2022-05-02 11:38:00</sys_created_on>
+            <sys_id>b71c21181b9f8510dd75c991604bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-25 12:31:46</sys_updated_on>
+            <sys_updated_on>2022-05-02 11:38:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>category</element>
-            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8b45fd461bc30110dd75c991604bcbd2</list_id>
+            <element>reward_points</element>
+            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">731c21181b9f8510dd75c991604bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-25 12:31:46</sys_created_on>
-            <sys_id>474571861bc30110dd75c991604bcb3d</sys_id>
+            <sys_created_on>2022-05-02 11:38:00</sys_created_on>
+            <sys_id>3b1c21181b9f8510dd75c991604bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-25 12:31:46</sys_updated_on>
+            <sys_updated_on>2022-05-02 11:38:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>reward_points</element>
-            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8b45fd461bc30110dd75c991604bcbd2</list_id>
+            <element>order</element>
+            <list_id display_value="x_762203_green_swa_reward_point_lookup_rules" element="NULL" name="x_762203_green_swa_reward_point_lookup_rules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">731c21181b9f8510dd75c991604bcb16</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-25 12:31:46</sys_created_on>
-            <sys_id>c74571861bc30110dd75c991604bcb3d</sys_id>
+            <sys_created_on>2022-05-02 11:38:00</sys_created_on>
+            <sys_id>bb1c21181b9f8510dd75c991604bcb17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-25 12:31:46</sys_updated_on>
+            <sys_updated_on>2022-05-02 11:38:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -72,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-25 12:31:46</sys_created_on>
+            <sys_created_on>2022-05-02 11:38:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8b45fd461bc30110dd75c991604bcbd2</sys_id>
+            <sys_id>731c21181b9f8510dd75c991604bcb16</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_762203_green_swa_reward_point_lookup_rules</sys_name>
             <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -83,7 +83,7 @@
             <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
             <sys_update_name>sys_ui_list_x_762203_green_swa_reward_point_lookup_rules_null</sys_update_name>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-25 12:31:46</sys_updated_on>
+            <sys_updated_on>2022-05-02 11:38:00</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

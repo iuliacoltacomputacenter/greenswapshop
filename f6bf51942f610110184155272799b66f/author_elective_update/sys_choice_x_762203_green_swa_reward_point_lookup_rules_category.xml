@@ -1,199 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_762203_green_swa_catalog_data" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_762203_green_swa_reward_point_lookup_rules" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>category</element>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-02-04 11:21:21</sys_created_on>
-            <sys_id>336174d21b760110dd75c991604bcba1</sys_id>
+            <sys_created_on>2022-05-02 12:20:42</sys_created_on>
+            <sys_id>d9e57d101bdf8510dd75c991604bcb80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>category</sys_name>
             <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
             <sys_policy/>
             <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-            <sys_update_name>sys_choice_x_762203_green_swa_catalog_data_category</sys_update_name>
+            <sys_update_name>sys_choice_x_762203_green_swa_reward_point_lookup_rules_category</sys_update_name>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-02-04 11:21:21</sys_updated_on>
+            <sys_updated_on>2022-05-02 12:20:42</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Books</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:50:10</sys_created_on>
+            <sys_created_on>2022-05-02 13:52:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>587351141b5f8510dd75c991604bcbfd</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>81da02d01b13c510dd75c991604bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:07:12</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:52:41</sys_updated_on>
             <value>books</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Clothes &amp; accessories</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:50:10</sys_created_on>
+            <sys_created_on>2022-05-02 13:53:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d47391141b5f8510dd75c991604bcb87</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>ddfa82d01b13c510dd75c991604bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:06:51</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:53:26</sys_updated_on>
             <value>clothes_accessories</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Electricals</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:50:10</sys_created_on>
+            <sys_created_on>2022-05-02 13:53:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>187391141b5f8510dd75c991604bcb88</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>302bc2501b13c510dd75c991604bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:07:04</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:53:41</sys_updated_on>
             <value>electricals</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Furniture</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:50:10</sys_created_on>
+            <sys_created_on>2022-05-02 13:53:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>587391141b5f8510dd75c991604bcb89</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>c03b8e901b13c510dd75c991604bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:07:07</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:53:55</sys_updated_on>
             <value>furniture</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Games</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:53:03</sys_created_on>
+            <sys_created_on>2022-05-02 13:54:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cc14d5141b5f8510dd75c991604bcbf3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>1b3b8e501b13c510dd75c991604bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:07:02</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:54:04</sys_updated_on>
             <value>games</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Garden</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:53:55</sys_created_on>
+            <sys_created_on>2022-05-02 13:54:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>95445d141b5f8510dd75c991604bcb85</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>f14b06d01b13c510dd75c991604bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:06:57</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:54:18</sys_updated_on>
             <value>garden</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Kitchen &amp; home</label>
+            <inactive>false</inactive>
+            <label>Hats</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:50:10</sys_created_on>
+            <sys_created_on>2022-05-02 13:54:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>987391141b5f8510dd75c991604bcb8a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>855b02d01b13c510dd75c991604bcb6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:07:09</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:54:43</sys_updated_on>
+            <value>hats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kitchen &amp; Home</label>
+            <language>en</language>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-05-02 13:54:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b6b86d01b13c510dd75c991604bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-05-02 13:54:58</sys_updated_on>
             <value>kitchen_home</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Outdoors</label>
+            <inactive>false</inactive>
+            <label>Luminaires</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:53:20</sys_created_on>
+            <sys_created_on>2022-05-02 14:05:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a82499141b5f8510dd75c991604bcb0d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>8abd82941b13c510dd75c991604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:06:59</sys_updated_on>
+            <sys_updated_on>2022-05-02 14:05:27</sys_updated_on>
+            <value>luminaires</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoors</label>
+            <language>en</language>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>florian.franke</sys_created_by>
+            <sys_created_on>2022-05-02 13:55:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>877b86d01b13c510dd75c991604bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>florian.franke</sys_updated_by>
+            <sys_updated_on>2022-05-02 13:55:21</sys_updated_on>
             <value>outdoors</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Toys</label>
             <language>en</language>
-            <name>x_762203_green_swa_catalog_data</name>
+            <name>x_762203_green_swa_reward_point_lookup_rules</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-05-02 09:54:15</sys_created_on>
+            <sys_created_on>2022-05-02 13:55:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4e5499141b5f8510dd75c991604bcbc5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>7c9bc6d01b13c510dd75c991604bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-05-02 14:06:54</sys_updated_on>
+            <sys_updated_on>2022-05-02 13:55:34</sys_updated_on>
             <value>toys</value>
         </sys_choice>
     </sys_choice>

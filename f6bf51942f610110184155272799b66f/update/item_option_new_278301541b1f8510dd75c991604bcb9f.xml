@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
         <cat_item display_value="Upload new item">c425d73807160110ac9bf8ed7c1ed070</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>category</choice_field>
+        <choice_table>x_762203_green_swa_catalog_data</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -39,12 +39,12 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>category</name>
+        <name>choose_the_category</name>
         <order>400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Choose the category (old)</question_text>
+        <question_text>Choose the category</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -52,7 +52,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_762203_green_swa_catalog_data</record_producer_table>
-        <reference>x_762203_green_swa_catalog_data</reference>
+        <reference/>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -65,20 +65,20 @@
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
-        <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-15 15:51:03</sys_created_on>
-        <sys_id>c8895ff807160110ac9bf8ed7c1ed046</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>Choose the category (old)</sys_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-02 08:42:36</sys_created_on>
+        <sys_id>278301541b1f8510dd75c991604bcb9f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Choose the category</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_update_name>item_option_new_c8895ff807160110ac9bf8ed7c1ed046</sys_update_name>
+        <sys_update_name>item_option_new_278301541b1f8510dd75c991604bcb9f</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-05-02 08:40:44</sys_updated_on>
+        <sys_updated_on>2022-05-02 09:33:07</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>18</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -94,39 +94,39 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=c8895ff807160110ac9bf8ed7c1ed046"/>
-    <fx_price action="delete_multiple" query="id=c8895ff807160110ac9bf8ed7c1ed046"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=278301541b1f8510dd75c991604bcb9f"/>
+    <fx_price action="delete_multiple" query="id=278301541b1f8510dd75c991604bcb9f"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="GBP">GBP</currency>
+        <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>c8895ff807160110ac9bf8ed7c1ed046</id>
+        <id>278301541b1f8510dd75c991604bcb9f</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-15 15:51:03</sys_created_on>
-        <sys_id>aeb91b3c07160110ac9bf8ed7c1ed055</sys_id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-02 08:42:36</sys_created_on>
+        <sys_id>def3c9541b1f8510dd75c991604bcbc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-15 15:51:03</sys_updated_on>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-02 08:42:36</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="GBP">GBP</currency>
+        <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>c8895ff807160110ac9bf8ed7c1ed046</id>
+        <id>278301541b1f8510dd75c991604bcb9f</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>iulia.colta</sys_created_by>
-        <sys_created_on>2022-03-15 15:51:03</sys_created_on>
-        <sys_id>66b91b3c07160110ac9bf8ed7c1ed055</sys_id>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-02 08:42:36</sys_created_on>
+        <sys_id>d6f3c9541b1f8510dd75c991604bcbc8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-15 15:51:03</sys_updated_on>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-02 08:42:36</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

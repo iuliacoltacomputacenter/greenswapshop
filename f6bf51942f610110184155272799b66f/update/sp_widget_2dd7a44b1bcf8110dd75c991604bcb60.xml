@@ -59,14 +59,14 @@ data.items = [];
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-04-28 09:27:15</sys_created_on>
         <sys_id>2dd7a44b1bcf8110dd75c991604bcb60</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Card Green</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_2dd7a44b1bcf8110dd75c991604bcb60</sys_update_name>
-        <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:22:31</sys_updated_on>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-02 10:10:31</sys_updated_on>
         <template><![CDATA[<div class="row">
   <div class="col-sm-6 col-md-4" 
        ng-repeat="item in c.data.items" 
@@ -78,7 +78,7 @@ data.items = [];
    <center>   <div class="caption">
         <h3 style="height:60px">{{::item.title}}</h3>
         <p style="height:60px">{{::item.description}}</p>
-        <p><a href="/greenportal?sys_id={{::item.sys_id}}&view=advanced&id=form&table=x_762203_green_swa_catalog_data" class="btn btn-success" role="deafault">See Details</a> </p>
+        <p><a href="/greenportal?sys_id={{::item.sys_id}}&view=advanced&id=form&table=x_762203_green_swa_catalog_data" class="btn btn-success" style="color: white;" role="deafault">See Details</a> </p>
          </div></center>
     </div>
   </div>
