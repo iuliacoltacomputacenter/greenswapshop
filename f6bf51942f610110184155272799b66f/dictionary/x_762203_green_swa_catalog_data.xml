@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true,live_feed=false" audit="true" label="Item Catalog" max_length="40" name="x_762203_green_swa_catalog_data" sizeclass="41" type="collection">
+    <element attributes="hasLabels=true,live_feed=false" audit="true" label="Item Catalog" max_length="40" name="x_762203_green_swa_catalog_data" sizeclass="39" type="collection">
         <element default="0" label="Reward points" max_length="40" name="balance" read_only="true" type="integer"/>
-        <element choice="1" choice_field="category" choice_table="x_762203_green_swa_reward_point_lookup_rules" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+        <element active="false" choice="1" choice_field="category" choice_table="x_762203_green_swa_reward_point_lookup_rules" label="Category (old)" mandatory="true" max_length="40" name="category" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Books" value="books"/>
                 <element inactive="true" inactive_on_update="true" label="Clothes &amp; accessories" value="clothes_accessories"/>
@@ -14,7 +14,7 @@
                 <element inactive="true" inactive_on_update="true" label="Toys" value="toys"/>
             </choice>
         </element>
-        <element active="false" choice="1" choice_field="category" choice_table="x_762203_green_swa_reward_point_lookup_rules" label="Category old" mandatory="true" max_length="32" name="category_new" reference="x_762203_green_swa_reward_point_lookup_rules" type="reference">
+        <element choice="1" choice_field="category" choice_table="x_762203_green_swa_reward_point_lookup_rules" label="Category " mandatory="true" max_length="32" name="category_new" reference="x_762203_green_swa_reward_point_lookup_rules" reference_floats="true" reference_qual="categoryISNOTEMPTY^active=true^EQ" reference_qual_condition="categoryISNOTEMPTY^active=true^EQ" type="reference">
             <choice/>
         </element>
         <element active="false" attributes="edge_encryption_enabled=true" choice="1" choice_field="status" choice_table="x_762203_green_swa_catalog_data" default="choose the country" label="Country" max_length="40" name="country" type="choice">
@@ -72,8 +72,9 @@
         <element label="Reservation Date" max_length="40" name="reservation_date" read_only="true" type="glide_date_time"/>
         <element attributes="max_unit=minutes" label="Reservation time" max_length="100" name="reservation_time" type="glide_duration"/>
         <element label="Reserved by" max_length="32" name="reserved_by" read_only="true" reference="sys_user" type="reference"/>
-        <element attributes="no_audit=true" choice="3" default="waiting for approval" label="Current status" max_length="40" name="status" read_only="true" type="choice">
+        <element attributes="no_audit=true" choice="3" default="new" label="Current status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
+                <element inactive_on_update="false" label="New" value="new"/>
                 <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
                 <element inactive_on_update="false" label="Rejected" sequence="0" value="rejected"/>
                 <element inactive="true" inactive_on_update="true" label="Taken" sequence="0" value="taken"/>

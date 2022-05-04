@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="Green Swap Shop">d4e6e5102fa10110184155272799b694</application>
         <assessment/>
         <device_type/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>244ff41d2f610110184155272799b635</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Welcome</sys_name>
         <sys_overrides/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sys_app_module_244ff41d2f610110184155272799b635</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-02-07 11:06:41</sys_updated_on>
+        <sys_updated_on>2022-05-04 13:36:05</sys_updated_on>
         <timeline_page/>
         <title>Welcome</title>
         <uncancelable>false</uncancelable>

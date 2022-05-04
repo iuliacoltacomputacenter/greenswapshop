@@ -19,14 +19,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_762203_green_swa.green_swap_shop_user,x_762203_green_swa.gss_user_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-02-11 10:35:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb5e55622f658110184155272799b618</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Traded Items </sys_name>
         <sys_overrides/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sys_app_module_fb5e55622f658110184155272799b618</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-02-18 12:19:24</sys_updated_on>
+        <sys_updated_on>2022-05-02 16:00:45</sys_updated_on>
         <timeline_page/>
         <title>Traded Items </title>
         <uncancelable>false</uncancelable>

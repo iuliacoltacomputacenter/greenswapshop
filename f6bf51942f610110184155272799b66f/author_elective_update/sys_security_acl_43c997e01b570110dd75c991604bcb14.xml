@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for all fields in x_762203_green_swa_reward_point_lookup_rules, if the ACL script returns true.</description>
+        <name>x_762203_green_swa_reward_point_lookup_rules.*</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = false;
+if (gs.getUserID()==current.username||gs.getUser().isMemberOf('Green Swap Shop Admins')) {
+   answer = true; 
+}
+]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-03 14:16:38</sys_created_on>
+        <sys_id>43c997e01b570110dd75c991604bcb14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_762203_green_swa_reward_point_lookup_rules.*</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_security_acl_43c997e01b570110dd75c991604bcb14</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-03 14:17:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</application>
+        <file_path/>
+        <instance_id>228752691b4c3c1032182f8dee4bcbcb</instance_id>
+        <instance_name>dev114967</instance_name>
+        <name>sys_security_acl_43c997e01b570110dd75c991604bcb14</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow read for all fields in x_762203_green_swa_reward_point_lookup_rules, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;x_762203_green_swa_reward_point_lookup_rules.*&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = false;
+if (gs.getUserID()==current.username||gs.getUser().isMemberOf('Green Swap Shop Admins')) {
+   answer = true; 
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;florian.franke&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-03 14:16:38&lt;/sys_created_on&gt;&lt;sys_id&gt;43c997e01b570110dd75c991604bcb14&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_762203_green_swa_reward_point_lookup_rules.*&lt;/sys_name&gt;&lt;sys_package display_value="Green Swap Shop" source="x_762203_green_swa"&gt;f6bf51942f610110184155272799b66f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Green Swap Shop"&gt;f6bf51942f610110184155272799b66f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_43c997e01b570110dd75c991604bcb14&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;florian.franke&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-03 14:17:01&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-655024782</payload_hash>
+        <record_name>x_762203_green_swa_reward_point_lookup_rules.*</record_name>
+        <reverted_from/>
+        <source>4e5358cf1bcb8110dd75c991604bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-03 14:17:01</sys_created_on>
+        <sys_id>be1a9be01b570110dd75c991604bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1808a4814830000001</sys_recorded_at>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-03 14:17:01</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>761a9be0fd570110d3ead1b986365ee1</update_guid>
+        <update_guid_history>761a9be0fd570110d3ead1b986365ee1:-655024782,110ad7e06c570110bd3bbbfaa1ffec69:1801438596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-03 14:39:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>19dec6f0cc23451292e3677c37a39fc4</sys_id>
+        <sys_metadata>43c997e01b570110dd75c991604bcb14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762203_green_swa_reward_point_lookup_rules.*</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_parent display_value="x_762203_green_swa_reward_point_lookup_rules">5ec4f5461bc30110dd75c991604bcb12</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_scope_delete display_value="">2341243cbaae473cad7b26845a54ff64</sys_scope_delete>
+        <sys_update_name>sys_security_acl_43c997e01b570110dd75c991604bcb14</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_43c997e01b570110dd75c991604bcb14">be1a9be01b570110dd75c991604bcbe1</sys_update_version>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-03 14:39:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

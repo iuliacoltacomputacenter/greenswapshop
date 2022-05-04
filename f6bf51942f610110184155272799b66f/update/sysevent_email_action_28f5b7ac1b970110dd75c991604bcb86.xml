@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_762203_green_swa_catalog_data</collection>
+        <condition table="x_762203_green_swa_catalog_data">statusCHANGESTOrejected^EQ<item display_value="Rejected" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="rejected"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Dear ${username},</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Your item <a title="${products}" href="https://dev114967.service-now.com/greenportal?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_762203_green_swa_catalog_data" target="_blank" rel="noopener">${products}</a> has been rejected. The reason is: ${rejected_reasosn}.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">You can edit your item und resubmit for having a new try!</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click <a title="here" href="https://dev114967.service-now.com/greenportal?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_762203_green_swa_catalog_data" target="_blank" rel="noopener">here</a> to get to your rejected item!</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Kind regards</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Green Swap Shop Admin&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=b33e37341b174110dd75c991604bcb0c" alt="" width="357" height="96" align="baseline" border="" hspace="" vspace="" /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Notification for Rejection</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>username.email,username</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Your Item "${products}" has been rejected!</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-03 16:22:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28f5b7ac1b970110dd75c991604bcb86</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Notification for Rejection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sysevent_email_action_28f5b7ac1b970110dd75c991604bcb86</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-04 11:34:05</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

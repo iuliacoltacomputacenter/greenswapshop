@@ -3,64 +3,53 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>1ed3da2d2f760110460059a72799b6f1</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>b1d772a41bd30110dd75c991604bcb80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
-            <text>&lt;a href="https://dev95743.service-now.com/nav_to.do?uri=%2F$map_page_primary.do%3Fsysparm_sys_id%3Daef51d2d2fb20110460059a72799b641"&gt;Show item on map&lt;/a&gt;</text>
-            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
-        </sys_ui_annotation>
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>52d3da2d2f760110460059a72799b6f2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <text/>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>1ed3da2d2f760110460059a72799b6f1</element>
+            <element>products</element>
             <position>0</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>92d3126d2f760110460059a72799b6ee</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>3dd772a41bd30110dd75c991604bcb92</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
-            <type>annotation</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
             <position>1</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>1ad3126d2f760110460059a72799b6ee</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>b1d772a41bd30110dd75c991604bcb93</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>52d3da2d2f760110460059a72799b6f2</element>
+            <element>b1d772a41bd30110dd75c991604bcb80</element>
             <position>2</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>9ed3126d2f760110460059a72799b6ee</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>39d772a41bd30110dd75c991604bcb93</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -68,83 +57,55 @@
             <element>.begin_split</element>
             <position>3</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>16d3126d2f760110460059a72799b6ef</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>bdd772a41bd30110dd75c991604bcb93</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>who_traded</element>
             <position>4</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>9ad3126d2f760110460059a72799b6ef</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>35d772a41bd30110dd75c991604bcb94</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>balance</element>
-            <position>5</position>
-            <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>12d3126d2f760110460059a72799b6f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
-            <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>who_traded</element>
-            <position>6</position>
-            <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>96d3126d2f760110460059a72799b6f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
-            <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>1ed3126d2f760110460059a72799b6f0</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>b9d772a41bd30110dd75c991604bcb94</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reservation_time</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>florian.franke</sys_created_by>
-            <sys_created_on>2022-04-11 15:12:34</sys_created_on>
-            <sys_id>92d3126d2f760110460059a72799b6f1</sys_id>
+            <sys_created_on>2022-05-03 11:47:18</sys_created_on>
+            <sys_id>31d772a41bd30110dd75c991604bcb95</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="More details" display_value="More details" name="x_762203_green_swa_catalog_data" sys_domain="global" view="Default view">fd7549f407310110ac9bf8ed7c1ed05d</sys_ui_section>
             <sys_updated_by>florian.franke</sys_updated_by>
-            <sys_updated_on>2022-04-11 15:12:34</sys_updated_on>
+            <sys_updated_on>2022-05-03 11:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

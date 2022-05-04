@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>images</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>florian.franke</sys_created_by>
+        <sys_created_on>2022-05-03 16:00:54</sys_created_on>
+        <sys_id>eed1bfa81b970110dd75c991604bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>images</sys_name>
+        <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_eed1bfa81b970110dd75c991604bcbee</sys_update_name>
+        <sys_updated_by>florian.franke</sys_updated_by>
+        <sys_updated_on>2022-05-03 16:00:54</sys_updated_on>
+        <table>x_762203_green_swa_catalog_data</table>
+        <ui_policy display_value="Pictures Mandatory">91b13fa81b970110dd75c991604bcbbe</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

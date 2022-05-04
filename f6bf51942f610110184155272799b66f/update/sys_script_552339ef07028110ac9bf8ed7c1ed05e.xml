@@ -43,7 +43,7 @@
     gr.get(current.username); // get the user how uploaded an item 
 
 	// the total green point from sys_user table receive the value of balanace from Item catalog table
-    gr.u_total_green_points += current.balance;
+    gr.u_total_green_points += current.category_new.reward_points;
 	//gr.setValue("u_tot")
     gr.update();
 
@@ -55,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>552339ef07028110ac9bf8ed7c1ed05e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Point for each user </sys_name>
         <sys_overrides/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sys_script_552339ef07028110ac9bf8ed7c1ed05e</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-04-25 13:10:00</sys_updated_on>
+        <sys_updated_on>2022-05-03 12:27:32</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

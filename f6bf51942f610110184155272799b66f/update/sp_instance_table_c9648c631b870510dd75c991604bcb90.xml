@@ -5,7 +5,7 @@
         <color>default</color>
         <css/>
         <display_field/>
-        <field_list>products,category,description</field_list>
+        <field_list>products,category_new,description</field_list>
         <filter table="x_762203_green_swa_catalog_data">balance!=0^usernameISNOTEMPTY^usernameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="balance" goto="false" newquery="false" operator="!=" or="false" value="0"/>
             <item endquery="false" field="username" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="username" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
@@ -27,14 +27,14 @@
         <sys_created_by>florian.franke</sys_created_by>
         <sys_created_on>2022-04-29 20:09:21</sys_created_on>
         <sys_id>c9648c631b870510dd75c991604bcb90</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>My traded items</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_instance_table_c9648c631b870510dd75c991604bcb90</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-04-29 20:19:05</sys_updated_on>
+        <sys_updated_on>2022-05-03 12:12:43</sys_updated_on>
         <table>x_762203_green_swa_catalog_data</table>
         <title>My traded items</title>
         <url/>

@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="dl_matcher" label="Reward Point Lookup Rules" max_length="40" name="x_762203_green_swa_reward_point_lookup_rules" sizeclass="10" type="collection">
-        <element choice="1" display="true" label="Category" max_length="50" name="category" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Books" value="books"/>
-                <element inactive_on_update="false" label="Clothes &amp; accessories" value="clothes_accessories"/>
-                <element inactive_on_update="false" label="Electricals" value="electricals"/>
-                <element inactive_on_update="false" label="Furniture" value="furniture"/>
-                <element inactive_on_update="false" label="Games" value="games"/>
-                <element inactive_on_update="false" label="Garden" value="garden"/>
-                <element inactive_on_update="false" label="Hats" value="hats"/>
-                <element inactive_on_update="false" label="Kitchen &amp; Home" value="kitchen_home"/>
-                <element inactive_on_update="false" label="Luminaires" value="luminaires"/>
-                <element inactive_on_update="false" label="Outdoors" value="outdoors"/>
-                <element inactive_on_update="false" label="Toys" value="toys"/>
-            </choice>
-        </element>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Reward Point Lookup Rules" max_length="40" name="x_762203_green_swa_reward_point_lookup_rules" sizeclass="12" type="collection">
+        <element display="true" label="Category" max_length="50" name="category" type="string"/>
         <element label="Reward Points" max_length="40" name="reward_points" type="integer"/>
     </element>
 </database>
