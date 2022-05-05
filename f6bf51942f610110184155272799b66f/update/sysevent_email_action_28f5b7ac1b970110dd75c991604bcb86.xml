@@ -39,9 +39,9 @@
         <message/>
         <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Dear ${username},</span></p>
 <p>&nbsp;</p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Your item <a title="${products}" href="https://dev114967.service-now.com/greenportal?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_762203_green_swa_catalog_data" target="_blank" rel="noopener">${products}</a> has been rejected. The reason is: ${rejected_reasosn}.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Your item ${products} has been rejected. The reason is: ${rejected_reasosn}.</span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">You can edit your item und resubmit for having a new try!</span></p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click <a title="here" href="https://dev114967.service-now.com/greenportal?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_762203_green_swa_catalog_data" target="_blank" rel="noopener">here</a> to get to your rejected item!</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Click <a title="here" href="https://dev114967.service-now.com/greenportal?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_762203_green_swa_catalog_data" target="_blank" rel="noopener">here</a> to see to your rejected item!</span></p>
 <p>&nbsp;</p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Kind regards</span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Green Swap Shop Admin&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></p>
@@ -68,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>28f5b7ac1b970110dd75c991604bcb86</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Notification for Rejection</sys_name>
         <sys_overrides/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
@@ -76,7 +76,7 @@
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sysevent_email_action_28f5b7ac1b970110dd75c991604bcb86</sys_update_name>
         <sys_updated_by>florian.franke</sys_updated_by>
-        <sys_updated_on>2022-05-04 11:34:05</sys_updated_on>
+        <sys_updated_on>2022-05-04 15:37:00</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
