@@ -19,6 +19,24 @@ h3 {
 }
 .carousel-inner &gt; .item &gt; .container {width: 100%}
 
+.center {
+ margin: auto;
+  //width: 50%;
+//  border: 3px solid green;
+    padding-left: 100px;
+    padding-top: 70px;
+//margin-right:40px;
+  
+}
+.center1{
+//  margin: auto;
+  //width: 50%;
+//  border: 3px solid green;
+  padding: 70px;
+//  margin-left:40px;
+  
+}
+
   
 </css>
         <draft>false</draft>
@@ -34,14 +52,14 @@ h3 {
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-03-14 13:08:16</sys_created_on>
         <sys_id>94eae16007d20110ac9bf8ed7c1ed08f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>home_page_green</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_page_94eae16007d20110ac9bf8ed7c1ed08f</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-03-18 10:51:17</sys_updated_on>
+        <sys_updated_on>2022-05-02 11:12:56</sys_updated_on>
         <title>Home Page Green</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

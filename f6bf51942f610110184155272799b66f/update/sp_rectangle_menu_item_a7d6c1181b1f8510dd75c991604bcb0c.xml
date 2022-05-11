@@ -2,41 +2,41 @@
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <color>default</color>
-        <condition>gs.isLoggedIn()</condition>
+        <condition>gs.getUser().hasRole('x_762203_green_swa.admin')</condition>
         <display_1/>
         <display_2/>
         <display_date/>
         <filter/>
-        <glyph>map-marker</glyph>
+        <glyph>reply-all</glyph>
         <hint/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Item Locations</label>
-        <order>100</order>
+        <label>My Approvals</label>
+        <order>90</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page/>
+        <sp_page display_value="approvals">d3485112cb13310000f8d856634c9c3e</sp_page>
         <sp_rectangle_menu display_value="GS Header Menu">63eafd6c07d20110ac9bf8ed7c1ed0c3</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
-        <sys_created_by>florian.franke</sys_created_by>
-        <sys_created_on>2022-04-11 08:58:07</sys_created_on>
-        <sys_id>cbed74e92f720110460059a72799b6e3</sys_id>
+        <sys_created_by>iulia.colta</sys_created_by>
+        <sys_created_on>2022-05-02 08:59:20</sys_created_on>
+        <sys_id>a7d6c1181b1f8510dd75c991604bcb0c</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Item Locations</sys_name>
+        <sys_name>My Approvals</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
-        <sys_update_name>sp_rectangle_menu_item_cbed74e92f720110460059a72799b6e3</sys_update_name>
+        <sys_update_name>sp_rectangle_menu_item_a7d6c1181b1f8510dd75c991604bcb0c</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-05-03 17:22:29</sys_updated_on>
+        <sys_updated_on>2022-05-02 09:11:22</sys_updated_on>
         <table/>
-        <type>url</type>
-        <url>https://dev114967.service-now.com/$map_page_primary.do?sysparm_name=x_762203_green_swa_itemmap</url>
+        <type>page</type>
+        <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=cbed74e92f720110460059a72799b6e3"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7d6c1181b1f8510dd75c991604bcb0c"/>
 </record_update>

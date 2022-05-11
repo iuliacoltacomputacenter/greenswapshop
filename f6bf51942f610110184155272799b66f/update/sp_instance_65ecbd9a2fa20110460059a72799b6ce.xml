@@ -3,7 +3,7 @@
         <active>true</active>
         <class_name/>
         <color>default</color>
-        <css/>
+        <css>pad-right:50px;</css>
         <glyph/>
         <id/>
         <order>1</order>
@@ -16,14 +16,14 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-04-01 11:12:04</sys_created_on>
         <sys_id>65ecbd9a2fa20110460059a72799b6ce</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_instance_65ecbd9a2fa20110460059a72799b6ce</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-04-28 15:10:16</sys_updated_on>
+        <sys_updated_on>2022-05-02 10:49:26</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>

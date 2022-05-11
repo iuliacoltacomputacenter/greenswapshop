@@ -60,20 +60,20 @@
         <sys_created_by>iulia.colta</sys_created_by>
         <sys_created_on>2022-04-29 13:10:21</sys_created_on>
         <sys_id>9374ae571b430510dd75c991604bcb2e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Available Items HTML</sys_name>
         <sys_package display_value="Green Swap Shop" source="x_762203_green_swa">f6bf51942f610110184155272799b66f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Green Swap Shop">f6bf51942f610110184155272799b66f</sys_scope>
         <sys_update_name>sp_widget_9374ae571b430510dd75c991604bcb2e</sys_update_name>
         <sys_updated_by>iulia.colta</sys_updated_by>
-        <sys_updated_on>2022-04-29 13:23:04</sys_updated_on>
+        <sys_updated_on>2022-05-02 12:52:48</sys_updated_on>
         <template><![CDATA[<div class="box">
   <div class="content">
     <p style="text-align: center;">&nbsp;</p>
     <p style="text-align: center;"><a title="Submit a new request" href="?id=all_items"><img src="available2.png" alt="" width="90" height="90" /></a></p>
     <p style="text-align: center;">&nbsp;</p>
-    <h4 style="font-weight: bold;   font-family: sans-serif;">Available Items</h4> 
+    <h4 style="font-weight: bold;   font-family:monospace;">Available Items</h4> 
  </div>
 </div>
 ]]></template>
